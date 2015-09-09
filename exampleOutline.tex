@@ -1,0 +1,182 @@
+\documentclass[11pt]{article}
+\usepackage{color}
+\usepackage{authblk}%allows footnote format for authors
+\usepackage[letterpaper, margin=1in]{geometry} %package that allows changes in margins and header/footers
+
+\newcommand{\mbh}[1]{\textcolor{green}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
+\newcommand{\jri}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
+
+\title{Historical demography of maize during diffusion from its center of origin}
+
+\author[1]{Li Wang}%author information
+\author[2]{Timothy M. Beissinger}
+\author[2,3]{Jeffrey Ross-Ibarra}
+\author[1,4]{Matthew B. Hufford}
+\affil[1]{Department of Ecology, Evolution, and Organismal Biology, Iowa State University, Ames, Iowa, USA}
+\affil[2]{Department of Plant Sciences, University of California Davis, Davis, CA, USA}
+\affil[3]{Center for Population Biology and Genome Center, University of California Davis, Davis, CA, USA}
+\affil[4]{Corresponding Author: Matthew B. Hufford; 339A Bessey Hall, Iowa State University, Ames, IA, USA; phone: 1-515-294-8511; email: mhufford@iastate.edu}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Introduction}
+\subsection*{Hypothesis on demography of maize diffusion}
+
+Maize as a main crop worldwide, has been mainly studied done on domestication, little on diffusion. Cite van Etten, Vigouroux, van Heerwaarden, Fonseca, Shohei. 
+Maize, compared to its wild progenitor, has undergone a domestication bottleneck, during which, its diversity has been largely reduced (Hufford et al. 2012).
+Post domestication, maize colonized multiple highland habitats in Americas during its migration. 
+When adapted to the highland habitat, does maize population undertake a second bottleneck? 
+Or, are they experiencing the serial founder effects with migrating away from its origin center?
+Describing the concept of serial founder effects and listed examples of serial founder effects found in Human population history. 
+
+We know little about demography except some introgression (and hints from Ross-Ibarra 2009).
+However, the gene exchange between maize and its wild progenitor is not well-known to us. 
+Ross-Ibarra et al. (2009) pointed out the evidence of introgression between multiple teosinte species and maize solely based on a dozen of nuclear genes.
+Can we identify a signature of introgression when revisiting the question with whole genome sequencing data?
+Hufford et al. (2013) discovered the adaptive introgression from \emph{mexicana} to maize in Mexican Highland, but question remained unanswered. 
+For example, does this kind of introgression is widespread to other highland populations, even those populations without direct contact with \emph{mexicana} populations ?
+
+\subsection*{}
+
+little about how post-domestication evolution has affected genomic diversity (except in landraces in highlands).
+
+
+\section*{Methods}
+
+\jri{you can start writing these up already}
+
+\section*{Results}
+
+\subsection*{Diversity and Population Structure}
+
+\subsubsection*{SEEDS data}
+\begin{itemize}
+\item PCA (Fig1A)
+\item diversity moving away from center of origin (Fig 1B)
+\end{itemize}
+
+\subsubsection*{whole genome sequence data}
+
+To investigate the genomic impact of diffusion post domesticaiton, we sampled 30 genomes from across the range, including from Andes which are undersampled.  
+
+\begin{itemize}
+\item Sampling
+\item PCA and ngsadmix (Figure 2A)
+\item genetic diversity and tajima's D (Figure2B)
+\item ngsF
+\jri{not sure this figure 2 is useful, thoughts?}
+\end{itemize}
+
+\subsection*{Impact of introgression}
+\begin{itemize}
+\item D stats with mexicana (Figure 3A is either Dstats with mex or Gmin with mex, but something mex-introgression related)
+\item Gmin with mexicana (inv4m, other regions)
+\item D stats with parviglumis, luxurians and diploperrennis (compare to R-I 2009, Doebley, etc.) (FIGURE 3B)
+\end{itemize}
+
+\subsection*{Demographic change}
+\begin{itemize}
+\item MSMC -- consistent with SeeDs?, check consistency with sims (Figure 4 of MSMC)
+\item dadi?
+\item show introgression not messing this up (supplement)
+\end{itemize}
+
+\subsection*{Impacts of a recent strong bottleneck in S. Am.}
+\begin{itemize}
+\item ROH, GERP homozygosity (Figure 5)
+\item burden test?
+\end{itemize}
+
+\section*{Discussion}
+
+blah blah lots more to learn.
+
+
+
+
+%
+%\begin{enumerate}
+%\item \textbf{General characterization of populations}
+%\begin{itemize}
+%\item Population structure
+%
+%PCA analyses (ngsTools, ngsCovar):  
+%the first PC demonstrates the geographic north-south differentiation; Southwest US and Andes populations are at the two extremes.
+%\item Genetic diversity ($\hat\theta_\pi$ from ANGSD)
+%\begin{itemize}
+%\item Andes exhibited significantly lowest genetic diversity
+%\item Southwest US, Guatemala High, SA Low, Mexican Low form intermediate, indistinguishable group
+%\item Mexican Highland population has the highest diversity
+%
+%\item Inbreeding coeffecients (ngsF)
+%
+%No differences among populations observed, F very low for all individuals, which provides little evidence for recent inbreeding.
+%
+%
+%
+%Do introgressed regions contribute to the higher diversity in the Mexican Highlands?  
+%\jri{make introgression a separate section, include results from luxurians. we have a lane of PE 100 from diploperennis you could use too. iplant/rossibarra/diplo. just ask and i can give you access.  this lets you test some of the arguments made in Ross-Ibarra 2009}
+%
+%Is there evidence of \emph{mexicana} introgression in other highland populations (\textit{i.e.}, did \textit{mexicana} haplotypes spread to nearby, allopatric highland regions in Guatemala and the Southwest US or are they limited to the Mexican Highlands?)
+%
+%Detection of introgression (ABBA-BABA and Gmin scan) further validate the introgression between the Mexican Highland population and \textit{Zea mays} ssp. \textit{mexicana}.
+%
+%\textcolor{blue}
+%{To Do: ABBA-BABA statistics and Gmin scan for highland regions outside of Mexico vs. \textit{mexicana}.}
+%
+%\jri{need to test D against all lowland mex. also include lowland mex. in test.}
+%
+%
+%\textcolor{blue}
+%{Plot $\hat\theta_\pi$ in introgressed regions relative to the genome-wide distribution for each population.}
+%\end{itemize}
+%
+%
+%
+%\item Demography suggested by Tajima's D (ANGSD)
+%
+%Andes is the only population with median Tajima's D \textgreater{} 0 (significantly more positive than other pops), indicating an absence of rare alleles, and possibly stronger bottleneck.
+%\end{itemize}
+%
+%\item \textbf{What is the pattern of demography in maize populations?}
+%\begin{itemize}
+%\item MSMC analyses
+%
+%Our results suggest serial founder effects, but do we trust these given the runaway behavior and smoothing over demographic changes that have previously been observed in PSMC and Dical?
+%
+%\textcolor{blue}{To Do: Simulation to confirm applicability of method in maize: simulate a continuous population size reduction and two bottlenecks} \textcolor{red}{Tim: also run in dadi to check the likelihoods of serial founder effect model compared to others?}
+%
+%\item We observe a significant negative correlation between proportion of polymorphic sites and geographic distance from the Balsas using SEEDS data
+%\end{itemize}
+%
+%\item \textbf{The outcomes of an extreme bottleneck in the Andes}
+%\begin{itemize}
+%
+%
+%\item Runs of Homozygosity (PLINK)
+%
+%In general, the Andes shows more runs of homozygosity (ROH), particularly small ROHs ($<1$MB), consistent with a stronger bottleneck in this population. 
+%When looking only at larger ROHs ($>1$MB), which might reflect more recent inbreeding events, there is no difference among populations (confirms ngsF result).
+%\mbh{Li, we should summarize this result based on genetic distances}
+%
+%\item Mutation load
+%
+%The Andes does not show higher mutation load when considering both the heterozygous and homozygous non-reference sites, but does exhibit higher load when considering \emph{ONLY} the non-reference homozygous sites, indicating a potential role of dominance in the mutation load. 
+%With a higher GERP cutoff (moderately and strongly deleterious sites), the difference in mutation load between the Andes and other populations is even stronger. 
+%Additionally, the Andes has a higher percentage of derived homozygotes (polarized vs. \textit{Tripsacum}), consistent with less efficient selection due to a stronger bottleneck.
+%\jri{consider adding the burden ratio test here}
+%\end{itemize}
+%
+%
+%\item \textbf{Potential additional analyses}
+%\begin{itemize}
+%\item \textcolor{blue}{Running MSMC without introgressed regions or with exclusively introgression regions.}
+%\end{itemize}
+%\end{enumerate}
+
+\end{document}
+
