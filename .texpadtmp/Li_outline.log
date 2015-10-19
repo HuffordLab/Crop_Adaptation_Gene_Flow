@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 SEP 2015 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 OCT 2015 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -199,26 +199,142 @@ LaTeX Warning: Citation `hufford2013' on page 2 undefined on input line 57.
 LaTeX Warning: Citation `Takuno2015' on page 2 undefined on input line 58.
 
 
-LaTeX Warning: Citation `Wang2015manuscript' on page 2 undefined on input line 63.
+LaTeX Warning: Citation `Wang2015manuscript' on page 2 undefined on input line 65.
 
-(/Users/wangli/Crop_Adaptation_Gene_Flow/.texpadtmp/Li_outline.bbl) [2] [3] (/Users/wangli/Crop_Adaptation_Gene_Flow/.texpadtmp/Li_outline.aux)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 65.
+./Li_outline.tex:65: Undefined control sequence.
+l.65 ...ic proposed by Martin et al. (2015) \citep
+                                                  {martin2015} were calculat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Li_outline.tex:67: Undefined control sequence.
+l.67 ...identified in Hufford et al. (2013) \citep
+                                                  {hufford2013}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Wang2015manuscript' on page 2 undefined on input line 70.
+
+[2]
+./Li_outline.tex:80: Undefined control sequence.
+l.80 \includegraphics
+                     [width=.45\textwidth]{FigsAndTables/fdTrackChr4AllPop}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Li_outline.tex:80: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.80 \includegraphics[width=.45\textwidth]
+                                          {FigsAndTables/fdTrackChr4AllPop}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Li_outline.tex:80: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.80 \includegraphics[width=.45\textwidth]
+                                          {FigsAndTables/fdTrackChr4AllPop}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Li_outline.tex:82: Undefined control sequence.
+l.82 \includegraphics
+                     [width=.45\textwidth]{FigsAndTables/fdTrackChr5AllPop}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Li_outline.tex:82: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.82 \includegraphics[width=.45\textwidth]
+                                          {FigsAndTables/fdTrackChr5AllPop}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Li_outline.tex:82: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.82 \includegraphics[width=.45\textwidth]
+                                          {FigsAndTables/fdTrackChr5AllPop}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./Li_outline.tex:83: Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...mosome 4; B: Chromosome 5. \label{fig:fd}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Li_outline.tex:83: Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...mosome 4; B: Chromosome 5. \label{fig:fd}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Li_outline.tex:83: Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...mosome 4; B: Chromosome 5. \label{fig:fd}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Li_outline.tex:83: Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...mosome 4; B: Chromosome 5. \label{fig:fd}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+(/Users/wangli/Crop_Adaptation_Gene_Flow/.texpadtmp/Li_outline.bbl) [3] (/Users/wangli/Crop_Adaptation_Gene_Flow/.texpadtmp/Li_outline.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1705 strings out of 493089
- 23649 string characters out of 6134842
- 91236 words of memory out of 5000000
- 5210 multiletter control sequences out of 15000+600000
- 8798 words of font info for 31 fonts, out of 8000000 for 9000
+ 1710 strings out of 493089
+ 23717 string characters out of 6134842
+ 93244 words of memory out of 5000000
+ 5215 multiletter control sequences out of 15000+600000
+ 9157 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,5n,32p,448b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/wangli/Crop_Adaptation_Gene_Flow/.texpadtmp/Li_outline.pdf (3 pages, 103847 bytes).
+ 25i,5n,32p,790b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /Users/wangli/Crop_Adaptation_Gene_Flow/.texpadtmp/Li_outline.pdf (3 pages, 125450 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
