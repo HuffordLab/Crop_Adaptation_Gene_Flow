@@ -19,17 +19,22 @@
 
 \begin{document}
 
+
+
 \maketitle
 
 The traditional paradigm in crop domestication has been origin from a wild relative within one or more defined geographic centers followed by expansion to the modern-day extent of cultivation.
 Absent from this paradigm are the effects of hybridization between diffusing domesticates and closely-related, locally-adapted wild relatives outside the center of origin.
 New methods have recently been employed to detect genome-wide patterns of introgression in a number of species.
 In this review, we will: 1) briefly describe these methods and provide a summary of their recent application for detection of crop-wild introgression, 2) review evidence supporting the hypothesis that wild-to-crop introgression has conferred local adaptation, 3) consider how the prevalence of this introgression alters traditional concepts of domestication, and 4) describe future advances in both basic and applied genetics that can be made through the study of introgression in agroecosystems.
+\lwang{general comments: A. Could this be too long? I have no idea about the requirement (300-600 words). Is that okay if we listed the outline of each section? B. Some references are kind of old. They require references in the past 2-4 years. }
 
 \section*{Introgression methods and their recent applications}
+\lwang{The examples listed here are not crop-wild introgression, which is contradictory with the first point in the abstract part. "briefly describe these methods and provide a summary of their recent application for detection of crop-wild introgression". When I red here, I felt my attention was diverted. Maybe just one or two sentences.}
+
 The recent availability of genome-wide resequencing and reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq) data combined with new analytical methods have facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
 \begin{enumerate}
-\item{High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and to identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012}.}
+\item{High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and to identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.}
 \item{In several instances, introgression has been found to be conserved across individuals and populations suggesting an adaptive role:}
 	\begin{enumerate}
 	\item{Adaptive introgression has been discovered from Neanderthals and other archaic hominins into humans at loci controlling skin pigmentation, defense against pathogens, and tolerance of high altitude (reviewed in \cite{Racimo2015}}).
@@ -43,6 +48,8 @@ The recent availability of genome-wide resequencing and reduced-representation g
 \noindent{\textbf{Table 1:} List and brief description of recently developed methods and examples of empirical studies employing these methods.}
 
 \noindent{\textbf{Figure 1}: Wing coloration patterns in \emph{Heliconius} and evidence for introgression across species based on Patterson's \emph{D}-statistic; adapted from \cite{Heliconius2012}.}
+
+\lwang{In this part, maybe better to incorporate this reference, Detection and Polarization of Introgression in a Five-Taxon Phylogeny; and a new method published this year RND\_min Powerful methods for detecting introgressed regions from population genomic data; I donot know if we should also include G\_min, that is the statistic we tried that didnot work well for us: A new method to scan genomes for introgression in a secondary contact model. I put the three in the bib file.}
 
 \section*{Crop adaptation through introgression}
 Over the last few years, several high-profile publications based on genome-wide data have documented introgression between crops and wild relatives outside putative domestication centers. A history of introgression during diffusion appears to be the rule for crops rather than the exception.
@@ -59,6 +66,7 @@ Over the last few years, several high-profile publications based on genome-wide 
 	\end{enumerate}
 	\item{Predictions regarding the likelihood of adaptive introgression in additional crops can be made through comparison of their centers of origin to both their current extent of cultivation and the distribution of wild relatives across environmental gradients (\textbf{Figure 2}).}
 \end{enumerate}
+\lwang{I am afraid that most of the crop examples actually did show evidence of introgression, but few supplied strong evidence of adaptive introgression. I have not red all of these paper, maybe it is just my prejudice. }
 
 \noindent{\textbf{Table 2:} Overview of literature evaluating potential for crop-wild introgression in the world's 15 most important crops including a column of references and a column summarizing major findings.}
 
@@ -67,9 +75,9 @@ Over the last few years, several high-profile publications based on genome-wide 
 \section*{Reevaluating concepts of domestication}
 A framework in which crops were domesticated from a single population or even a single species is, in several instances, an oversimplification. A demography incorporating introgression from additional sources appears to be more correct for many crops. With this in mind, certain aspects of crop evolution must be reevaluated:
 \begin{enumerate}
-	\item{The initial domestication bottleneck is most likely underestimated when introgression is not considered. Chromosomal regions experiencing introgression will potentially have increased effective population size relative to non-introgressed regions. Inferences regarding the strength of domestication bottlenecks should be revisited with this in mind.}
-	\item{The time since domestication based on levels of sequence divergence may be inflated when introgressed haplotypes from divergent taxa are included in estimates.}
-	\item{The influx of diversity through introgression may belie selection occurring on these genomic regions during domestication or local adaptation since one of the hallmarks of selection is reduced diversity.}
+	\item{The initial domestication bottleneck is most likely underestimated when introgression is not considered. Chromosomal regions experiencing introgression will potentially have increased effective population size relative to non-introgressed regions. Inferences regarding the strength of domestication bottlenecks should be revisited with this in mind.}\lwang{if the donor population has a relatively small population size, then the domestication bottleneck could be over-estimated.}	
+	\item{The time since domestication based on levels of sequence divergence may be inflated when introgressed haplotypes from divergent taxa are included in estimates.}\lwang{It could be either inflated or underestimate,. It depends on the introgressed haplotype are more or less divergent from the wild progenitor, right?}
+	\item{The influx of diversity through introgression may belie selection occurring on these genomic regions during domestication or local adaptation since one of the hallmarks of selection is reduced diversity.} \lwang{I donot quite understand this point. So, it is assumed that the introgressed haplotype has higher diversity, which renders difficulty to detect selection in such regions, right? But the case in maize is that even the introgressed haplotypes had higher diversity, but as selection has act long time on the region, the observed current diversity has already been reduced.}
 \end{enumerate}
 
 \section*{Future studies in crop-wild introgression}
@@ -77,13 +85,13 @@ Additional study of introgression in agroecosystems could lead to advances in bo
 \begin{enumerate}
 	\item{Basic questions:}
 		\begin{enumerate}
-		 	\item{To what extent does the level of introgression across taxa depend on divergence time between donor and recipient taxa?}
+		 	\item{To what extent does the level of introgression across taxa depend on divergence time between donor and recipient taxa?} \lwang{maybe put alternative hypothesis here, or due to relative mutation load of the donor and recipient species?}
 		 	\item{At what geographic scale does adaptive introgression occur? Is introgression frequently restricted to very local populations or is it often seen over broad geographic ranges?}
-		 	\item{To what extent have domesticates served as bridges for gene flow between previously allopatric taxa?}
+		 	\item{To what extent have domesticates served as bridges for gene flow between previously allopatric taxa?} \lwang{I feel the second and the third points could be combined. How the wild species could introgress into the allopatric landraces? Does domesticates serve as bridges?}
 		\end{enumerate} 	
 	\item{Applications:}
 		\begin{enumerate}
-		 	\item{Loci underlying the domesticated phenotype that are potentially beneficial targets for crop improvement can be more clearly identified by removing the confounding population genetic signal of introgression.}
+		 	\item{Loci underlying the domesticated phenotype that are potentially beneficial targets for crop improvement can be more clearly identified by removing the confounding population genetic signal of introgression.} \lwang{I am not quite clear with this point. It will be interesting to see that the domestication loci have further receive gene flow from the other wild relatives and it has not been purged out, as I think the domestication loci undergo strong positive selection, thus also strong purifying selection to dispel influx gene flow. Right?}
 		 	\item{Adaptive introgression that is clearly tied to a specific environment may include beneficial alleles that can be utilized in crop breeding.}
 		 \end{enumerate}
 \end{enumerate}
