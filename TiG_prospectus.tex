@@ -3,6 +3,7 @@
 \usepackage{authblk}%allows footnote format for authors
 \usepackage[letterpaper, margin=1in]{geometry} %package that allows changes in margins and header/footers
 \usepackage[numbers,sort]{natbib}
+\usepackage{amsmath}
 \bibliographystyle{ieeetr}
 \newcommand{\mbh}[1]{\textcolor{orange}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
 \newcommand{\lwang}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Li's comments
@@ -36,7 +37,33 @@ In this review, we will: 1) briefly describe these methods and provide a summary
 The recent availability of genome-wide resequencing and reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq) data combined with new analytical methods have facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
 \begin{enumerate}
 \item{High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and to identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.}
-\item{Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}), introgression has conferred M\"{u}llerian mimicry across butterfly species (\cite{Heliconius2012}; \textbf{Figure 1}), introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}}.
+
+The methods introduced here do not include those marginally estimating introgression/migration rate as a component in the complete demographic history, such as Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference (dadi) \cite {gutenkunst2009}, sorts of isolation with migration model \cite{hey2004} and the multiple sequentially Markovian coalescent (MSMC) \cite{schiffels2014}. 
+The collection of methods described different layers of genetic variation: diversity and divergence, haplotype variation and phylogenetic relationships.
+We focus here on analytical prospected and limitations and introduce only a few representatives of each category.
+
+First, genomic regions of introgression were expected to show a low level of divergence.
+ F_{st} and d_{XY} as well as its derivates, such as G_{min} \cite{geneva2015} and RND_{min}\cite{rosenzweig2016}, are representatives of such statistics. 
+ The former two are insensitive to rare migrants, thus limited in detecting recent introgression; while the latter two  overcame the disadvantages.
+ 
+ \begin{equation}
+    G_{min} = \frac{d_{min}}{d_{XY}}
+ \end{equation}
+ where d_{min} is the minimum sequence distance between haplotypes in species X and Y.
+ 
+ \begin{equation}
+ 	RND_{min} = \frac{d_{min}}{d_{out}}
+ \end{equation}
+where d_{out} equals to $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup (O).
+In addition, RND_{min} is sensitive to variable mutation rate, which reflects on the branch length to the outgroup taxa. 
+ 
+Second, local ancestry reconvolution (also known as chromosome painting) can identify the genomic regions that come from different source populations \cite{schraiber2015}. 
+Such method usually takes phased haplotypes as input and some can even take multiple source populations, such as MULTIMIX \cite{churchhouse2013}.
+
+Third, ABBA-BABA statistics (also known as D-statistics) and its derivatives are widely applied to search for signs of introgression in genomic patterns of shared derived variants between populations or species. 
+
+
+\item{Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}), introgression has conferred M\"{u}llerian mimicry across butterfly species (\cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}}.
 \end{enumerate}
 
 \noindent{\textbf{Table 1:} List and brief description of recently developed methods and examples of empirical studies employing these methods.}

@@ -31,6 +31,37 @@ A.~J. Geneva, C.~A. Muirhead, S.~B. Kingan, and D.~Garrigan, ``A new method to
   scan genomes for introgression in a secondary contact model,'' {\em PloS
   one}, vol.~10, no.~4, p.~e0118621, 2015.
 
+\bibitem{beaumont2002}
+M.~A. Beaumont, W.~Zhang, and D.~J. Balding, ``Approximate bayesian computation
+  in population genetics,'' {\em Genetics}, vol.~162, no.~4, pp.~2025--2035,
+  2002.
+
+\bibitem{gutenkunst2009}
+R.~N. Gutenkunst, R.~D. Hernandez, S.~H. Williamson, and C.~D. Bustamante,
+  ``Inferring the joint demographic history of multiple populations from
+  multidimensional snp frequency data,'' {\em PLoS Genet}, vol.~5, no.~10,
+  p.~e1000695, 2009.
+
+\bibitem{hey2004}
+J.~Hey and R.~Nielsen, ``Multilocus methods for estimating population sizes,
+  migration rates and divergence time, with applications to the divergence of
+  drosophila pseudoobscura and d. persimilis,'' {\em Genetics}, vol.~167,
+  no.~2, pp.~747--760, 2004.
+
+\bibitem{schiffels2014}
+S.~Schiffels and R.~Durbin, ``Inferring human population size and separation
+  history from multiple genome sequences,'' {\em Nature genetics}, vol.~46,
+  no.~8, pp.~919--925, 2014.
+
+\bibitem{schraiber2015}
+J.~G. Schraiber and J.~M. Akey, ``Methods and models for unravelling human
+  evolutionary history,'' {\em Nature Reviews Genetics}, 2015.
+
+\bibitem{churchhouse2013}
+C.~Churchhouse and J.~Marchini, ``Multiway admixture deconvolution using phased
+  or unphased ancestral panels,'' {\em Genetic epidemiology}, vol.~37, no.~1,
+  pp.~1--12, 2013.
+
 \bibitem{Racimo2015}
 F.~Racimo, S.~Sankararaman, R.~Nielsen, and E.~Huerta-Sanchez, ``Evidence for
   archaic adaptive introgression in humans,'' {\em Nat Rev Genet}, vol.~16,
