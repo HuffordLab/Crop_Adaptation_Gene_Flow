@@ -11,45 +11,49 @@ Repeated entry---line 324 of file ../TiG_references.bib
  : @article{heliconius2012
  :                        ,
 I'm skipping whatever remains of this entry
-You've used 23 entries,
+Repeated entry---line 442 of file ../TiG_references.bib
+ : @article{lawson2012
+ :                    ,
+I'm skipping whatever remains of this entry
+You've used 25 entries,
             1876 wiz_defined-function locations,
-            632 strings with 9279 characters,
-and the built_in function-call counts, 8050 in all, are:
-= -- 759
-> -- 459
+            646 strings with 9697 characters,
+and the built_in function-call counts, 8792 in all, are:
+= -- 835
+> -- 493
 < -- 0
-+ -- 161
-- -- 138
-* -- 654
-:= -- 1190
-add.period$ -- 23
-call.type$ -- 23
-change.case$ -- 23
++ -- 173
+- -- 148
+* -- 714
+:= -- 1294
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 377
-empty$ -- 623
-format.name$ -- 138
-if$ -- 1908
+cite$ -- 25
+duplicate$ -- 411
+empty$ -- 683
+format.name$ -- 148
+if$ -- 2086
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 23
-newline$ -- 72
-num.names$ -- 23
-pop$ -- 34
+int.to.str$ -- 25
+missing$ -- 25
+newline$ -- 78
+num.names$ -- 25
+pop$ -- 36
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 300
+skip$ -- 328
 stack$ -- 0
-substring$ -- 536
-swap$ -- 193
+substring$ -- 600
+swap$ -- 211
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 74
-width$ -- 25
-write$ -- 247
-(There were 2 error messages)
+while$ -- 82
+width$ -- 27
+write$ -- 269
+(There were 3 error messages)

@@ -58,13 +58,19 @@ where d_{out} equals to $(d_{XO} + d_{YO})/2$, the average sequence distance bet
 In addition, RND_{min} is sensitive to variable mutation rate, which reflects on the branch length to the outgroup taxa. 
  
 Second, local ancestry reconvolution (also known as chromosome painting) can identify the genomic regions that come from different source populations \cite{schraiber2015}. 
-Such method usually takes phased haplotypes as input and an exception is MULTIMIX \cite{churchhouse2013}, which can take both phased and unphased haplotypes as input. and unveil the genomic ancestry from multiple source populations.
+Such method usually takes phased haplotypes as input and an exception is MULTIMIX \cite{churchhouse2013}, which can take both phased and unphased haplotypes as input, and unveil the genomic ancestry from multiple source populations.
 
 
 Third, ABBA-BABA statistics (also known as D-statistics) and its derivatives are widely applied to search for signs of introgression in genomic patterns of shared derived variants between populations or species. 
 Based on D-statistics, $\hat{f_{d}}$ \cite{Martin2015} and five-taxon D statistics \cite{pease2015} are developed to localize the genomic regions under introgression. 
 The former took allele frequencies from each population/species and the latter detected introgression from the localized phylogenetic pattern. 
 Their strength in identifying specific regions enabled us to explore the relationships between introgression and recombination rate / gene density / distribution of deleterious alleles and to better understand the genomic regions penetrable to foreign gene flow. 
+
+Fourth, structure related approaches are based on the popular software STRUCTURE \cite{pritchard2000}, which provided an estimate of fraction of each individual's genome coming from each population. 
+Many approaches in this respect have been developed.
+Two of them, fineStructure \cite{Lawson2012} and Globetrotter \cite{hellenthal2014}, were selected as representations.
+Different from STRUCTURE, fineStructure not only identifies the number of populations but also estimates the probability that genomic regions belong to one or the other populations. 
+Globotrotter is a development of fineStructure at tracing back to an unsampled source population and at dating the admixture events.
 
 
 \item{Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}), introgression has conferred M\"{u}llerian mimicry across butterfly species (\cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}}.
