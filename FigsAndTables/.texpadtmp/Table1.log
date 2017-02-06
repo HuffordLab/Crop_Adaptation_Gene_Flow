@@ -1,0 +1,315 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2016.5.22)  6 FEB 2017 11:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Table1.tex
+(./Table1.tex
+./Table1.tex:1: Undefined control sequence.
+l.1 \begin
+          {table}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:2: Undefined control sequence.
+l.2 \rowcolors
+              {2}{white}{gray!25}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:3: Undefined control sequence.
+l.3 \begin
+          {center}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:4: Undefined control sequence.
+l.4 \caption
+            {Programs for identifying genomic regions under introgression} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:4: Undefined control sequence.
+l.4 ...genomic regions under introgression} \label
+                                                  {tab:tools}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:5: Undefined control sequence.
+l.5 \begin
+          {tabular}{llll}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+\toprule \rowcolor {white} {\bf methods} & {\bf data type } & {\bf re\ETC.
+./Table1.tex:9: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.9 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Table1.tex:10: Undefined control sequence.
+l.10 \rowcolor
+              {gray!25}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:11: Undefined control sequence.
+l.11 {\emph
+           {\bf chromosome paiting}} &   &   &   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:11: Misplaced alignment tab character &.
+l.11 {\emph{\bf chromosome paiting}} &
+                                         &   &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:11: Misplaced alignment tab character &.
+l.11 {\emph{\bf chromosome paiting}} &   &
+                                             &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:11: Misplaced alignment tab character &.
+l.11 {\emph{\bf chromosome paiting}} &   &   &
+                                                 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Runaway argument?
+ \rowcolor {gray!25} Hapmix & phased haplotype; reference panel & Pri\ETC.
+./Table1.tex:22: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.22 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Table1.tex:23: Undefined control sequence.
+l.23 \rowcolor
+              {white}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:24: Undefined control sequence.
+l.24 {\emph
+           {\bf phylogenetic relationship}} &   &   &   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:24: Misplaced alignment tab character &.
+l.24 {\emph{\bf phylogenetic relationship}} &
+                                                &   &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:24: Misplaced alignment tab character &.
+l.24 {\emph{\bf phylogenetic relationship}} &   &
+                                                    &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:24: Misplaced alignment tab character &.
+l.24 ...{\bf phylogenetic relationship}} &   &   &
+                                                     \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Runaway argument?
+ \rowcolor {white} ABBA-BABA/D-statistics & biallelic SNP & Durand et\ETC.
+./Table1.tex:31: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.31 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Table1.tex:32: Undefined control sequence.
+l.32 \rowcolor
+              {gray!25}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:33: Undefined control sequence.
+l.33 {\emph
+           {\bf divergence}} &   &   &   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:33: Misplaced alignment tab character &.
+l.33 {\emph{\bf divergence}} &
+                                 &   &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:33: Misplaced alignment tab character &.
+l.33 {\emph{\bf divergence}} &   &
+                                     &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:33: Misplaced alignment tab character &.
+l.33 {\emph{\bf divergence}} &   &   &
+                                         \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Runaway argument?
+ \rowcolor {gray!25} Gmin & biallelic SNP & Geneva et al. 2015 & King\ETC.
+./Table1.tex:40: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.40 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Table1.tex:42: Undefined control sequence.
+l.42 \rowcolor
+              {white}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:43: Undefined control sequence.
+l.43 {\emph
+           {\bf population structure related}} &   &   &   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Table1.tex:43: Misplaced alignment tab character &.
+l.43 {\emph{\bf population structure related}} &
+                                                   &   &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:43: Misplaced alignment tab character &.
+l.43 ...h{\bf population structure related}} &   &
+                                                     &   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Table1.tex:43: Misplaced alignment tab character &.
+l.43 ...f population structure related}} &   &   &
+                                                     \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Runaway argument?
+ \rowcolor {white} fineStructure & phased haplotype & Lawson et al. 2\ETC.
+./Table1.tex:51: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.51 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+)
+! Emergency stop.
+<*> Table1.tex
+              
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!

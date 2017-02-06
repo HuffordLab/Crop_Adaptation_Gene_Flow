@@ -40,9 +40,9 @@ The recent availability of genome-wide resequencing and reduced-representation g
 
 The methods introduced here do not include those marginally estimating introgression/migration rate as a component in the complete demographic history, such as Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference (dadi) \cite {gutenkunst2009}, sorts of isolation with migration model \cite{hey2004} and the multiple sequentially Markovian coalescent (MSMC) \cite{schiffels2014}. 
 The collection of methods described different layers of genetic variation: diversity and divergence, haplotype variation and phylogenetic relationships.
-We focus here on analytical prospected and limitations and introduce only a few representatives of each category.
+We focus here on analytical prospect and limitations and introduce only a few representatives of each category.
 
-First, genomic regions of introgression were expected to show a low level of divergence.
+First, genomic regions of introgression in admixed populations were expected to show a low level of divergence from source population.
  F_{st} and d_{XY} as well as its derivates, such as G_{min} \cite{geneva2015} and RND_{min}\cite{rosenzweig2016}, are representatives of such statistics. 
  The former two are insensitive to rare migrants, thus limited in detecting recent introgression; while the latter two  overcame the disadvantages.
  
@@ -56,6 +56,12 @@ First, genomic regions of introgression were expected to show a low level of div
  \end{equation}
 where d_{out} equals to $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup (O).
 In addition, RND_{min} is sensitive to variable mutation rate, which reflects on the branch length to the outgroup taxa. 
+ 
+ These statistics were recently developed into several new statistics, such as $U_{A,B,C(w,x,y)}$ by adding the divergence between non-admixed populations (A) and source population (C) as a comparison to that between admixed populations (B) and source population (C)\cite{racimo2016}. 
+ This statistic summarizes number of sites, where one particular allele at frequency $y$ in source population has a frequency bigger than $x$ in admixed population (B) and a frequency smaller than $w$ in non-admixed population (C).
+ Similarly, $Q95_{A,B,C(w,y)}$ just set a hard cutoff as $95^th$ percentile of allele frequencies in panel B \cite{racimo2016}. 
+ These two statistics were also developed into incorporating two source populations (see details in \cite{racimo2016}).
+ 
  
 Second, local ancestry reconvolution (also known as chromosome painting) can identify the genomic regions that come from different source populations \cite{schraiber2015}. 
 Such method usually takes phased haplotypes as input and an exception is MULTIMIX \cite{churchhouse2013}, which can take both phased and unphased haplotypes as input, and unveil the genomic ancestry from multiple source populations.

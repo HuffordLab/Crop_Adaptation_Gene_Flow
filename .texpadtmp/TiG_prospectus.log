@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 AUG 2016 11:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 FEB 2017 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -225,8 +225,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (700.73595pt too wide) in paragraph at lines 45--48
-\OT1/cmr/m/n/10.95 F$[]\OML/cmm/m/it/10.95 andd[]aswellasitsderivates; suchasG[]\OT1/cmr/m/n/10.95 [[]]\OML/cmm/m/it/10.95 andRND[]\OT1/cmr/m/n/10.95 [[]]\OML/cmm/m/it/10.95 ; arerepresentativesofsuchstatistics:Theformertwoareinsensitivetoraremigrants; thuslimitedindetectingrecentintrogression\OT1/cmr/m/n/10.95 ; \OML/cmm/m/it/10.95 whilethelattertwoovercamethedisadvantages:[]$ 
+Overfull \hbox (903.97021pt too wide) in paragraph at lines 45--48
+\OT1/cmr/m/n/10.95 level of di-ver-gence from source pop-u-la-tion. F$[]\OML/cmm/m/it/10.95 andd[]aswellasitsderivates; suchasG[]\OT1/cmr/m/n/10.95 [[]]\OML/cmm/m/it/10.95 andRND[]\OT1/cmr/m/n/10.95 [[]]\OML/cmm/m/it/10.95 ; arerepresentativesofsuchstatistics:Theformertwoareinsensitivetoraremigrants; thuslimitedindetectingrecentintrogression\OT1/cmr/m/n/10.95 ; \OML/cmm/m/it/10.95 whilethelattertwoovercamethedisadvantages:[]$ 
  []
 
 ./TiG_prospectus.tex:48: Extra }, or forgotten \endgroup.
@@ -340,26 +340,26 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[2]
-Overfull \hbox (15.78688pt too wide) in paragraph at lines 113--115
+[2] [3]
+Overfull \hbox (15.78688pt too wide) in paragraph at lines 119--121
 []\OT1/cmr/m/n/10.95 Loci un-der se-lec-tion dur-ing do-mes-ti-ca-tion are of-ten iden-ti-fied based on sig-na-tures of substantially-
  []
 
-[3] (/Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/TiG_prospectus.bbl
+(/Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/TiG_prospectus.bbl
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [4] [5]) [6] (/Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/TiG_prospectus.aux) ) 
 Here is how much of TeX's memory you used:
- 2604 strings out of 493014
- 34399 string characters out of 6133351
- 108263 words of memory out of 5000000
- 6150 multiletter control sequences out of 15000+600000
+ 2608 strings out of 493014
+ 34461 string characters out of 6133351
+ 108279 words of memory out of 5000000
+ 6154 multiletter control sequences out of 15000+600000
  9748 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,6n,32p,1032b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,6n,32p,1032b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/TiG_prospectus.pdf (6 pages, 139732 bytes).
+Output written on /Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/TiG_prospectus.pdf (6 pages, 142909 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
