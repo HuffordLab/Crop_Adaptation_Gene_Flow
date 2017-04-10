@@ -1,0 +1,109 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux
+The style file: ieeetr.bst
+Case mismatch error between cite keys martin2015 and Martin2015
+---line 42 of file /Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux
+ : \citation{martin2015
+ :                     }
+I'm skipping whatever remains of this command
+Database file #1: ../bib_gj.bib
+I was expecting an "="---line 1514 of file ../bib_gj.bib
+ : [[Ramalho 
+ :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 1756 of file ../bib_gj.bib
+ : National 
+ :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
+I'm skipping whatever remains of this entry
+Warning--entry type for "CWR" isn't style-file defined
+--line 2539 of file ../bib_gj.bib
+Warning--I didn't find a database entry for "Martin2015"
+Warning--I didn't find a database entry for "Price2009"
+Warning--I didn't find a database entry for "Lawson2012"
+Warning--I didn't find a database entry for "pease2015"
+Warning--I didn't find a database entry for "rosenzweig2016"
+Warning--I didn't find a database entry for "geneva2015"
+Warning--I didn't find a database entry for "beaumont2002"
+Warning--I didn't find a database entry for "gutenkunst2009"
+Warning--I didn't find a database entry for "hey2004"
+Warning--I didn't find a database entry for "schiffels2014"
+Warning--I didn't find a database entry for "racimo2016"
+Warning--I didn't find a database entry for "schraiber2015"
+Warning--I didn't find a database entry for "churchhouse2013"
+Warning--I didn't find a database entry for "pritchard2000"
+Warning--I didn't find a database entry for "hellenthal2014"
+Warning--I didn't find a database entry for "Racimo2015"
+Warning--I didn't find a database entry for "Heliconius2012"
+Warning--I didn't find a database entry for "Norris2015"
+Warning--I didn't find a database entry for "Stankowski2015"
+Warning--I didn't find a database entry for "Currat2008"
+Warning--I didn't find a database entry for "wilkes1977"
+Warning--I didn't find a database entry for "lauter2004"
+Warning--I didn't find a database entry for "doebley1984"
+Warning--I didn't find a database entry for "matsuoka2002"
+Warning--I didn't find a database entry for "vanHeerwaarden2011"
+Warning--I didn't find a database entry for "doebley1987"
+Warning--I didn't find a database entry for "warburton2011"
+Warning--I didn't find a database entry for "fukunaga2005"
+Warning--I didn't find a database entry for "hufford2013"
+Warning--I didn't find a database entry for "Takuno2015"
+Warning--I didn't find a database entry for "Wang2015manuscript"
+Warning--I didn't find a database entry for "Huang2012"
+Warning--I didn't find a database entry for "dreiseitl2017heterogeneity"
+Warning--I didn't find a database entry for "Poets2015"
+Warning--I didn't find a database entry for "whitney2010adaptive"
+Warning--I didn't find a database entry for "whitney2006adaptive"
+Warning--I didn't find a database entry for "rieseberg2007hybridization"
+Warning--I didn't find a database entry for "Baute2015"
+Warning--I didn't find a database entry for "bredeson2016sequencing"
+Warning--I didn't find a database entry for "diez2015olive"
+Warning--I didn't find a database entry for "myles2011genetic"
+Warning--empty journal in hufford2013genomic
+Warning--empty author in ricepedia
+Warning--empty title in ricepedia
+Warning--empty journal in ricepedia
+Warning--empty year in ricepedia
+Warning--all relevant fields are empty in CWR
+You've used 53 entries,
+            1876 wiz_defined-function locations,
+            857 strings with 14275 characters,
+and the built_in function-call counts, 17059 in all, are:
+= -- 1754
+> -- 675
+< -- 0
++ -- 247
+- -- 194
+* -- 1273
+:= -- 2357
+add.period$ -- 54
+call.type$ -- 53
+change.case$ -- 49
+chr.to.int$ -- 0
+cite$ -- 59
+duplicate$ -- 832
+empty$ -- 1489
+format.name$ -- 194
+if$ -- 4141
+int.to.chr$ -- 0
+int.to.str$ -- 53
+missing$ -- 53
+newline$ -- 164
+num.names$ -- 51
+pop$ -- 103
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 665
+stack$ -- 0
+substring$ -- 1399
+swap$ -- 411
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 181
+width$ -- 55
+write$ -- 546
+(There were 3 error messages)

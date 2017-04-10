@@ -96,14 +96,50 @@ GLOBETROTTER is a development of fineSTRUCTURE that allows for tracing back to a
 \item{Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}), introgression has conferred M\"{u}llerian mimicry across butterfly species (\cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}}.
 \end{enumerate}
 
-\noindent{\textbf{Table 1:} List and brief description of recently developed methods and examples of empirical studies employing these methods.}
+%Table1
+\begin{figure}
+\begin{tabular}{l|l|l|l}
+\bf methods	& \bf data type  &	\bf reference &  \bf empirical studies  \\ \hline
 
-\noindent{\textbf{Figure 1}: Wing coloration patterns in \emph{Heliconius} and evidence for introgression across species based on Patterson's \emph{D}-statistic; adapted from \cite{Heliconius2012}.}
+\emph{\bf chromosome paiting} &   &   &   \\
+Hapmix	& phased haplotype; reference panel		& Price et al. 2009	&  Hufford et al. 2013;  Suarez et al. 2016 \\ 
+RASPberry &	phased haplotype &	Wegmann et al. 2011	 & Christe et al. 2016 \\
+MultiMix & phased/unphased genotype; reference panel &	Churchhouse and Marchini 2013 &	Eyheramendy et al. 2015 \\
+PCAdmix	 & phased haplotype	 & Brisbin et al. 2012	 & Moreno et al. 2014; Pugach et al. 2016 \\
+LAMP  &	phased haplotypes; reference panel	 & Sankararaman et al. 2008	 & Patterson et al. 2012 \\
+
+\emph{\bf phylogenetic relationship} &   &   &   \\
+
+ABBA-BABA/D-statistics	 & biallelic SNP  &	Durand et al. 2011	 &  Heliconius Genome Consortium 2012 \\
+fd statistic &	biallelic SNP &	Martin et al. 2015  &	Malinsky et al. 2015; Zhang et al. 2016 \\ 
+five taxon D statistics	& biallelic SNP	&  Pease and Hahn 2015	& Fontaine et al. 2015; Pease et al. 2016 \\
+
+\emph{\bf divergence} &   &   &   \\
+Gmin &	biallelic SNP	&  Geneva et al. 2015	&  Kingan et al. 2015 \\
+RNDmin	& phased haplotype	& Rosenzweig et al. 2016	&  NA \\
+U and Q95	& biallelic SNP	& Racimo et al. 2016	 &  Sams et al. 2016 \\
+
+\emph{\bf population structure related} &   &   &   \\
+fineStructure &	phased haplotype &	Lawson et al. 2012	& Skoglund et al. 2015 \\
+Globetrotter &	phased haplotype &	Hellenthal et al. 2014 & Scott et al. 2016 
+\end{tabular}
+\caption{Programs for identifying genomic regions under introgression \label{tab:tools}}
+\end{figure} 
+
+
+%figure 1
+\begin{figure*}[b]
+\centering
+\includegraphics{FigsAndTables/z2mIntroLoessRegression.pdf}
+\caption{Loess regression of introgression level from \emph{mexicana} to Mexican Highland maize populations on chromosome 4 adapted from \cite{hufford2013genomic}.
+\label{fig:maizeChr4Intro}}
+\end{figure*}
 
 
 
 
-%\lwang{In this part, maybe better to incorporate this reference, Detection and Polarization of Introgression in a Five-Taxon Phylogeny; and a new method published this year RND\_min Powerful methods for detecting introgressed regions from population genomic data; I donot know if we should also include G\_min, that is the statistic we tried that didnot work well for us: A new method to scan genomes for introgression in a secondary contact model. I put the three in the bib file.}
+
+
 
 \section*{Crop adaptation through introgression}
 Over the last few years, several high-profile publications based on genome-wide data have documented introgression between crops and wild relatives outside putative domestication centers.
