@@ -7,6 +7,9 @@
 \usepackage{rotating}
 \usepackage{adjustbox}
 \usepackage[english]{babel}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage[x11names,dvipsnames,table]{xcolor}
 \bibliographystyle{ieeetr}
 \newcommand{\mbh}[1]{\textcolor{orange}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
 \newcommand{\lwang}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Li's comments
@@ -340,6 +343,61 @@ These introgressed regions are not found in the non-branching lines Sunrise and 
 
 
 
+\begin{table}
+\rowcolors{2}{white}{gray!25}
+\begin{center}
+\caption{Programs for identifying genomic regions under introgression} \label{tab:tools}
+\begin{tabular}{llll}
+\\\toprule  
+\rowcolor{white}
+{\bf methods}	& {\bf data type } &	{\bf reference} &  {\bf empirical studies } \\ \midrule
+
+\rowcolor{gray!25}
+{\emph{\bf chromosome paiting}} &   &   &   \\
+\rowcolor{gray!25}
+Hapmix	& phased haplotype; reference panel		& Price et al. 2009	&  Hufford et al. 2013;  Suarez et al. 2016 \\ 
+\rowcolor{gray!25}
+RASPberry &	phased haplotype &	Wegmann et al. 2011	 & Christe et al. 2016 \\
+\rowcolor{gray!25}
+MultiMix & phased/unphased genotype; reference panel &	Churchhouse and Marchini 2013 &	Eyheramendy et al. 2015 \\
+\rowcolor{gray!25}
+PCAdmix	 & phased haplotype	 & Brisbin et al. 2012	 & Moreno et al. 2014; Pugach et al. 2016 \\
+\rowcolor{gray!25}
+LAMP  &	phased haplotypes; reference panel	 & Sankararaman et al. 2008	 & Patterson et al. 2012 \\
+
+\rowcolor{white}
+{\emph{\bf phylogenetic relationship}} &   &   &   \\
+\rowcolor{white}
+ABBA-BABA/D-statistics	 & biallelic SNP  &	Durand et al. 2011	 &  Heliconius Genome Consortium 2012 \\
+\rowcolor{white}
+fd statistic &	biallelic SNP &	Martin et al. 2015  &	Malinsky et al. 2015; Zhang et al. 2016 \\ 
+\rowcolor{white}
+five taxon D statistics	& biallelic SNP	&  Pease and Hahn 2015	& Fontaine et al. 2015; Pease et al. 2016 \\
+
+\rowcolor{gray!25}
+{\emph{\bf divergence}} &   &   &   \\
+\rowcolor{gray!25}
+Gmin &	biallelic SNP	&  Geneva et al. 2015	&  Kingan et al. 2015 \\
+\rowcolor{gray!25}
+RNDmin	& phased haplotype	& Rosenzweig et al. 2016	&  NA \\
+\rowcolor{gray!25}
+(see .tex file for comment) & biallelic SNP & Racimo et al. 2016 & Sams et al. 2016 \\
+
+%I was not able to add Li's entry to this cell without errors.  I'll put her entry in the line below:
+%U_{A,B,C(w,x,y)} and Q95_{A,B,C(w,y)}
+
+\rowcolor{white}
+{\emph{\bf population structure related}} &   &   &   \\
+\rowcolor{white}
+fineStructure &	phased haplotype &	Lawson et al. 2012	& Skoglund et al. 2015 \\
+\rowcolor{white}
+Globetrotter &	phased haplotype &	Hellenthal et al. 2014 & Scott et al. 2016 \\
+\end{tabular}
+\end{center}
+\end{table} 
+
+
+
 
 \begin{table}
 \centering
@@ -392,9 +450,12 @@ Wheat (\emph{Tritium monococcum, T. dicoccum, T. aestivum}) & \emph{T. m. boeoti
 	\label{fig:map}
 \end{figure}
 
-
-
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=17.35cm]{li_figure.png}
+	\caption{Li's caption here.}
+	\label{fig:map}
+\end{figure}
 
 
 
@@ -484,11 +545,16 @@ Furthermore, adaptive introgression that is clearly tied to a specific environme
 
 
 
-\section*{Conclusion}
+\section*{Conclusions}
 
 The study of crop domestication has been revolutionized by the advent and application of genomic tools.
 The genomes of crops and their wild relatives tell a story of give-and-take that extends well beyond the initial stages of domestication.
 Likewise, population genetic theory reinforces the proclivity of wild relatives to provide advantageous, locally-adapted alleles to crops as they disperse beyond their domestication centers into new geographies with new ecological pressures and niches.
+
+
+
+
+
 
 
 
