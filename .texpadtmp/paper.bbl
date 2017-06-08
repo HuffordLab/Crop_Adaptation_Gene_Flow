@@ -32,11 +32,6 @@ R.~Hajjar and T.~Hodgkin, ``The use of wild relatives in crop improvement: a
   survey of developments over the last 20 years,'' {\em Euphytica}, vol.~156,
   no.~1-2, pp.~1--13, 2007.
 
-\bibitem{hufford2013genomic}
-M.~B. Hufford, P.~Lubinksy, T.~Pyh{\"a}j{\"a}rvi, M.~T. Devengenzo, N.~C.
-  Ellstrand, and J.~Ross-Ibarra, ``The genomic signature of crop-wild
-  introgression in maize,'' 2013.
-
 \bibitem{matsuoka2002single}
 Y.~Matsuoka, Y.~Vigouroux, M.~M. Goodman, J.~Sanchez, E.~Buckler, and
   J.~Doebley, ``A single domestication for maize shown by multilocus
@@ -126,35 +121,14 @@ P.~Azhaguvel and T.~Komatsuda, ``A phylogenetic analysis based on nucleotide
 G.~Haberer and K.~F. Mayer, ``Barley: From brittle to stable harvest,'' {\em
   Cell}, vol.~162, no.~3, pp.~469--471, 2015.
 
-\bibitem{staudt1961origin}
-G.~Staudt, ``The origin of cultivated barleys: a discussion,'' {\em Economic
-  Botany}, vol.~15, no.~3, pp.~205--212, 1961.
-
-\bibitem{zohary1959hordeum}
-D.~Zohary, ``Is hordeum a griocrithon the ancestor of six-rowed cultivated
-  barley?,'' {\em Evolution}, vol.~13, no.~2, pp.~279--280, 1959.
-
-\bibitem{murphy1982origin}
-P.~Murphy, J.~Witcombe, P.~Shewry, and B.~Miflin, ``The origin of six-rowed
-  ‘wild’barley from the western himalaya,'' {\em Euphytica}, vol.~31,
-  no.~1, pp.~183--192, 1982.
-
-\bibitem{nevo2010drought}
-E.~Nevo and G.~Chen, ``Drought and salt tolerances in wild relatives for wheat
-  and barley improvement,'' {\em Plant, cell \& environment}, vol.~33, no.~4,
-  pp.~670--685, 2010.
-
-\bibitem{harlan1995living}
-J.~R. Harlan, ``The living fields,'' {\em Our agricultural heritage.-271 S},
-  1995.
-
-\bibitem{CWR}
-
-
 \bibitem{ellstrand2003dangerous}
 N.~C. Ellstrand, {\em Dangerous liaisons?: when cultivated plants mate with
   their wild relatives}.
 \newblock JHU Press, 2003.
+
+\bibitem{harlan1995living}
+J.~R. Harlan, ``The living fields,'' {\em Our agricultural heritage.-271 S},
+  1995.
 
 \bibitem{hillman2001new}
 G.~Hillman, R.~Hedges, A.~Moore, S.~Colledge, and P.~Pettitt, ``New evidence of
@@ -260,14 +234,40 @@ Y.~Yatabe, N.~C. Kane, C.~Scotti-Saintagne, and L.~H. Rieseberg, ``Rampant gene
   helianthus annuus and h. petiolaris,'' {\em Genetics}, vol.~175, no.~4,
   pp.~1883--1893, 2007.
 
+\bibitem{hufford2013genomic}
+M.~B. Hufford, P.~Lubinksy, T.~Pyh{\"a}j{\"a}rvi, M.~T. Devengenzo, N.~C.
+  Ellstrand, and J.~Ross-Ibarra, ``The genomic signature of crop-wild
+  introgression in maize,'' 2013.
+
 \bibitem{johns1986ongoing}
 T.~Johns and S.~L. Keen, ``Ongoing evolution of the potato on the altiplano of
   western bolivia,'' {\em Economic Botany}, vol.~40, no.~4, pp.~409--424, 1986.
+
+\bibitem{rick1958role}
+C.~M. Rick, ``The role of natural hybridization in the derivation of cultivated
+  tomatoes of western south america,'' {\em Economic Botany}, vol.~12, no.~4,
+  pp.~346--367, 1958.
 
 \bibitem{lam2010resequencing}
 H.-M. Lam, X.~Xu, X.~Liu, W.~Chen, G.~Yang, F.-L. Wong, M.-W. Li, W.~He,
   N.~Qin, B.~Wang, {\em et~al.}, ``Resequencing of 31 wild and cultivated
   soybean genomes identifies patterns of genetic diversity and selection,''
   {\em Nature genetics}, vol.~42, no.~12, pp.~1053--1059, 2010.
+
+\bibitem{papa2003asymmetry}
+R.~Papa and P.~Gepts, ``Asymmetry of gene flow and differential geographical
+  structure of molecular diversity in wild and domesticated common bean
+  (phaseolus vulgaris l.) from mesoamerica,'' {\em Theoretical and Applied
+  Genetics}, vol.~106, no.~2, pp.~239--250, 2003.
+
+\bibitem{aldrich1992patterns}
+P.~Aldrich, J.~Doebley, K.~Schertz, and A.~Stec, ``Patterns of allozyme
+  variation in cultivated and wild sorghum bicolor,'' {\em Theoretical and
+  Applied Genetics}, vol.~85, no.~4, pp.~451--460, 1992.
+
+\bibitem{zohary1969wild}
+D.~Zohary, J.~R. Harlan, and A.~Vardi, ``The wild diploid progenitors of wheat
+  and their breeding value,'' {\em Euphytica}, vol.~18, no.~1, pp.~58--65,
+  1969.
 
 \end{thebibliography}
