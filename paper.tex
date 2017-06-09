@@ -40,9 +40,9 @@ This new conception of domestication emphasizes the role of beneficial gene flow
 
 Adaptive introgression has three components: hybridization between two genomes, backcrossing to one of the parents, and selection on different recombinant genotypes with progressively diminished linkage drag \cite{barton2001role, Feuillet200824}.
 In domesticated species, adaptive introgression would consist of crop/wild hybrids backcrossing to a crop, retention and increase in frequency of adaptive wild haplotypes in the crop, and removal of undesirable wild background.
-Literature on crop-wild gene flow has focused on the risk of introgression of transgenes from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}).
+To date, literature on crop-wild gene flow has focused on the risk of introgression of transgenes from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}). \mbh{cite one paper here...the best, most recent and comprehensive review}
 The history of natural introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
-Recent tools and methods have been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
+However, recent tools and methods have been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
 Emerging results suggest a need for reevaluation of the existing domestication paradigm.
 
 
@@ -67,8 +67,8 @@ Rather, we focus on methods that explicitly identify introgressed genomic segmen
 %We focus here on analytical prospects and limitations and introduce only a few representatives of each category.
 
 First, introgressed segments are expected to show low differentiation from their source population.
-The $F_{st}$ and $d_{XY}$ statistics and their derivates such as $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
-The former two are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
+The $F_{st}$ and $d_{XY}$ statistics and their derivates including $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
+The former two statistics are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
 Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup. 
 
 \mbh{abrupt transition here to Gmin equation...can you smooth this into the text?}
@@ -85,26 +85,24 @@ where $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance betw
  
 These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites, where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
-A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^th$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
-\mbh{not quite sure I follow here, needs to be made more clear} 
-These statistics were further developed to allow specification two source populations (see details in \cite{racimo2016}).
+A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
+\mbh{Did I get this right, Li?} 
+Further modifications have allowed specification of two source populations (see details in \cite{racimo2016}).
  
-Second, local ancestry reconvolution (also known as chromosome painting) can identify the genomic regions that come from different source populations \cite{schraiber2015}. 
-Such methods usually take phased haplotypes as input, but MULTIMIX \cite{churchhouse2013} can take both phased and unphased haplotypes as input, unveiling the genomic ancestry from multiple source populations.
+Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations \cite{schraiber2015}. \mbh{How?  How do these methods work?  I know at least some are based on Hidden Markov Models...need a sentence or two on the nuts and bolts}
+Such methods typically require phased haplotypes as input (but see \cite{churchhouse2013}).
 
 
-Third, ABBA-BABA statistics (also known as D-statistics) and their derivatives are widely applied to the search for signs of introgression in genomic patterns of shared derived variants between populations or species. 
-Based on D-statistics, $\hat{f_{d}}$ \cite{Martin2015} and five-taxon D statistics \cite{pease2015} were developed to localize genomic regions under introgression. 
-The former took allele frequencies from each population/species, and the latter detected introgression from the localized phylogenetic pattern.
-Their strength in identifying specific regions enables one to explore the relationships between introgression and recombination rate/gene density/distribution of deleterious alleles and to better understand the genomic regions penetrable to foreign gene flow. 
+Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection and make inferences based on genomic patterns of shared derived variants between populations or species in a phylogenetic context. \mbh{need sentence here explaining what D-statistic does} 
+Elaborations of the D-statistic include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}. 
+The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern. \mbh{need to clarify here how this is different than $\hat{f_{d}}$}
+%Their strength in identifying specific regions enables one to explore the relationships between introgression and recombination rate/gene density/distribution of deleterious alleles and to better understand the genomic regions penetrable to foreign gene flow. 
 
-Fourth, structure-related approaches are based on the popular software STRUCTURE \cite{pritchard2000}, which provides an estimate of the fraction of each individual's genome coming from each population. 
-Many approaches in this respect have been developed.
-Two of these, fineSTRUCTURE \cite{Lawson2012} and GLOBETROTTER \cite{hellenthal2014}, were selected as representations.
-Different from STRUCTURE, fineSTRUCTURE not only identifies the number of populations, but also estimates the probability that genomic regions belong to one or the other populations. 
-GLOBETROTTER is a development of fineSTRUCTURE that allows for tracing back to an unsampled source population and dating admixture events.
+Fourth, approaches that assign genome-wide genetic ancestry are based on the popular software STRUCTURE \cite{pritchard2000}. 
+For example, fineSTRUCTURE \cite{Lawson2012} calculates the probability that genomic regions belong to genetic groups by \mbh{need details on method here}. 
+GLOBETROTTER \cite{hellenthal2014} is a further development of fineSTRUCTURE that allows for identification of an unsampled source population and for dating of admixture events.
 
-Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}), introgression has conferred M\"{u}llerian mimicry across butterfly species (\cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}.
+Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}), introgression has conferred M\"{u}llerian mimicry \mbh{I would explain a bit more here...wing coloration loci, protects against predation...} across butterfly species \cite{Heliconius2012} introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}.
 
 
 \noindent{\textbf{Table 1:} List and brief description of recently developed methods and examples of empirical studies employing these methods.}
