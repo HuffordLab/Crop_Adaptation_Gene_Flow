@@ -15,7 +15,7 @@
 \newcommand{\lwang}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Li's comments
 \newcommand{\gmj}[1]{\textcolor{blue}{ \emph{\scriptsize  #1}} } %creating command for Garrett's comments
 
-\title{Review: Crop adaptation through introgression from wild relatives}
+\title{Review: Redefining Domestication: Adaptive Introgression during Crop Expansion}
 
 \author[1]{Authors: Garrett M. Janzen}%author information
 \author[1]{Li Wang}
@@ -33,41 +33,45 @@
 %Short Research reviews should be in the range 3500–4000 words, with up to 40 references and 6 figures/tables.
 
 
-The process of domestication was once thought to be rapid and geographically-constrained, with crops originating from a wild relative within one or more geographically-defined centers followed by expansion to the modern-day extent of cultivation.
-However, archaeological and genetic evidence are revealing that domestication is more often temporally-protracted and multiregional \cite{brown2009complex}.
-This new conception of domestication emphasizes the role of gene flow of beneficial alleles into populations in the process of domestication from sympatric, locally-adapted wild relatives, a process known as adaptive introgression.
+The process of domestication was once thought to be rapid and geographically constrained, with crops originating from a wild progenitor within one or more geographically defined centers followed by expansion to the modern-day extent of cultivation. \mbh{will need citation for this}
+However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex}. \mbh{citations here to Li's paper, Purugganan rice paper, Brandon Gaut's recent grape paper}
+This new conception of domestication emphasizes the role of beneficial gene flow (\emph{i.e.}, adaptive introgression) from locally adapted wild relatives during crop expansion after initial domestication.
 
 
-Adaptive introgression has three components: Hybridization between two genomes, backcrossing to one of the parents, and selection on different recombinant genotypes with progressively diminished linkage drag \cite{barton2001role, Feuillet200824}.
-In the case of adaptive introgression into domesticated crops, crop/wild hybrids backcross to the crop and adaptive genomic regions are retained and increase in frequency as recombination separates desirable alleles from neighboring maladaptive alleles, which are selected against and potentially purged from the population.
-Much attention has been given to the risk of natural introgression of transgenes from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and to the history, utility, and methods of breeding programs designed for the introgression of desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}), but the history of natural introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
-Recent tools and methods have been employed to detect genome-wide patterns of introgression, granting new insights into the prominence of adaptive introgression in crop histories and suggesting the need for a reevaluation of the domestication paradigm.
+Adaptive introgression has three components: hybridization between two genomes, backcrossing to one of the parents, and selection on different recombinant genotypes with progressively diminished linkage drag \cite{barton2001role, Feuillet200824}.
+In domesticated species, adaptive introgression would consist of crop/wild hybrids backcrossing to a crop, retention and increase in frequency of adaptive wild haplotypes in the crop, and removal of undesirable wild background.
+Literature on crop-wild gene flow has focused on the risk of introgression of transgenes from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}).
+The history of natural introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
+Recent tools and methods have been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
+Emerging results suggest a need for reevaluation of the existing domestication paradigm.
 
 
-In this review, we will: 1) briefly describe these recent methods and provide a summary of their application for detecting crop-wild introgression, 2) review evidence supporting the hypothesis that wild-to-crop introgression has conferred local adaptation, cnn3) consider how the prevalence of this introgression alters traditional concepts of domestication, and 4) describe future advances in both basic and applied genetics that can be made through the study of introgression in agroecosystems.
-
-
-
-
-
+In this review, we will: 1) briefly describe recently developed methods for detecting adaptive introgression and provide a summary of their application for detecting crop-wild introgression, 2) review evidence supporting the hypothesis that wild-to-crop introgression has conferred local adaptation, 3) consider how the prevalence of this introgression alters traditional concepts of domestication, and 4) describe future advances in both basic and applied genetics that can be made through the study of introgression in agroecosystems.
 
 
 
 
 
 
-\section*{Introgression methods and their applications}
 
-The recent availability of genome-wide resequencing and reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq) data, combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
 
-High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and to identify introgressions across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
-The methods introduced here do not include those marginally estimating introgression\slash migration rate as a component in the complete demographic history, such as Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference (dadi) \cite {gutenkunst2009}, sorts of isolation with migration model \cite{hey2004}, and the multiple sequentially Markovian coalescent (MSMC) \cite{schiffels2014}. 
-The collection of methods described different layers of genetic variation: diversity and divergence, haplotype variation and phylogenetic relationships.
-We focus here on analytical prospects and limitations and introduce only a few representatives of each category.
 
-First, genomic regions of introgression in admixed populations were expected to show a low level of divergence from source population.
-$F_{st}$ and $d_{XY}$, as well as derivates such as $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016}, are representatives of such statistics. 
-The former two are insensitive to rare migrants, and are therefore poorer at detecting recent introgression, while the latter two overcome these disadvantages.
+
+
+\section*{Introgression methods and their application}
+
+The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
+High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
+The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and the multiple sequentially Markovian coalescent (MSMC) \cite{schiffels2014}). 
+Rather, we focus on methods that explicitly identify introgressed genomic segments based on patterns of nucleotide/haplotype diversity and differentiation and on phylogenetic relationships.
+%We focus here on analytical prospects and limitations and introduce only a few representatives of each category.
+
+First, introgressed segments are expected to show low differentiation from their source population.
+The $F_{st}$ and $d_{XY}$ statistics and their derivates such as $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
+The former two are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
+Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup. 
+
+\mbh{abrupt transition here to Gmin equation...can you smooth this into the text?}
  
  \begin{equation}
     G_{min} = \frac{d_{min}}{d_{XY}}
@@ -78,13 +82,12 @@ The former two are insensitive to rare migrants, and are therefore poorer at det
  	RND_{min} = \frac{d_{min}}{d_{out}}
  \end{equation}
 where $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup ($O$).
-In addition, $RND_{min}$ is sensitive to variable mutation rate, which is indicated by branch length to the outgroup taxa. 
  
-These statistics were recently developed into several new statistics, such as $U_{A,B,C(w,x,y)}$, by adding the divergence between non-admixed populations ($A$) and source population ($C$) as a comparison to that between admixed populations ($B$) and source population ($C$)\cite{racimo2016}. 
-This statistic summarizes number of sites, where one particular allele at frequency $y$ in source population has a frequency bigger than $x$ in admixed population ($B$) and a frequency smaller than $w$ in non-admixed population ($C$).
-Similarly, $Q95_{A,B,C(w,y)}$ just sets a hard cutoff as $95^th$ percentile of allele frequencies in panel B \cite{racimo2016}. 
-These two statistics were also designed to facilitate incorporatioon of two source populations (see details in \cite{racimo2016}).
- 
+These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
+For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites, where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
+A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^th$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
+\mbh{not quite sure I follow here, needs to be made more clear} 
+These statistics were further developed to allow specification two source populations (see details in \cite{racimo2016}).
  
 Second, local ancestry reconvolution (also known as chromosome painting) can identify the genomic regions that come from different source populations \cite{schraiber2015}. 
 Such methods usually take phased haplotypes as input, but MULTIMIX \cite{churchhouse2013} can take both phased and unphased haplotypes as input, unveiling the genomic ancestry from multiple source populations.

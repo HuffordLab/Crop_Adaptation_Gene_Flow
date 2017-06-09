@@ -56,6 +56,7 @@ Warning--I didn't find a database entry for "Baute2015"
 Warning--I didn't find a database entry for "bredeson2016sequencing"
 Warning--I didn't find a database entry for "diez2015olive"
 Warning--I didn't find a database entry for "myles2011genetic"
+Warning--I didn't find a database entry for "cornille2012new"
 Warning--I didn't find a database entry for "Currat2008"
 Warning--empty author in ricepedia
 Warning--empty title in ricepedia
@@ -64,7 +65,7 @@ Warning--empty year in ricepedia
 Warning--empty journal in hufford2013genomic
 You've used 52 entries,
             1876 wiz_defined-function locations,
-            855 strings with 14481 characters,
+            856 strings with 14496 characters,
 and the built_in function-call counts, 16981 in all, are:
 = -- 1748
 > -- 681
