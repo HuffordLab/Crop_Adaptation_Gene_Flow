@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2017 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2017 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -358,9 +358,6 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package natbib Warning: Citation `Martin2015' on page 1 undefined on input line 64.
-
-
 Package natbib Warning: Citation `Price2009' on page 1 undefined on input line 64.
 
 
@@ -412,9 +409,6 @@ Package natbib Warning: Citation `schraiber2015' on page 2 undefined on input li
 Package natbib Warning: Citation `churchhouse2013' on page 2 undefined on input line 93.
 
 
-Package natbib Warning: Citation `Martin2015' on page 2 undefined on input line 97.
-
-
 Package natbib Warning: Citation `pease2015' on page 2 undefined on input line 97.
 
 
@@ -425,9 +419,6 @@ Package natbib Warning: Citation `Lawson2012' on page 2 undefined on input line 
 
 
 Package natbib Warning: Citation `hellenthal2014' on page 2 undefined on input line 103.
-
-
-Package natbib Warning: Citation `Racimo2015' on page 2 undefined on input line 105.
 
 
 Package natbib Warning: Citation `Heliconius2012' on page 2 undefined on input line 105.
@@ -441,36 +432,6 @@ Package natbib Warning: Citation `Stankowski2015' on page 2 undefined on input l
 [2]
 
 Package natbib Warning: Citation `Heliconius2012' on page 3 undefined on input line 110.
-
-
-Package natbib Warning: Citation `wilkes1977' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `lauter2004' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `doebley1984' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `matsuoka2002' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `vanHeerwaarden2011' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `doebley1987' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `warburton2011' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `fukunaga2005' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `hufford2013' on page 3 undefined on input line 142.
-
-
-Package natbib Warning: Citation `lauter2004' on page 3 undefined on input line 145.
 
 
 Package natbib Warning: Citation `Wang2015manuscript' on page 3 undefined on input line 162.
@@ -553,22 +514,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
 Package natbib Warning: Citation `cornille2012new' on page 6 undefined on input line 438.
 
-
-LaTeX Warning: File `par_figure.png' not found on input line 446.
-
-
-./paper.tex:446: Package pdftex.def Error: File `par_figure.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...degraphics[width=17.35cm]{par_figure.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<par_figure.png, id=29, 709.90219pt x 616.55344pt>
+File: par_figure.png Graphic file (type png)
+ <use par_figure.png>
+Package pdftex.def Info: par_figure.png used on input line 446.
+(pdftex.def)             Requested size: 493.65549pt x 428.7527pt.
 
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 446--447
  [][] 
@@ -577,11 +527,11 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 446--447
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<boxplot.png, id=29, 745.28438pt x 587.94656pt>
+<boxplot.png, id=30, 779.91376pt x 490.08093pt>
 File: boxplot.png Graphic file (type png)
  <use boxplot.png>
 Package pdftex.def Info: boxplot.png used on input line 453.
-(pdftex.def)             Requested size: 493.65549pt x 389.4365pt.
+(pdftex.def)             Requested size: 493.65549pt x 310.20335pt.
 
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 453--454
  [][] 
@@ -590,22 +540,11 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 453--454
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: File `li_figure.png' not found on input line 460.
-
-
-./paper.tex:460: Package pdftex.def Error: File `li_figure.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.460 ...udegraphics[width=17.35cm]{li_figure.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<li_figure.png, id=31, 2007.5pt x 2007.5pt>
+File: li_figure.png Graphic file (type png)
+ <use li_figure.png>
+Package pdftex.def Info: li_figure.png used on input line 460.
+(pdftex.def)             Requested size: 493.65549pt x 493.63377pt.
 
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 460--461
  [][] 
@@ -622,7 +561,7 @@ Overfull \hbox (13.32016pt too wide) in paragraph at lines 508--510
 []\OT1/cmr/m/n/10.95 * Loci un-der se-lec-tion dur-ing do-mes-ti-ca-tion are of-ten iden-ti-fied based on sig-na-tures of substantially-
  []
 
-[7] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.bbl [8]
+[7] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.bbl [8] [9]
 Missing character: There is no È in font cmti10!
 Missing character: There is no Å in font cmti10!
 Missing character: There is no ∫ in font cmti10!
@@ -638,14 +577,14 @@ Missing character: There is no ë in font cmti10!
 Missing character: There is no Ë in font cmti10!
 Missing character: There is no ™ in font cmti10!
 Missing character: There is no å in font cmti10!
- [9] [10]
+ [10] [11]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Ü in font cmr10!
 )
 
 Package natbib Warning: There were undefined citations.
 
-[11] [12] [13 <./boxplot.png (PNG copy)>] [14] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux)
+[12] [13 <./par_figure.png (PNG copy)>] [14 <./boxplot.png (PNG copy)>] [15 <./li_figure.png>] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -654,18 +593,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5448 strings out of 493089
- 78310 string characters out of 6134842
- 214092 words of memory out of 5000000
- 8815 multiletter control sequences out of 15000+600000
- 11376 words of font info for 41 fonts, out of 8000000 for 9000
+ 5477 strings out of 493089
+ 78946 string characters out of 6134842
+ 214268 words of memory out of 5000000
+ 8845 multiletter control sequences out of 15000+600000
+ 11208 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,868b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.pdf (14 pages, 238551 bytes).
+ 38i,11n,35p,868b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.pdf (15 pages, 855261 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

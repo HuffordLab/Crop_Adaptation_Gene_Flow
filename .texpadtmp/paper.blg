@@ -3,15 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux
 The style file: ieeetr.bst
 Database file #1: ../bib_gj.bib
-I was expecting an "="---line 1514 of file ../bib_gj.bib
+I was expecting an "="---line 1660 of file ../bib_gj.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1756 of file ../bib_gj.bib
+I was expecting an "="---line 1902 of file ../bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Martin2015"
 Warning--I didn't find a database entry for "Price2009"
 Warning--I didn't find a database entry for "Lawson2012"
 Warning--I didn't find a database entry for "pease2015"
@@ -26,19 +25,9 @@ Warning--I didn't find a database entry for "schraiber2015"
 Warning--I didn't find a database entry for "churchhouse2013"
 Warning--I didn't find a database entry for "pritchard2000"
 Warning--I didn't find a database entry for "hellenthal2014"
-Warning--I didn't find a database entry for "Racimo2015"
 Warning--I didn't find a database entry for "Heliconius2012"
 Warning--I didn't find a database entry for "Norris2015"
 Warning--I didn't find a database entry for "Stankowski2015"
-Warning--I didn't find a database entry for "wilkes1977"
-Warning--I didn't find a database entry for "lauter2004"
-Warning--I didn't find a database entry for "doebley1984"
-Warning--I didn't find a database entry for "matsuoka2002"
-Warning--I didn't find a database entry for "vanHeerwaarden2011"
-Warning--I didn't find a database entry for "doebley1987"
-Warning--I didn't find a database entry for "warburton2011"
-Warning--I didn't find a database entry for "fukunaga2005"
-Warning--I didn't find a database entry for "hufford2013"
 Warning--I didn't find a database entry for "Wang2015manuscript"
 Warning--I didn't find a database entry for "Huang2012"
 Warning--I didn't find a database entry for "Poets2015"
@@ -57,45 +46,45 @@ Warning--empty title in ricepedia
 Warning--empty journal in ricepedia
 Warning--empty year in ricepedia
 Warning--empty journal in hufford2013genomic
-You've used 52 entries,
+You've used 63 entries,
             1876 wiz_defined-function locations,
-            854 strings with 14476 characters,
-and the built_in function-call counts, 16981 in all, are:
-= -- 1748
-> -- 681
+            897 strings with 16161 characters,
+and the built_in function-call counts, 21063 in all, are:
+= -- 2164
+> -- 863
 < -- 0
-+ -- 248
-- -- 196
-* -- 1275
-:= -- 2357
-add.period$ -- 53
-call.type$ -- 52
-change.case$ -- 49
++ -- 313
+- -- 250
+* -- 1590
+:= -- 2922
+add.period$ -- 64
+call.type$ -- 63
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 57
-duplicate$ -- 826
-empty$ -- 1471
-format.name$ -- 196
-if$ -- 4119
+cite$ -- 68
+duplicate$ -- 1017
+empty$ -- 1806
+format.name$ -- 250
+if$ -- 5100
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 53
-newline$ -- 161
-num.names$ -- 51
-pop$ -- 99
+int.to.str$ -- 63
+missing$ -- 64
+newline$ -- 194
+num.names$ -- 62
+pop$ -- 117
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 654
+skip$ -- 813
 stack$ -- 0
-substring$ -- 1391
-swap$ -- 409
+substring$ -- 1759
+swap$ -- 512
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 181
-width$ -- 54
-write$ -- 542
+while$ -- 222
+width$ -- 65
+write$ -- 656
 (There were 2 error messages)
