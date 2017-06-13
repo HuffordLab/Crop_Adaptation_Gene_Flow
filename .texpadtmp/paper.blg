@@ -11,6 +11,7 @@ I was expecting an "="---line 1902 of file ../bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
+<<<<<<< HEAD
 Repeated entry---line 2899 of file ../bib_gj.bib
  : @article{Martin2015
  :                    ,
@@ -24,6 +25,26 @@ I was expecting a `,' or a `}'---line 3107 of file ../bib_gj.bib
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+=======
+Warning--I didn't find a database entry for "Price2009"
+Warning--I didn't find a database entry for "Lawson2012"
+Warning--I didn't find a database entry for "pease2015"
+Warning--I didn't find a database entry for "rosenzweig2016"
+Warning--I didn't find a database entry for "geneva2015"
+Warning--I didn't find a database entry for "beaumont2002"
+Warning--I didn't find a database entry for "gutenkunst2009"
+Warning--I didn't find a database entry for "hey2004"
+Warning--I didn't find a database entry for "schiffels2014"
+Warning--I didn't find a database entry for "racimo2016"
+Warning--I didn't find a database entry for "schraiber2015"
+Warning--I didn't find a database entry for "churchhouse2013"
+Warning--I didn't find a database entry for "pritchard2000"
+Warning--I didn't find a database entry for "hellenthal2014"
+Warning--I didn't find a database entry for "Heliconius2012"
+Warning--I didn't find a database entry for "Norris2015"
+Warning--I didn't find a database entry for "Stankowski2015"
+Warning--I didn't find a database entry for "Wang2015manuscript"
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 Warning--I didn't find a database entry for "Huang2012"
 Warning--I didn't find a database entry for "Poets2015"
 Warning--I didn't find a database entry for "dreiseitl2017heterogeneity"
@@ -42,6 +63,7 @@ Warning--empty title in ricepedia
 Warning--empty journal in ricepedia
 Warning--empty year in ricepedia
 Warning--empty journal in hufford2013genomic
+<<<<<<< HEAD
 You've used 85 entries,
             1876 wiz_defined-function locations,
             992 strings with 20226 characters,
@@ -75,12 +97,55 @@ skip$ -- 1100
 stack$ -- 0
 substring$ -- 2204
 swap$ -- 695
+=======
+You've used 63 entries,
+            1876 wiz_defined-function locations,
+            897 strings with 16161 characters,
+and the built_in function-call counts, 21063 in all, are:
+= -- 2164
+> -- 863
+< -- 0
++ -- 313
+- -- 250
+* -- 1590
+:= -- 2922
+add.period$ -- 64
+call.type$ -- 63
+change.case$ -- 60
+chr.to.int$ -- 0
+cite$ -- 68
+duplicate$ -- 1017
+empty$ -- 1806
+format.name$ -- 250
+if$ -- 5100
+int.to.chr$ -- 0
+int.to.str$ -- 63
+missing$ -- 64
+newline$ -- 194
+num.names$ -- 62
+pop$ -- 117
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 813
+stack$ -- 0
+substring$ -- 1759
+swap$ -- 512
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
+<<<<<<< HEAD
 warning$ -- 6
 while$ -- 286
 width$ -- 87
 write$ -- 881
 (There were 5 error messages)
+=======
+warning$ -- 5
+while$ -- 222
+width$ -- 65
+write$ -- 656
+(There were 2 error messages)
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384

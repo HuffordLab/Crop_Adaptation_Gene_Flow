@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JUN 2017 13:45
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2017 17:55
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -350,7 +354,76 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+<<<<<<< HEAD
 )) [1
+=======
+))
+
+Package natbib Warning: Citation `Price2009' on page 1 undefined on input line 64.
+
+
+Package natbib Warning: Citation `Lawson2012' on page 1 undefined on input line 64.
+
+
+Package natbib Warning: Citation `pease2015' on page 1 undefined on input line 64.
+
+
+Package natbib Warning: Citation `rosenzweig2016' on page 1 undefined on input line 64.
+
+
+Package natbib Warning: Citation `geneva2015' on page 1 undefined on input line 64.
+
+
+Package natbib Warning: Citation `beaumont2002' on page 1 undefined on input line 65.
+
+
+Package natbib Warning: Citation `gutenkunst2009' on page 1 undefined on input line 65.
+
+
+Package natbib Warning: Citation `hey2004' on page 1 undefined on input line 65.
+
+
+Package natbib Warning: Citation `schiffels2014' on page 1 undefined on input line 65.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `geneva2015' on page 2 undefined on input line 70.
+
+
+Package natbib Warning: Citation `rosenzweig2016' on page 2 undefined on input line 70.
+
+
+Package natbib Warning: Citation `racimo2016' on page 2 undefined on input line 86.
+
+
+Package natbib Warning: Citation `racimo2016' on page 2 undefined on input line 88.
+
+
+Package natbib Warning: Citation `racimo2016' on page 2 undefined on input line 90.
+
+
+Package natbib Warning: Citation `schraiber2015' on page 2 undefined on input line 92.
+
+
+Package natbib Warning: Citation `churchhouse2013' on page 2 undefined on input line 93.
+
+
+Package natbib Warning: Citation `pease2015' on page 2 undefined on input line 97.
+
+
+Package natbib Warning: Citation `pritchard2000' on page 2 undefined on input line 101.
+
+
+Package natbib Warning: Citation `Lawson2012' on page 2 undefined on input line 102.
+
+
+Package natbib Warning: Citation `hellenthal2014' on page 2 undefined on input line 103.
+
+
+Package natbib Warning: Citation `Heliconius2012' on page 2 undefined on input line 105.
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <li_figure.png, id=20, 2007.5pt x 2007.5pt>
 File: li_figure.png Graphic file (type png)
@@ -358,9 +431,23 @@ File: li_figure.png Graphic file (type png)
 Package pdftex.def Info: li_figure.png used on input line 170.
 (pdftex.def)             Requested size: 493.65549pt x 493.63377pt.
 
+<<<<<<< HEAD
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 170--171
  [][] 
  []
+=======
+Package natbib Warning: Citation `Norris2015' on page 2 undefined on input line 105.
+
+
+Package natbib Warning: Citation `Stankowski2015' on page 2 undefined on input line 105.
+
+[2]
+
+Package natbib Warning: Citation `Heliconius2012' on page 3 undefined on input line 110.
+
+
+Package natbib Warning: Citation `Wang2015manuscript' on page 3 undefined on input line 162.
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -438,6 +525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 432--432
  []
 
 
+<<<<<<< HEAD
 Package natbib Warning: Citation `cornille2012new' on page 6 undefined on input line 436.
 
 <par_figure.png, id=31, 709.90219pt x 616.55344pt>
@@ -447,12 +535,24 @@ Package pdftex.def Info: par_figure.png used on input line 444.
 (pdftex.def)             Requested size: 493.65549pt x 428.7527pt.
 
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 444--445
+=======
+Package natbib Warning: Citation `cornille2012new' on page 6 undefined on input line 438.
+
+<par_figure.png, id=29, 709.90219pt x 616.55344pt>
+File: par_figure.png Graphic file (type png)
+ <use par_figure.png>
+Package pdftex.def Info: par_figure.png used on input line 446.
+(pdftex.def)             Requested size: 493.65549pt x 428.7527pt.
+
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 446--447
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< HEAD
 <boxplot.png, id=32, 779.91376pt x 490.08093pt>
 File: boxplot.png Graphic file (type png)
  <use boxplot.png>
@@ -460,6 +560,28 @@ Package pdftex.def Info: boxplot.png used on input line 451.
 (pdftex.def)             Requested size: 493.65549pt x 310.20335pt.
 
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 451--452
+=======
+<boxplot.png, id=30, 779.91376pt x 490.08093pt>
+File: boxplot.png Graphic file (type png)
+ <use boxplot.png>
+Package pdftex.def Info: boxplot.png used on input line 453.
+(pdftex.def)             Requested size: 493.65549pt x 310.20335pt.
+
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 453--454
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<li_figure.png, id=31, 2007.5pt x 2007.5pt>
+File: li_figure.png Graphic file (type png)
+ <use li_figure.png>
+Package pdftex.def Info: li_figure.png used on input line 460.
+(pdftex.def)             Requested size: 493.65549pt x 493.63377pt.
+
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 460--461
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
  [][] 
  []
 
@@ -474,7 +596,11 @@ Overfull \hbox (13.32016pt too wide) in paragraph at lines 501--503
 []\OT1/cmr/m/n/10.95 * Loci un-der se-lec-tion dur-ing do-mes-ti-ca-tion are of-ten iden-ti-fied based on sig-na-tures of substantially-
  []
 
+<<<<<<< HEAD
 [7] (/Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.bbl [8] [9] [10]
+=======
+[7] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.bbl [8] [9]
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 Missing character: There is no È in font cmti10!
 Missing character: There is no Å in font cmti10!
 Missing character: There is no ∫ in font cmti10!
@@ -490,13 +616,18 @@ Missing character: There is no ë in font cmti10!
 Missing character: There is no Ë in font cmti10!
 Missing character: There is no ™ in font cmti10!
 Missing character: There is no å in font cmti10!
+<<<<<<< HEAD
  [11] [12]
+=======
+ [10] [11]
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Ü in font cmr10!
 )
 
 Package natbib Warning: There were undefined citations.
 
+<<<<<<< HEAD
 [13] [14 <./li_figure.png>] [15 <./par_figure.png (PNG copy)>] [16 <./boxplot.png (PNG copy)>] (/Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux) ) 
 Here is how much of TeX's memory you used:
  5537 strings out of 493014
@@ -511,6 +642,29 @@ Output written on /Users/lwang/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.pdf (1
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
+=======
+[12] [13 <./par_figure.png (PNG copy)>] [14 <./boxplot.png (PNG copy)>] [15 <./li_figure.png>] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5477 strings out of 493089
+ 78946 string characters out of 6134842
+ 214268 words of memory out of 5000000
+ 8845 multiletter control sequences out of 15000+600000
+ 11208 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,11n,35p,868b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.pdf (15 pages, 855261 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+>>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
