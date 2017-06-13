@@ -34,13 +34,7 @@
 
 
 The process of domestication was once thought to be rapid and geographically constrained, with crops originating from a wild progenitor within one or more geographically defined centers followed by expansion to the modern-day extent of cultivation. \mbh{will need citation for this}
-<<<<<<< HEAD
-However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017}. \mbh{citations here to Li's paper, Purugganan rice paper, Brandon Gaut's recent grape paper} \lwang{I have added these three papers.}
-=======
-\gmj{ the paper "Domestication rates in wild-type wheats and barley under primitive cultivation" states that domestication could have taken place in as little as 20 or 30 years.  I'm still reviewing other papers to find the best source(s) here.}
-However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex}. \mbh{citations here to Li's paper, Purugganan rice paper, Brandon Gaut's recent grape paper}
-\gmj{purugganan2011archaeological suggests that the rate of phenotypic change in domestication is slower than expected, nearly that of natural selection in wild populations. See the first paragraph of the Discussion of that paper for a list of older papers supporting rapid domestication.  Also, which Gaut grape paper are you referring to?}
->>>>>>> 581e3099c7cdd17ac1f83e12d6fc4b38aacf6384
+However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017}.
 This new conception of domestication emphasizes the role of beneficial gene flow (\emph{i.e.}, adaptive introgression) from locally adapted wild relatives during crop expansion after initial domestication.
 
 
@@ -48,7 +42,7 @@ Adaptive introgression has three components: hybridization between two genomes, 
 In domesticated species, adaptive introgression would consist of crop/wild hybrids backcrossing to a crop, retention and increase in frequency of adaptive wild haplotypes in the crop, and removal of undesirable wild background.
 To date, literature on crop-wild gene flow has focused on the risk of introgression of transgenes from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}). \mbh{cite one paper here...the best, most recent and comprehensive review}
 The history of natural introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
-However, recent tools and methods have been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
+However, new tools and methods have recently been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
 Emerging results suggest a need for reevaluation of the existing domestication paradigm.
 
 
@@ -68,8 +62,8 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
-The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of method utilizing sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
-Rather, we focus on methods that explicitly identify introgressed genomic segments based on patterns of nucleotide/haplotype diversity, level of differentiation and on phylogenetic relationships.
+The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
+Rather, we focus on methods that explicitly identify introgressed genomic segments based on patterns of nucleotide/haplotype diversity, the extent of differentiation, and phylogenetic relationships.
 %We focus here on analytical prospects and limitations and introduce only a few representatives of each category.
 
 First, introgressed segments are expected to show low differentiation from their source population.
@@ -87,24 +81,25 @@ Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected
  \begin{equation}
  	RND_{min} = \frac{d_{min}}{d_{out}}
  \end{equation}
-where $d_{min}$ is the minimum sequence distance between haplotypes in species X and Y; $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup ($O$).
+where $d_{min}$ is the minimum sequence distance between haplotypes in species X and Y and $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup ($O$).
  
 These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites, where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
 A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
-\mbh{Did I get this right, Li?} \lwang{yes}
 Further modifications have allowed specification of two source populations (see details in \cite{racimo2016}).
  
 Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations \cite{schraiber2015}. \mbh{How?  How do these methods work?  I know at least some are based on Hidden Markov Models...need a sentence or two on the nuts and bolts}
 Such methods typically require phased haplotypes as input (but see \cite{churchhouse2013}).
 
 
-Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection and make inferences based on genomic patterns of shared derived variants between populations or species in a phylogenetic context. \mbh{need sentence here explaining what D-statistic does} 
-Elaborations of the D-statistic include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}. 
-The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern. \mbh{need to clarify here how this is different than $\hat{f_{d}}$}
+Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection.
+These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
+Patterns of allele sharing are interpreted in a phylogenetic context and the method is best suited to detection of introgression at the genome level.
+Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}. 
+The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern.
 %Their strength in identifying specific regions enables one to explore the relationships between introgression and recombination rate/gene density/distribution of deleterious alleles and to better understand the genomic regions penetrable to foreign gene flow. 
 
-Fourth, approaches that assign genome-wide genetic ancestry based on the popular software STRUCTURE \cite{pritchard2000} are another category to detect introgression. 
+The final category to detect introgression include approaches assigning genetic ancestry based on the popular software STRUCTURE \cite{pritchard2000}. 
 For example, fineSTRUCTURE \cite{Lawson2012} calculates the probability that genomic regions belong to genetic groups by \mbh{need details on method here}. 
 GLOBETROTTER \cite{hellenthal2014} is a further development of fineSTRUCTURE that allows for identification of an unsampled source population and for dating of admixture events.
 
