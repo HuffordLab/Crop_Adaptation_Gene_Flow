@@ -35,7 +35,7 @@
 
 The process of domestication was once thought to be rapid and geographically constrained, with crops originating from a wild progenitor within one or more geographically defined centers followed by expansion to the modern-day extent of cultivation. \mbh{will need citation for this}
 <<<<<<< HEAD
-However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017}. \mbh{citations here to Li's paper, Purugganan rice paper, Brandon Gaut's recent grape paper} \lwang{I have added these three papers.}
+However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017}. 
 =======
 \gmj{ the paper "Domestication rates in wild-type wheats and
 barley under primitive cultivation" states that domestication could have taken place in as little as 20 or 30 years.}
@@ -92,21 +92,24 @@ where $d_{min}$ is the minimum sequence distance between haplotypes in species X
 These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites, where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
 A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
-\mbh{Did I get this right, Li?} \lwang{yes}
 Further modifications have allowed specification of two source populations (see details in \cite{racimo2016}).
  
-Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations \cite{schraiber2015}. \mbh{How?  How do these methods work?  I know at least some are based on Hidden Markov Models...need a sentence or two on the nuts and bolts}
+Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations \cite{schraiber2015}. 
+One category of such methods evaluates genetic ancestry of genomes in question as a mixture of reference genomes using the coalescent with recombination based on hidden Markov model (HMM) across different parts of genome, such as HAPMIX \cite{Price2009}. 
+Another category of such methods clusters the admixed populations with the reference samples by breaking genomes into sliding windows, such as PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}. 
 Such methods typically require phased haplotypes as input (but see \cite{churchhouse2013}).
 
 
-Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection and make inferences based on genomic patterns of shared derived variants between populations or species in a phylogenetic context. \mbh{need sentence here explaining what D-statistic does} 
+Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection and make inferences based on genomic patterns of shared derived variants between populations or species in a phylogenetic context. 
+D-statistic evaluates the possibility of introgression across the genome between species/populations by estimating the asymmetry in the frequencies of the two non-concordant gene trees in a four-taxon phylogeny.  
 Elaborations of the D-statistic include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}. 
-The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern. \mbh{need to clarify here how this is different than $\hat{f_{d}}$}
+The former uses allele frequencies from each population/species and thus has stronger power to detect genomic regions under introgression, and the latter detects introgression based on the localized phylogenetic pattern but distinct at identifying the direction of introgression. 
 %Their strength in identifying specific regions enables one to explore the relationships between introgression and recombination rate/gene density/distribution of deleterious alleles and to better understand the genomic regions penetrable to foreign gene flow. 
 
 Fourth, approaches that assign genome-wide genetic ancestry based on the popular software STRUCTURE \cite{pritchard2000} are another category to detect introgression. 
-For example, fineSTRUCTURE \cite{Lawson2012} calculates the probability that genomic regions belong to genetic groups by \mbh{need details on method here}. 
+For example, fineSTRUCTURE \cite{Lawson2012} calculates the probability that genomic regions belong to genetic groups by patterns of haplotype similarity.  
 GLOBETROTTER \cite{hellenthal2014} is a further development of fineSTRUCTURE that allows for identification of an unsampled source population and for dating of admixture events.
+\lwang{not sure if we should have this category. In the Schraiber 2015 review paper, he put fineSTRUCTURE and GLOBETROTTER in the chromosome painting category. }
 
 Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}); introgression has conferred M\"{u}llerian mimicry \mbh{I would explain a bit more here...wing coloration loci, protects against predation...} across butterfly species \cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}.
 
