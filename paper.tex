@@ -63,7 +63,7 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
-Rather, we focus on methods that explicitly identify introgressed genomic segments based on patterns of nucleotide/haplotype diversity, the extent of differentiation, and phylogenetic relationships.
+Rather, we focus on methods that explicitly identify introgressed genomic segments based the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
 %We focus here on analytical prospects and limitations and introduce only a few representatives of each category.
 
 First, introgressed segments are expected to show low differentiation from their source population.
@@ -86,22 +86,18 @@ where $d_{min}$ is the minimum sequence distance between haplotypes in species X
 These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites, where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
 A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
-Further modifications have allowed specification of two source populations (see details in \cite{racimo2016}).
+Further modifications have allowed specification of more than one source population (see details in \cite{racimo2016}).
  
-Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations \cite{schraiber2015}. \mbh{How?  How do these methods work?  I know at least some are based on Hidden Markov Models...need a sentence or two on the nuts and bolts}
-Such methods typically require phased haplotypes as input (but see \cite{churchhouse2013}).
-
+Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations based on patterns of allele/haplotype sharing \cite{schraiber2015}. 
+One form of chromosome painting utilizes hidden Markov models to evaluate ancestry across admixed genomes through comparison to reference, non-admixed individuals (\emph{e.g.}, HAPMIX \cite{Price2009}). 
+Another clusters admixed populations with reference samples using a sliding-window approach (\emph{e.g.}, PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}).
+And finally, introgression can be detected through chromosome painting by using a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}). 
 
 Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
 Patterns of allele sharing are interpreted in a phylogenetic context and the method is best suited to detection of introgression at the genome level.
 Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}. 
-The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern.
-%Their strength in identifying specific regions enables one to explore the relationships between introgression and recombination rate/gene density/distribution of deleterious alleles and to better understand the genomic regions penetrable to foreign gene flow. 
-
-The final category to detect introgression include approaches assigning genetic ancestry based on the popular software STRUCTURE \cite{pritchard2000}. 
-For example, fineSTRUCTURE \cite{Lawson2012} calculates the probability that genomic regions belong to genetic groups by \mbh{need details on method here}. 
-GLOBETROTTER \cite{hellenthal2014} is a further development of fineSTRUCTURE that allows for identification of an unsampled source population and for dating of admixture events.
+The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern and is capable of determining introgression directionality.
 
 Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role. For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015}); introgression has conferred M\"{u}llerian mimicry \mbh{I would explain a bit more here...wing coloration loci, protects against predation...} across butterfly species \cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}.
 
@@ -132,12 +128,12 @@ Recent empirical studies have revealed that introgression has occurred in many o
 The relationship between maize (\emph{Zea mays} ssp. \emph{mays}) and the teosinte \emph{Zea mays} ssp. \emph{mexicana} (hereafter referred to as \emph{mexicana}) offers a prime case study of adaptive wild-to-crop introgression.
 Maize was domesticated from (\emph{Zea mays} ssp. \emph{parviglumis}) approximately 9,000 years ago in the lowlands of the Balsas River Valley in Mexico \cite{matsuoka2002single}.
 From this domestication center, maize spread into the highlands of the Mexican Central Plateau, where it came into sympatry with wild \emph{mexicana}.
-Introgression from \emph{mexicana} to maize in the highlands of Mexico has been reported based on evidence from both morphological data \cite {wilkes1977, lauter2004, doebley1984} and molecular analyses \cite{matsuoka2002, vanHeerwaarden2011, doebley1987, warburton2011, fukunaga2005}.
+Introgression from \emph{mexicana} to maize in the Central Plateau has long been reported based on both morphological \cite {wilkes1977, lauter2004, doebley1984} and molecular \cite{matsuoka2002, vanHeerwaarden2011, doebley1987, warburton2011, fukunaga2005} data.
 However, \citep{hufford2013} first localized \emph{mexicana} introgression to chromosomal regions and provided evidence that it was likely adaptive.
 %The following is not fully clear.  Cut or revise.
-The authors identified nine genomic regions in several maize populations which showed evidence of\emph{mexicana} introgression based on local ancestry deconvolution using HAPMIX and results from the linkage model of STRUCTURE (Figure \ref{fig:introgressionMaize}).
-These introgressed segments showed low diversity and overlapped QTL that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be important in adaptation to high elevation.
-In a growth chamber experiment, the authors demonstrated that maize populations with \emph{mexicana} introgression showed greater plant height (a proxy for fitness) under highland environmental settings than populations that lacked introgression.
+The authors identified nine genomic regions in several maize populations which showed evidence of \emph{mexicana} introgression based on local ancestry deconvolution using HAPMIX and results from the linkage model of STRUCTURE (Figure \ref{fig:introgressionMaize}).
+These introgressed segments showed low diversity and overlapped QTL that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be important in high elevation adaptation.
+In a growth chamber experiment, the authors demonstrated that maize populations with \emph{mexicana} introgression showed greater plant height (a proxy for fitness) under highland environmental conditions than populations that lacked introgression.
 Height differences were not detected under lowland conditions.
 %Among the nine regions, three span the centromeres of chromosomes 5, 6, and 10, and one is located in the inversion polymorphism on chromosome 4, suggesting a significant role of genome structures restricting recombination in adaptive introgression.
 %In summary, the introgressed alleles/haplotypes from \emph{mexicana} to maize conferred adaptation to highland habitats when maize migrated from Mexican lowlands.
@@ -149,7 +145,7 @@ Height differences were not detected under lowland conditions.
 %Furthermore, the adaptive SNPs in the Mexican highland population were more likely also showing signatures of local adaptation in \emph{mexicana} and \emph {pulviglumis} populations than those South American highland population.
 %For these reasons, adaptive introgression from wild relatives may play a significant role in patterning the genetic differences of maize highland populations.
 
-Populations of \emph{mexicana} cannot be found outside of Mexico, yet maize has colonized and adapted to high elevation in a number of additional regions.
+Populations of \emph{mexicana} cannot be found outside of Mexico, yet maize has colonized and adapted to high elevation in a number of other regions.
 %Several questions regarding \emph{mexicana} introgression yet remain.
 %Has the introgression from \emph{mexicana} spread to multiple highland populations? 
 %How do highland-adaptation traits differ among populations with and without introgression from \emph{mexicana}?
@@ -158,7 +154,7 @@ A recent study \cite{wang2017} employed the ABBA-BABA and $\hat{f_{d}}$ statisti
 %The signal of introgression is absent for the other three populations.
 %On chromosome 5, the signals of introgression (the peak region of the distribution) are present in MexHigh, GuaHigh and Southwestern US Highland (SW\_US), but not the other two.
 %More details on the other chromosomes can be found in \cite{Wang2015manuscript}.
-Overall, analyses revealed that maize landraces with \emph{mexicana} introgression were transferred to nearby high elevation regions in Guatemala and the southwestern United States, but more distant high elevation regions (\emph{e.g.,} the Andes) showed no \emph{mexicana} ancestry. \mbh{on the fence about including deleterious allele results from introgressed regions}
+Overall, analyses revealed that maize landraces with \emph{mexicana} introgression were transferred to nearby high elevation regions in Guatemala and the southwestern United States, but more distant high elevation regions (\emph{e.g.,} the Andes) showed no \emph{mexicana} ancestry. 
 %The Andean maize, the population totally isolated from the occurrence of any teosinte species, underwent the severest historical bottleneck, as a population in the front wave of the serial founder effects. 
 %The stronger genetic drift introduced by the smaller historical population size increased homozygosity but reduced the heterozygosity of the population, and it also extended the length of homozygosity.
 %The high frequency of deleterious alleles caused by stronger genetic drift in the Andes population, together with the reduced efficiency of selection against deleterious sites, contributes to the observed higher mutation load in the well-isolated maize population.
@@ -174,23 +170,15 @@ Overall, analyses revealed that maize landraces with \emph{mexicana} introgressi
 \end{figure}
 
 
-
-
-
-
-
 \item{Asian Rice:}
 
+The story of Asian rice domestication is still debated.
+A recent investigation pointed to a single domestication occurring 8,200-13,500 BP in the Yangtze Basin in China from the wild species \emph{Oryza rufipogon}, with later divergence of the two prominent varietal groups, indica and japonica \cite{molina2011molecular}.
+On the other hand, both genetic and archaeobotanical evidence point toward independent domestications of japonica and indica in the Yangtze Basin and the Indian Ganges plain respectively \cite{fuller2010consilience}.
+An alternative explanation, as described by \cite{Huang2012}, suggests an initial domestication of japonica in China followed by formation of the indica group through hybridization of japonica and local \emph{O. rufipogon} populations in Southern and South-eastern Asia.
+As suggested by \cite{vaughan2008evolving}, gene flow between domesticated Asian rice and its wild relatives outside of the Yangtze Basin could have imparted locally adaptive traits.
+Adaptive introgression may in fact be the signal interpreted as independent domestications.
 
-
-
-The story of the domestication of asian rice is still under debate.
-A recent model utilizing molecular clocks points to single domestication of asian rice that occurred 8,200-13,500 BP in the Yangtze Basin in China from the wild species \emph{O. rufipogon}, with later divergence of the two prominent varietal groups indica and japonica lines \cite{molina2011molecular}.
-Sequence data from indica, japonica, and wild O. rufipogon accessions points at japonica domestication in the Pearl Valley in China, and indica being formed from hybridization between japonica and rufipogon in Southern and South-eastern Asia \cite{Huang2012}.
-On the other hand, genetic and archaeobotanical evidence points towards independent domestications of the indica and japonica subspecies in the Yangzee Basin and the Ganges plains in India \cite{fuller2010consilience}.
-
-The authors of \cite{vaughan2008evolving} review the evidence for both hypotheses and support the single domestication event hypothesis, contributing the contrary evidence to the effects of a history of introgression, selection (primarily that of the non-shattering trait allele sh4), and diversification.
-In their defense of the single-domestication hypothesis, the authors review the case that, during the spread of domesticated rice into new environments, gene flow from wild relatives would have imparted adaptive traits via introgression.
 The wild relatives rufipogon and nivara are both phenotypically diverse and show evidence of local adaptation.
 Rufipogon reproduction can be either primarily sexual or vegetative.
 Whereas rufipogon is adapted to forested wetland environments, nivara is adapted to dryer conditions and has life cycle adaptations to survive grazing pressure.
@@ -437,7 +425,7 @@ Apple (\emph{Malus domesticus}) & \emph{M. sylvestris}, \emph{M. orientalis}, \e
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=17.35cm]{par_figure.png}
+	\includegraphics[width=17.35cm]{par_figure_stars.png}
 	\caption{Map of the natural ranges of wild relatives of four domesticated crops, overlayed with average annual temperature.}
 	\label{boxplot:map}
 \end{figure}

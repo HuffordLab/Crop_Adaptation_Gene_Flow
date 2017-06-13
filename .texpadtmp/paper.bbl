@@ -121,20 +121,22 @@ F.~Racimo, D.~Marnetto, and E.~Huerta-S{\'a}nchez, ``Signatures of archaic
 J.~G. Schraiber and J.~M. Akey, ``Methods and models for unravelling human
   evolutionary history,'' {\em Nature Reviews Genetics}, 2015.
 
-\bibitem{churchhouse2013}
-C.~Churchhouse and J.~Marchini, ``Multiway admixture deconvolution using phased
-  or unphased ancestral panels,'' {\em Genetic epidemiology}, vol.~37, no.~1,
-  pp.~1--12, 2013.
+\bibitem{brisbin2012pcadmix}
+A.~Brisbin, K.~Bryc, J.~Byrnes, F.~Zakharia, L.~Omberg, J.~Degenhardt,
+  A.~Reynolds, H.~Ostrer, J.~G. Mezey, and C.~D. Bustamante, ``Pcadmix:
+  principal components-based assignment of ancestry along each chromosome in
+  individuals with admixed ancestry from two or more populations,'' {\em Human
+  biology}, vol.~84, no.~4, p.~343, 2012.
+
+\bibitem{sankararaman2008}
+S.~Sankararaman, S.~Sridhar, G.~Kimmel, and E.~Halperin, ``Estimating local
+  ancestry in admixed populations,'' {\em The American Journal of Human
+  Genetics}, vol.~82, no.~2, pp.~290--303, 2008.
 
 \bibitem{pritchard2000}
 J.~K. Pritchard, M.~Stephens, and P.~Donnelly, ``Inference of population
   structure using multilocus genotype data,'' {\em Genetics}, vol.~155, no.~2,
   pp.~945--959, 2000.
-
-\bibitem{hellenthal2014}
-G.~Hellenthal, G.~B. Busby, G.~Band, J.~F. Wilson, C.~Capelli, D.~Falush, and
-  S.~Myers, ``A genetic atlas of human admixture history,'' {\em Science},
-  vol.~343, no.~6172, pp.~747--751, 2014.
 
 \bibitem{Racimo2015}
 F.~Racimo, S.~Sankararaman, R.~Nielsen, and E.~Huerta-S{\'a}nchez, ``Evidence

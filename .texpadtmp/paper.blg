@@ -41,43 +41,43 @@ Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
 You've used 78 entries,
             1876 wiz_defined-function locations,
-            960 strings with 19066 characters,
-and the built_in function-call counts, 25788 in all, are:
-= -- 2651
-> -- 1081
+            961 strings with 19288 characters,
+and the built_in function-call counts, 25821 in all, are:
+= -- 2646
+> -- 1096
 < -- 0
-+ -- 390
-- -- 312
-* -- 1930
-:= -- 3593
++ -- 395
+- -- 317
+* -- 1936
+:= -- 3603
 add.period$ -- 80
 call.type$ -- 78
 change.case$ -- 77
 chr.to.int$ -- 0
 cite$ -- 80
-duplicate$ -- 1261
-empty$ -- 2183
-format.name$ -- 312
-if$ -- 6258
+duplicate$ -- 1263
+empty$ -- 2179
+format.name$ -- 317
+if$ -- 6263
 int.to.chr$ -- 0
 int.to.str$ -- 78
 missing$ -- 78
 newline$ -- 239
 num.names$ -- 78
-pop$ -- 136
+pop$ -- 137
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1016
+skip$ -- 1017
 stack$ -- 0
-substring$ -- 2071
-swap$ -- 643
+substring$ -- 2058
+swap$ -- 645
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 266
+while$ -- 264
 width$ -- 80
 write$ -- 814
 (There were 5 error messages)
