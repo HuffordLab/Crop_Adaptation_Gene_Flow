@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUN 2017 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUN 2017 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,82 +375,82 @@ Package natbib Warning: Citation `vaughan2008evolving' on page 3 undefined on in
 
 [3]
 
-Package natbib Warning: Citation `Poets2015' on page 4 undefined on input line 219.
+Package natbib Warning: Citation `Poets2015' on page 4 undefined on input line 214.
 
 
-Package natbib Warning: Citation `dreiseitl2017heterogeneity' on page 4 undefined on input line 224.
+Package natbib Warning: Citation `dreiseitl2017heterogeneity' on page 4 undefined on input line 219.
 
 [4]
 
-Package natbib Warning: Citation `whitney2010adaptive' on page 5 undefined on input line 241.
+Package natbib Warning: Citation `whitney2010adaptive' on page 5 undefined on input line 236.
 
 
-Package natbib Warning: Citation `whitney2006adaptive' on page 5 undefined on input line 250.
+Package natbib Warning: Citation `whitney2006adaptive' on page 5 undefined on input line 245.
 
 
-Package natbib Warning: Citation `rieseberg2007hybridization' on page 5 undefined on input line 251.
+Package natbib Warning: Citation `rieseberg2007hybridization' on page 5 undefined on input line 246.
 
 
-Package natbib Warning: Citation `Baute2015' on page 5 undefined on input line 263.
+Package natbib Warning: Citation `Baute2015' on page 5 undefined on input line 258.
 
-
-Overfull \hbox (286.74146pt too wide) in paragraph at lines 334--380
+[5]
+Overfull \hbox (286.74146pt too wide) in paragraph at lines 329--375
  [] 
  []
 
-[5]
-Underfull \hbox (badness 4859) in paragraph at lines 394--394
+
+Underfull \hbox (badness 4859) in paragraph at lines 389--389
 []|\OT1/cmr/m/n/10 Hybrids and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\OT1/cmr/m/n/10 Evidence of
  []
 
 
-Package natbib Warning: Citation `Huang2012' on page 6 undefined on input line 397.
+Package natbib Warning: Citation `Huang2012' on page 6 undefined on input line 392.
 
 
-Package natbib Warning: Citation `Poets2015' on page 6 undefined on input line 399.
+Package natbib Warning: Citation `Poets2015' on page 6 undefined on input line 394.
 
 
-Package natbib Warning: Citation `rieseberg2007hybridization' on page 6 undefined on input line 400.
+Package natbib Warning: Citation `rieseberg2007hybridization' on page 6 undefined on input line 395.
 
 
-Package natbib Warning: Citation `bredeson2016sequencing' on page 6 undefined on input line 402.
+Package natbib Warning: Citation `bredeson2016sequencing' on page 6 undefined on input line 397.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 408--408
+Underfull \hbox (badness 2189) in paragraph at lines 403--403
 []|\OT1/cmr/m/it/10 O. e. \OT1/cmr/m/n/10 ssp. \OT1/cmr/m/it/10 eu-ropaea \OT1/cmr/m/n/10 var.
  []
 
 
-Package natbib Warning: Citation `diez2015olive' on page 6 undefined on input line 408.
+Package natbib Warning: Citation `diez2015olive' on page 6 undefined on input line 403.
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 414--414
+Underfull \hbox (badness 3058) in paragraph at lines 409--409
 []|\OT1/cmr/m/n/10 Grapes (\OT1/cmr/m/it/10 Vi-tis vinifera \OT1/cmr/m/n/10 subsp.
  []
 
 
-Package natbib Warning: Citation `myles2011genetic' on page 6 undefined on input line 414.
+Package natbib Warning: Citation `myles2011genetic' on page 6 undefined on input line 409.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--416
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
 []|\OT1/cmr/m/n/10 Sorghum (\OT1/cmr/m/it/10 Sorghum bi-color
  []
 
 
-Package natbib Warning: Citation `cornille2012new' on page 6 undefined on input line 420.
+Package natbib Warning: Citation `cornille2012new' on page 6 undefined on input line 415.
 
 <par_figure_stars.png, id=30, 709.90219pt x 616.55344pt>
 File: par_figure_stars.png Graphic file (type png)
  <use par_figure_stars.png>
-Package pdftex.def Info: par_figure_stars.png used on input line 428.
+Package pdftex.def Info: par_figure_stars.png used on input line 423.
 (pdftex.def)             Requested size: 493.65549pt x 428.7527pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 428--429
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 423--424
  [][] 
  []
 
@@ -460,10 +460,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <boxplot.png, id=31, 779.91376pt x 490.08093pt>
 File: boxplot.png Graphic file (type png)
  <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 435.
+Package pdftex.def Info: boxplot.png used on input line 430.
 (pdftex.def)             Requested size: 493.65549pt x 310.20335pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 435--436
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 430--431
  [][] 
  []
 
@@ -471,14 +471,14 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 435--436
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `Currat2008' on page 6 undefined on input line 468.
+Package natbib Warning: Citation `Currat2008' on page 6 undefined on input line 463.
 
-
-Overfull \hbox (13.32016pt too wide) in paragraph at lines 485--487
+[6]
+Overfull \hbox (13.32016pt too wide) in paragraph at lines 480--482
 []\OT1/cmr/m/n/10.95 * Loci un-der se-lec-tion dur-ing do-mes-ti-ca-tion are of-ten iden-ti-fied based on sig-na-tures of substantially-
  []
 
-[6] [7] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.bbl [8] [9] [10]
+[7] (/Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.bbl [8] [9] [10]
 Missing character: There is no È in font cmti10!
 Missing character: There is no Å in font cmti10!
 Missing character: There is no ∫ in font cmti10!
@@ -505,13 +505,13 @@ Package natbib Warning: There were undefined citations.
 Here is how much of TeX's memory you used:
  5505 strings out of 493089
  79529 string characters out of 6134842
- 212478 words of memory out of 5000000
+ 213478 words of memory out of 5000000
  8873 multiletter control sequences out of 15000+600000
  11208 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,869b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,869b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.pdf (16 pages, 824881 bytes).
+Output written on /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.pdf (16 pages, 827296 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
