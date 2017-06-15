@@ -24,14 +24,15 @@ I was expecting a `,' or a `}'---line 3107 of file ../bib_gj.bib
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Huang2012"
-Warning--I didn't find a database entry for "vaughan2008evolving"
 Warning--I didn't find a database entry for "Poets2015"
 Warning--I didn't find a database entry for "dreiseitl2017heterogeneity"
 Warning--I didn't find a database entry for "whitney2010adaptive"
 Warning--I didn't find a database entry for "whitney2006adaptive"
 Warning--I didn't find a database entry for "rieseberg2007hybridization"
 Warning--I didn't find a database entry for "Baute2015"
+Warning--I didn't find a database entry for "vaughan2008evolving"
+Warning--I didn't find a database entry for "Huang2012"
+Warning--I didn't find a database entry for "wang2017asian"
 Warning--I didn't find a database entry for "bredeson2016sequencing"
 Warning--I didn't find a database entry for "diez2015olive"
 Warning--I didn't find a database entry for "myles2011genetic"
@@ -39,45 +40,45 @@ Warning--I didn't find a database entry for "cornille2012new"
 Warning--I didn't find a database entry for "Currat2008"
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
-You've used 78 entries,
+You've used 76 entries,
             1876 wiz_defined-function locations,
-            961 strings with 19288 characters,
-and the built_in function-call counts, 25821 in all, are:
-= -- 2646
-> -- 1096
+            953 strings with 19162 characters,
+and the built_in function-call counts, 25777 in all, are:
+= -- 2652
+> -- 1091
 < -- 0
-+ -- 395
-- -- 317
++ -- 392
+- -- 316
 * -- 1936
-:= -- 3603
-add.period$ -- 80
-call.type$ -- 78
-change.case$ -- 77
+:= -- 3584
+add.period$ -- 77
+call.type$ -- 76
+change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 1263
-empty$ -- 2179
-format.name$ -- 317
-if$ -- 6263
+cite$ -- 78
+duplicate$ -- 1266
+empty$ -- 2153
+format.name$ -- 316
+if$ -- 6257
 int.to.chr$ -- 0
-int.to.str$ -- 78
-missing$ -- 78
-newline$ -- 239
-num.names$ -- 78
-pop$ -- 137
+int.to.str$ -- 76
+missing$ -- 76
+newline$ -- 232
+num.names$ -- 76
+pop$ -- 122
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1017
+skip$ -- 1037
 stack$ -- 0
-substring$ -- 2058
-swap$ -- 645
+substring$ -- 2083
+swap$ -- 660
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 264
-width$ -- 80
-write$ -- 814
+while$ -- 263
+width$ -- 78
+write$ -- 801
 (There were 5 error messages)

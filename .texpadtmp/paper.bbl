@@ -214,29 +214,6 @@ M.~B. Hufford, P.~Lubinksy, T.~Pyh{\"a}j{\"a}rvi, M.~T. Devengenzo, N.~C.
   Ellstrand, and J.~Ross-Ibarra, ``The genomic signature of crop-wild
   introgression in maize,'' {\em Plos genetics}, 2013.
 
-\bibitem{molina2011molecular}
-J.~Molina, M.~Sikora, N.~Garud, J.~M. Flowers, S.~Rubinstein, A.~Reynolds,
-  P.~Huang, S.~Jackson, B.~A. Schaal, C.~D. Bustamante, {\em et~al.},
-  ``Molecular evidence for a single evolutionary origin of domesticated rice,''
-  {\em Proceedings of the National Academy of Sciences}, vol.~108, no.~20,
-  pp.~8351--8356, 2011.
-
-\bibitem{fuller2010consilience}
-D.~Q. Fuller, Y.-I. Sato, C.~Castillo, L.~Qin, A.~R. Weisskopf, E.~J.
-  Kingwell-Banham, J.~Song, S.-M. Ahn, and J.~Van~Etten, ``Consilience of
-  genetics and archaeobotany in the entangled history of rice,'' {\em
-  Archaeological and Anthropological Sciences}, vol.~2, no.~2, pp.~115--131,
-  2010.
-
-\bibitem{second1982origin}
-G.~Second, ``Origin of the genic diversity of cultivated rice (oryza spp.):
-  study of the polymorphism scored at 40 isozyme loci.,'' {\em
-  遺伝学雑誌}, vol.~57, no.~1, pp.~25--57, 1982.
-
-\bibitem{von1995ecographical}
-R.~Von~Bothmer, N.~Jacobsen, C.~Baden, R.~J{\o}rgensen, and I.~Linde-Laursen,
-  ``An ecographical study of genus hordeum,'' 1995.
-
 \bibitem{takahashi1955origin}
 R.~Takahashi, ``The origin and evolution of cultivated barley,'' {\em Advances
   in genetics}, vol.~7, pp.~227--266, 1955.
@@ -261,25 +238,15 @@ P.~Azhaguvel and T.~Komatsuda, ``A phylogenetic analysis based on nucleotide
 G.~Haberer and K.~F. Mayer, ``Barley: From brittle to stable harvest,'' {\em
   Cell}, vol.~162, no.~3, pp.~469--471, 2015.
 
-\bibitem{ellstrand2003dangerous}
-N.~C. Ellstrand, {\em Dangerous liaisons?: when cultivated plants mate with
-  their wild relatives}.
-\newblock JHU Press, 2003.
-
-\bibitem{harlan1995living}
-J.~R. Harlan, ``The living fields,'' {\em Our agricultural heritage.-271 S},
-  1995.
+\bibitem{nevo2010drought}
+E.~Nevo and G.~Chen, ``Drought and salt tolerances in wild relatives for wheat
+  and barley improvement,'' {\em Plant, cell \& environment}, vol.~33, no.~4,
+  pp.~670--685, 2010.
 
 \bibitem{hillman2001new}
 G.~Hillman, R.~Hedges, A.~Moore, S.~Colledge, and P.~Pettitt, ``New evidence of
   lateglacial cereal cultivation at abu hureyra on the euphrates,'' {\em The
   Holocene}, vol.~11, no.~4, pp.~383--393, 2001.
-
-\bibitem{ellis2000wild}
-R.~Ellis, B.~Forster, D.~Robinson, L.~Handley, D.~Gordon, J.~Russell, and
-  W.~Powell, ``Wild barley: a source of genes for crop improvement in the 21st
-  century?,'' {\em Journal of experimental botany}, vol.~51, no.~342,
-  pp.~9--17, 2000.
 
 \bibitem{von2006ab}
 M.~Von~Korff, H.~Wang, J.~L{\'e}on, and K.~Pillen, ``Ab-qtl analysis in spring
@@ -373,6 +340,31 @@ Y.~Yatabe, N.~C. Kane, C.~Scotti-Saintagne, and L.~H. Rieseberg, ``Rampant gene
   exchange across a strong reproductive barrier between the annual sunflowers,
   helianthus annuus and h. petiolaris,'' {\em Genetics}, vol.~175, no.~4,
   pp.~1883--1893, 2007.
+
+\bibitem{molina2011molecular}
+J.~Molina, M.~Sikora, N.~Garud, J.~M. Flowers, S.~Rubinstein, A.~Reynolds,
+  P.~Huang, S.~Jackson, B.~A. Schaal, C.~D. Bustamante, {\em et~al.},
+  ``Molecular evidence for a single evolutionary origin of domesticated rice,''
+  {\em Proceedings of the National Academy of Sciences}, vol.~108, no.~20,
+  pp.~8351--8356, 2011.
+
+\bibitem{fuller2010consilience}
+D.~Q. Fuller, Y.-I. Sato, C.~Castillo, L.~Qin, A.~R. Weisskopf, E.~J.
+  Kingwell-Banham, J.~Song, S.-M. Ahn, and J.~Van~Etten, ``Consilience of
+  genetics and archaeobotany in the entangled history of rice,'' {\em
+  Archaeological and Anthropological Sciences}, vol.~2, no.~2, pp.~115--131,
+  2010.
+
+\bibitem{second1982origin}
+G.~Second, ``Origin of the genic diversity of cultivated rice (oryza spp.):
+  study of the polymorphism scored at 40 isozyme loci.,'' {\em
+  遺伝学雑誌}, vol.~57, no.~1, pp.~25--57, 1982.
+
+\bibitem{zhao2010genomic}
+K.~Zhao, M.~Wright, J.~Kimball, G.~Eizenga, A.~McClung, M.~Kovach, W.~Tyagi,
+  M.~L. Ali, C.-W. Tung, A.~Reynolds, {\em et~al.}, ``Genomic diversity and
+  introgression in o. sativa reveal the impact of domestication and breeding on
+  the rice genome,'' {\em PloS one}, vol.~5, no.~5, p.~e10780, 2010.
 
 \bibitem{hufford2013genomic}
 M.~B. Hufford, P.~Lubinksy, T.~Pyh{\"a}j{\"a}rvi, M.~T. Devengenzo, N.~C.

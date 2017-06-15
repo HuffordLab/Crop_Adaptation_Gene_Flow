@@ -33,20 +33,20 @@
 %Short Research reviews should be in the range 3500–4000 words, with up to 40 references and 6 figures/tables.
 
 
-The process of domestication was once thought to be rapid and geographically constrained, with crops originating from a wild progenitor within one or more geographically defined centers followed by expansion to the modern-day extent of cultivation. \mbh{will need citation for this}
+The process of domestication was once thought to be rapid and geographically constrained, with crops originating from a wild progenitor within one or more defined centers followed by expansion to the modern-day extent of cultivation. \mbh{will need citation for this}
 However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and more diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017}.
 This new conception of domestication emphasizes the role of beneficial gene flow (\emph{i.e.}, adaptive introgression) from locally adapted wild relatives during crop expansion after initial domestication.
 
 
 Adaptive introgression has three components: hybridization between two genomes, backcrossing to one of the parents, and selection on different recombinant genotypes with progressively diminished linkage drag \cite{barton2001role, Feuillet200824}.
 In domesticated species, adaptive introgression would consist of crop/wild hybrids backcrossing to a crop, retention and increase in frequency of adaptive wild haplotypes in the crop, and removal of undesirable wild background.
-To date, literature on crop-wild gene flow has focused on the risk of introgression of transgenes from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}). \mbh{cite one paper here...the best, most recent and comprehensive review}
+To date, literature on crop-wild gene flow has focused on the risk of transgene introgression from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{zamir2001improving, tanksley1997seed, hajjar2007use}). \mbh{cite one paper here...the best, most recent and comprehensive review}
 The history of natural introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
 However, new tools and methods have recently been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
-Emerging results suggest a need for reevaluation of the existing domestication paradigm.
+Emerging results suggest a need for reevaluating the existing domestication paradigm.
 
 
-In this review, we will: 1) briefly describe recently developed methods for detecting adaptive introgression and provide a summary of their application for detecting crop-wild introgression, 2) review evidence supporting the hypothesis that wild-to-crop introgression has conferred local adaptation, 3) consider how the prevalence of this introgression alters traditional concepts of domestication, and 4) describe future advances in both basic and applied genetics that can be made through the study of introgression in agroecosystems.
+In this review, we will: 1) briefly describe recently developed methods for detecting adaptive introgression and provide a summary of their application for detecting crop-wild introgression, 2) review evidence suggesting wild-to-crop introgression has conferred local adaptation, 3) consider how adaptive introgression alters traditional concepts of domestication, and 4) describe future advances in both basic and applied genetics that can be made through the study of introgression in agroecosystems.
 
 
 
@@ -60,19 +60,19 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 \section*{Introgression methods and their application}
 
+\mbh{In this section, I think the overall content is good, but we need to edit to make it more accessible and more explicit about how methods are implemented to detect adaptive introgression}
+
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
-Rather, we focus on methods that explicitly identify introgressed genomic segments based the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
+Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
 %We focus here on analytical prospects and limitations and introduce only a few representatives of each category.
 
 First, introgressed segments are expected to show low differentiation from their source population.
 The $F_{st}$ and $d_{XY}$ statistics and their derivates including $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
 The former two statistics are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
-Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup. 
+Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup: 
 
-\mbh{abrupt transition here to Gmin equation...can you smooth this into the text?}
-\lwang{I am not much a fan of Gmin, as we applied this method and it is not good. I am wondering if we just give the equation of RNDmin, in order to focus readers attention on the later.}
 % \begin{equation}
 %    G_{min} = \frac{d_{min}}{d_{XY}}
 % \end{equation}
@@ -84,7 +84,7 @@ Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected
 where $d_{min}$ is the minimum sequence distance between haplotypes in species X and Y and $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup ($O$).
  
 These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
-For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites, where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
+For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
 A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
 Further modifications have allowed specification of more than one source population (see details in \cite{racimo2016}).
  
@@ -127,12 +127,12 @@ Recent empirical studies have revealed that introgression has occurred in many o
 
 The relationship between maize (\emph{Zea mays} ssp. \emph{mays}) and the teosinte \emph{Zea mays} ssp. \emph{mexicana} (hereafter referred to as \emph{mexicana}) offers a prime case study of adaptive wild-to-crop introgression.
 Maize was domesticated from (\emph{Zea mays} ssp. \emph{parviglumis}) approximately 9,000 years ago in the lowlands of the Balsas River Valley in Mexico \cite{matsuoka2002single}.
-From this domestication center, maize spread into the highlands of the Mexican Central Plateau, where it came into sympatry with wild \emph{mexicana}.
+From this domestication center, maize spread into the highlands of the Mexican Central Plateau, where it came into sympatry with \emph{mexicana}.
 Introgression from \emph{mexicana} to maize in the Central Plateau has long been reported based on both morphological \cite {wilkes1977, lauter2004, doebley1984} and molecular \cite{matsuoka2002, vanHeerwaarden2011, doebley1987, warburton2011, fukunaga2005} data.
 However, \citep{hufford2013} first localized \emph{mexicana} introgression to chromosomal regions and provided evidence that it was likely adaptive.
 %The following is not fully clear.  Cut or revise.
-The authors identified nine genomic regions in several maize populations which showed evidence of \emph{mexicana} introgression based on local ancestry deconvolution using HAPMIX and results from the linkage model of STRUCTURE (Figure \ref{fig:introgressionMaize}).
-These introgressed segments showed low diversity and overlapped QTL that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be important in high elevation adaptation.
+The authors identified nine genomic regions in several maize populations which consistently showed evidence of \emph{mexicana} introgression based on chromosome painting using both HAPMIX and the linkage model of STRUCTURE (Figure \ref{fig:introgressionMaize}).
+These introgressed segments showed low diversity and overlapped QTL that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be adaptive at high elevation.
 In a growth chamber experiment, the authors demonstrated that maize populations with \emph{mexicana} introgression showed greater plant height (a proxy for fitness) under highland environmental conditions than populations that lacked introgression.
 Height differences were not detected under lowland conditions.
 %Among the nine regions, three span the centromeres of chromosomes 5, 6, and 10, and one is located in the inversion polymorphism on chromosome 4, suggesting a significant role of genome structures restricting recombination in adaptive introgression.
@@ -173,24 +173,20 @@ Overall, analyses revealed that maize landraces with \emph{mexicana} introgressi
 
 \item{Barley:}
 		
-Domesticated and wild barley belong to the same species, \emph{Hordeum vulgare}, and are capable of producing viable offpspring via hybridization \cite{von1995ecographical}.
-Barley (\emph{Hordeum vulgare} subsp. \emph{vulgare}) is believed to have been domesticated at least twice roughly 10,000 BP, once from wild subsp. \emph{spontaneum} in the Fertile Crescent and once from subsp. \emph{spontaneum} var. \emph{agriocrithon} in Tibet \cite{takahashi1955origin, badr2000origin, oka2012origin, azhaguvel2007phylogenetic, haberer2015barley}.
+%Domesticated and wild barley belong to the same species, \emph{Hordeum vulgare}, and are capable of producing viable offpspring via hybridization \cite{von1995ecographical}.
+Barley (\emph{Hordeum vulgare} subsp. \emph{vulgare}) was domesticated at least twice roughly 10,000 BP: once from the wild subsp. \emph{spontaneum} in the Fertile Crescent and once from subsp. \emph{spontaneum} var. \emph{agriocrithon} in Tibet \cite{takahashi1955origin, badr2000origin, oka2012origin, azhaguvel2007phylogenetic, haberer2015barley}.
 \gmj{the source morrell2007genetic will be used to update this paragraph once we've worked out for sure that the second domestication of barley was in the Zargos mountains, rather than Tibet.  Also, this paper puts the earliest archaeological samples of barley at closer to 8500 calibrated years ago.}
-However, details of barley domestication are still disputed.
-
-
+%However, details of barley domestication are still somewhat unclear.
 %Variety \emph{agriocrithon} is genetically diverse, and is found throughout much of the range of barley.
 %Some have suggested that \emph{agriocrithon} may be the progenitor of six-rowed barley, the product of a hybridization between eastern and western cultivated barley, or a wild-domesticate hybrid \cite{staudt1961origin, zohary1959hordeum, murphy1982origin}\, but \cite{azhaguvel2007phylogenetic}\ dispute these theories, suggesting instead that it arose from ssp. \emph{spontaneum}, perhaps more than once (in Israel as well as in Tibet).
-%Presently, the distribution of \emph{spontaneum} consists of the Mediterranean, the Middle-East, and west-central Asia, while other barley wild relatives inhabit Asiatic regions (including Tibet) more broadly \cite{nevo2010drought, harlan1995living, CWR}.
-%These wild relatives inhabit regions spanning such abiotic clines as temperature, precipitation, soil type, and altitude, as well as biotic clines \cite{nevo2010drought}.
+Presently, the distribution of subsp \emph{spontaneum} stretches from the eastern Mediterranean through the Middle-East to west-central Asia spanning clines in temperature, precipitation, soil type, and altitude \cite{nevo2010drought}.
+%While little genetic investigation into spontaneous barley/\emph{spontaneum} hybrids \cite{ellstrand2003dangerous}.
+Barley/\emph{spontaneum} hybrids are known to be fertile and are found spontaneously when wild and domesticated barleys co-occur.
+In some cases, wild-to-crop introgression has been shown to occur over distances of more than a kilometer \cite{hillman2001new}.
 
 
-There has been little genetic investigation into spontaneous barley/\emph{spontaneum} hybrids \cite{ellstrand2003dangerous}.
-Barley/\emph{spontaneum} hybrids are fertile, and morphologically intermediate (putatively hybrid) barleys are found when wild and domesticated barleys are grown in sympatry, but hybrids of other wild relatives generally exhibit greatly diminished fertility \cite{ellstrand2003dangerous, harlan1995living}.
-Even when the two are not grown immediately adjacent to one another, introgression from wild to domesticate has been shown to happen over distances of more than a kilometer \cite{hillman2001new}.
-
-
-The barley domestication process has reduced the number of alleles in the domesticate to only 40\% of that found in wild barley, though there remains a great deal of phenotypic diversity among the wild barleys \cite{ellis2000wild}.
+%The barley domestication process has reduced the number of alleles in the domesticate to only 40\% of that found in wild barley, though there remains a great deal of phenotypic diversity among the wild barleys \cite{ellis2000wild}.
+\mbh{I think here a more focused discussion of potential for adaptive introgression based on the Poets paper is needed}
 The authors of \cite{Poets2015} used STRUCTURE to look for patterns of introgression from wild relatives in a dataset of 803 landraces, and found a high amount variability in the amount of contribution from wild relatives, as well as its location in the genome, within barley populations.
 This is indicative of contribution from numerous wild populations.
 Furthermore, the authors found that wild introgression contribution is generally greatest from geographically-proximate populations, and that introgressed regions might be combined from geographically-separate wild populations.
@@ -200,13 +196,12 @@ Such alleles were not identified specifically, though wild-domesticate breeding 
 
 \item{Sunflower: }
 
-The common sunflower (\emph{Helianthus annuus}) shows evidence of domestication in eastern United States \cite{harter2004origin, wills2006chloroplast}\, with additional evidence of a possible second origin of domestication in Mexico \cite{lentz2008sunflower}.
-Pre-Columbian \emph{H. annuus} distribution spanned much of the Great Plains, from what is now north-central Texas up to and through Montana and North Dakota (see figure 1 of \cite{whitney2010adaptive}).
-
-
-Domesticated sunflower has long lived in sympatry with wild relatives like \emph{H. petiolaris} and \emph{H. bolanderi} and forms stable hybrid populations \cite{schwarzbach2002likely, rieseberg1988molecular, welch2002patterns}.
-Many wild sunflowers are locally-adapted, and weedy hybrid populations share these adaptations \cite{kane2008genetics}.
+The common sunflower (\emph{Helianthus annuus}) shows evidence of domestication in the eastern United States \cite{harter2004origin, wills2006chloroplast}\, with potential for a second domestication center in Mexico \cite{lentz2008sunflower}.
+The pre-Columbian \emph{H. annuus} distribution of cultivated sunflower spanned much of the Great Plains, from what is now north-central Texas to Montana and North Dakota (see figure 1 of \cite{whitney2010adaptive}).
+Domesticated sunflower has long lived in sympatry with wild relatives such as \emph{H. petiolaris} and \emph{H. bolanderi} and forms stable hybrid populations with these taxa \cite{schwarzbach2002likely, rieseberg1988molecular, welch2002patterns}.
+Wild sunflowers are known to be locally-adapted, and weedy hybrid populations often share these adaptations \cite{kane2008genetics}.
 However, the most striking example of adaptive introgression within \emph{Helianthus} is that of the cucumberleaf sunflower, \emph{H. debilis} ssp. \emph{cucumerifolius}.
+\mbh{I believe \emph{H. annuus} ssp. \emph{texanus} is a wild sunflower, right?  If so, this is more an example of hybrid speciation rather then adaptive wild-to-crop gene flow}
 Cucumberleaf sunflower is endemic to south-central Texas, and exhibits several adaptations to the region.
 Introgressive hybridization imparted locally-adapted alleles from \emph{H. debilis} to \emph{H. annuus} via introgressive hybridization \cite{heiser1951hybridization}. 
 These introgressed hybrids formed a new lineage of sunflower (\emph{H. annuus} ssp. \emph{texanus}, \emph{H. a. texanus} hereafter) which displays \emph{H. debilis}-like traits adaptive to south-central Texas climate and ecology.
