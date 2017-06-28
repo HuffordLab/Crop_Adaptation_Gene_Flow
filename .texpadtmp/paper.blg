@@ -3,23 +3,23 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux
 The style file: ieeetr.bst
 Database file #1: ../bib_gj.bib
-I was expecting an "="---line 1660 of file ../bib_gj.bib
+I was expecting an "="---line 1670 of file ../bib_gj.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1902 of file ../bib_gj.bib
+I was expecting an "="---line 1912 of file ../bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 2899 of file ../bib_gj.bib
+Repeated entry---line 2909 of file ../bib_gj.bib
  : @article{Martin2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3066 of file ../bib_gj.bib
+Repeated entry---line 3076 of file ../bib_gj.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3107 of file ../bib_gj.bib
+I was expecting a `,' or a `}'---line 3117 of file ../bib_gj.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
@@ -40,45 +40,45 @@ Warning--I didn't find a database entry for "cornille2012new"
 Warning--I didn't find a database entry for "Currat2008"
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
-You've used 76 entries,
+You've used 77 entries,
             1876 wiz_defined-function locations,
-            953 strings with 19162 characters,
-and the built_in function-call counts, 25777 in all, are:
-= -- 2652
-> -- 1091
+            959 strings with 19460 characters,
+and the built_in function-call counts, 26215 in all, are:
+= -- 2692
+> -- 1117
 < -- 0
-+ -- 392
-- -- 316
-* -- 1936
-:= -- 3584
-add.period$ -- 77
-call.type$ -- 76
-change.case$ -- 76
++ -- 401
+- -- 324
+* -- 1973
+:= -- 3647
+add.period$ -- 78
+call.type$ -- 77
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 1266
-empty$ -- 2153
-format.name$ -- 316
-if$ -- 6257
+cite$ -- 79
+duplicate$ -- 1285
+empty$ -- 2186
+format.name$ -- 324
+if$ -- 6362
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 76
-newline$ -- 232
-num.names$ -- 76
-pop$ -- 122
+int.to.str$ -- 77
+missing$ -- 77
+newline$ -- 235
+num.names$ -- 77
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1037
+skip$ -- 1054
 stack$ -- 0
-substring$ -- 2083
-swap$ -- 660
+substring$ -- 2119
+swap$ -- 671
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 263
-width$ -- 78
-write$ -- 801
+while$ -- 266
+width$ -- 79
+write$ -- 812
 (There were 5 error messages)
