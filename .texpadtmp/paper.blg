@@ -37,12 +37,11 @@ Warning--I didn't find a database entry for "bredeson2016sequencing"
 Warning--I didn't find a database entry for "diez2015olive"
 Warning--I didn't find a database entry for "myles2011genetic"
 Warning--I didn't find a database entry for "cornille2012new"
-Warning--I didn't find a database entry for "Currat2008"
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
 You've used 77 entries,
             1876 wiz_defined-function locations,
-            959 strings with 19460 characters,
+            957 strings with 19440 characters,
 and the built_in function-call counts, 26215 in all, are:
 = -- 2692
 > -- 1117
