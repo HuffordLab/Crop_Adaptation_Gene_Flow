@@ -1,34 +1,34 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux
+The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Case mismatch error between cite keys Matsuoka2002 and matsuoka2002
----line 86 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/.texpadtmp/paper.aux
+---line 86 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{Matsuoka2002
  :                       }
 I'm skipping whatever remains of this command
-Database file #1: ../bib_gj.bib
-Repeated entry---line 99 of file ../bib_gj.bib
+Database file #1: bib_gj.bib
+Repeated entry---line 112 of file bib_gj.bib
  : @article{matsuoka2002
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1681 of file ../bib_gj.bib
+I was expecting an "="---line 1694 of file bib_gj.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1923 of file ../bib_gj.bib
+I was expecting an "="---line 1936 of file bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 2920 of file ../bib_gj.bib
+Repeated entry---line 2933 of file bib_gj.bib
  : @article{Martin2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3087 of file ../bib_gj.bib
+Repeated entry---line 3100 of file bib_gj.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3128 of file ../bib_gj.bib
+I was expecting a `,' or a `}'---line 3141 of file bib_gj.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
@@ -48,45 +48,45 @@ Warning--I didn't find a database entry for "myles2011genetic"
 Warning--I didn't find a database entry for "cornille2012new"
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
-You've used 77 entries,
+You've used 78 entries,
             1876 wiz_defined-function locations,
-            959 strings with 19570 characters,
-and the built_in function-call counts, 26200 in all, are:
-= -- 2688
-> -- 1117
+            966 strings with 19779 characters,
+and the built_in function-call counts, 26571 in all, are:
+= -- 2726
+> -- 1134
 < -- 0
-+ -- 401
-- -- 324
-* -- 1970
-:= -- 3645
-add.period$ -- 78
-call.type$ -- 77
-change.case$ -- 77
++ -- 407
+- -- 329
+* -- 2000
+:= -- 3697
+add.period$ -- 79
+call.type$ -- 78
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 1285
-empty$ -- 2186
-format.name$ -- 324
-if$ -- 6361
+cite$ -- 80
+duplicate$ -- 1302
+empty$ -- 2216
+format.name$ -- 329
+if$ -- 6450
 int.to.chr$ -- 0
-int.to.str$ -- 77
-missing$ -- 77
-newline$ -- 235
-num.names$ -- 77
-pop$ -- 124
+int.to.str$ -- 78
+missing$ -- 78
+newline$ -- 238
+num.names$ -- 78
+pop$ -- 125
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1054
+skip$ -- 1068
 stack$ -- 0
-substring$ -- 2115
-swap$ -- 671
+substring$ -- 2147
+swap$ -- 680
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 265
-width$ -- 79
-write$ -- 811
+while$ -- 269
+width$ -- 80
+write$ -- 822
 (There were 7 error messages)
