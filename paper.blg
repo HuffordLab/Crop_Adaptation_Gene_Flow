@@ -8,27 +8,27 @@ Case mismatch error between cite keys Matsuoka2002 and matsuoka2002
  :                       }
 I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib
-Repeated entry---line 112 of file bib_gj.bib
+Repeated entry---line 123 of file bib_gj.bib
  : @article{matsuoka2002
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1694 of file bib_gj.bib
+I was expecting an "="---line 1705 of file bib_gj.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1936 of file bib_gj.bib
+I was expecting an "="---line 1947 of file bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 2933 of file bib_gj.bib
+Repeated entry---line 2944 of file bib_gj.bib
  : @article{Martin2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3100 of file bib_gj.bib
+Repeated entry---line 3111 of file bib_gj.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3141 of file bib_gj.bib
+I was expecting a `,' or a `}'---line 3152 of file bib_gj.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
@@ -48,45 +48,45 @@ Warning--I didn't find a database entry for "myles2011genetic"
 Warning--I didn't find a database entry for "cornille2012new"
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
-You've used 78 entries,
+You've used 79 entries,
             1876 wiz_defined-function locations,
-            966 strings with 19779 characters,
-and the built_in function-call counts, 26571 in all, are:
-= -- 2726
-> -- 1134
+            972 strings with 20073 characters,
+and the built_in function-call counts, 27006 in all, are:
+= -- 2769
+> -- 1157
 < -- 0
-+ -- 407
-- -- 329
-* -- 2000
-:= -- 3697
-add.period$ -- 79
-call.type$ -- 78
-change.case$ -- 78
++ -- 415
+- -- 336
+* -- 2036
+:= -- 3758
+add.period$ -- 80
+call.type$ -- 79
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 1302
-empty$ -- 2216
-format.name$ -- 329
-if$ -- 6450
+cite$ -- 81
+duplicate$ -- 1321
+empty$ -- 2249
+format.name$ -- 336
+if$ -- 6553
 int.to.chr$ -- 0
-int.to.str$ -- 78
-missing$ -- 78
-newline$ -- 238
-num.names$ -- 78
-pop$ -- 125
+int.to.str$ -- 79
+missing$ -- 79
+newline$ -- 241
+num.names$ -- 79
+pop$ -- 126
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1068
+skip$ -- 1085
 stack$ -- 0
-substring$ -- 2147
-swap$ -- 680
+substring$ -- 2187
+swap$ -- 691
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 269
-width$ -- 80
-write$ -- 822
+while$ -- 273
+width$ -- 81
+write$ -- 833
 (There were 7 error messages)
