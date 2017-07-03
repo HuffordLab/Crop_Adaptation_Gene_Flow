@@ -2,33 +2,24 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
-Case mismatch error between cite keys Matsuoka2002 and matsuoka2002
----line 87 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
- : \citation{Matsuoka2002
- :                       }
-I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib
-Repeated entry---line 148 of file bib_gj.bib
- : @article{matsuoka2002
- :                      ,
-I'm skipping whatever remains of this entry
-I was expecting an "="---line 1730 of file bib_gj.bib
+I was expecting an "="---line 1719 of file bib_gj.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1972 of file bib_gj.bib
+I was expecting an "="---line 1961 of file bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 2969 of file bib_gj.bib
+Repeated entry---line 2958 of file bib_gj.bib
  : @article{Martin2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3136 of file bib_gj.bib
+Repeated entry---line 3125 of file bib_gj.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3177 of file bib_gj.bib
+I was expecting a `,' or a `}'---line 3166 of file bib_gj.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
@@ -51,15 +42,15 @@ Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
 You've used 78 entries,
             1876 wiz_defined-function locations,
-            964 strings with 19934 characters,
-and the built_in function-call counts, 26620 in all, are:
-= -- 2715
-> -- 1161
+            965 strings with 20002 characters,
+and the built_in function-call counts, 26648 in all, are:
+= -- 2719
+> -- 1164
 < -- 0
-+ -- 416
-- -- 338
-* -- 2008
-:= -- 3711
++ -- 417
+- -- 339
+* -- 2013
+:= -- 3716
 add.period$ -- 80
 call.type$ -- 78
 change.case$ -- 77
@@ -67,27 +58,27 @@ chr.to.int$ -- 0
 cite$ -- 81
 duplicate$ -- 1300
 empty$ -- 2214
-format.name$ -- 338
-if$ -- 6453
+format.name$ -- 339
+if$ -- 6456
 int.to.chr$ -- 0
 int.to.str$ -- 78
 missing$ -- 79
 newline$ -- 239
 num.names$ -- 78
-pop$ -- 133
+pop$ -- 132
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 1062
 stack$ -- 0
-substring$ -- 2136
+substring$ -- 2140
 swap$ -- 677
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 266
+while$ -- 267
 width$ -- 80
-write$ -- 818
-(There were 7 error messages)
+write$ -- 819
+(There were 5 error messages)

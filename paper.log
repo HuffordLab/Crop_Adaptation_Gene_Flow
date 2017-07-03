@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JUL 2017 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JUL 2017 12:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -527,11 +527,7 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 521--522
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
-
-Package natbib Warning: Citation `Matsuoka2002' on page 8 undefined on input line 559.
-
-[8] (./paper.bbl [9] [10] [11] [12] [13]
+[7] [8] [9] (./paper.bbl [10] [11] [12] [13]
 Missing character: There is no Ì in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no é in font cmti10!
@@ -555,15 +551,15 @@ Package natbib Warning: There were undefined citations.
 
 [15] [16 <./li_figure.png>] [17 <./par_figure_stars.png>] [18 <./boxplot.png (PNG copy)>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5506 strings out of 493089
- 78691 string characters out of 6134842
+ 5505 strings out of 493089
+ 78683 string characters out of 6134842
  214498 words of memory out of 5000000
- 8875 multiletter control sequences out of 15000+600000
+ 8874 multiletter control sequences out of 15000+600000
  11515 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,869b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,869b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (18 pages, 840704 bytes).
+Output written on paper.pdf (18 pages, 841348 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
