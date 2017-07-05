@@ -2,83 +2,145 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
-Database file #1: bib_gj.bib
-I was expecting an "="---line 1738 of file bib_gj.bib
- : [[Ramalho 
- :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
-I'm skipping whatever remains of this entry
-I was expecting an "="---line 1980 of file bib_gj.bib
- : National 
- :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
-I'm skipping whatever remains of this entry
-Repeated entry---line 2977 of file bib_gj.bib
- : @article{Martin2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3144 of file bib_gj.bib
- : @article{lawson2012
- :                    ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3185 of file bib_gj.bib
- :   
- :   institution={Nature Research}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+I couldn't open database file bib_gj.bib
+---line 98 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+ : \bibdata{bib_gj
+ :                }
+I'm skipping whatever remains of this command
+I found no database files---while reading file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+Warning--I didn't find a database entry for "Harlan1992"
+Warning--I didn't find a database entry for "brown2009complex"
+Warning--I didn't find a database entry for "Meyer2016"
+Warning--I didn't find a database entry for "wang2017"
+Warning--I didn't find a database entry for "zhou2017"
+Warning--I didn't find a database entry for "Fuller2014"
+Warning--I didn't find a database entry for "barton2001role"
+Warning--I didn't find a database entry for "Feuillet200824"
+Warning--I didn't find a database entry for "stewart2003transgene"
+Warning--I didn't find a database entry for "Dempewolf2017"
+Warning--I didn't find a database entry for "Martin2015"
+Warning--I didn't find a database entry for "Price2009"
+Warning--I didn't find a database entry for "Lawson2012"
+Warning--I didn't find a database entry for "pease2015"
+Warning--I didn't find a database entry for "rosenzweig2016"
+Warning--I didn't find a database entry for "geneva2015"
+Warning--I didn't find a database entry for "beaumont2002"
+Warning--I didn't find a database entry for "gutenkunst2009"
+Warning--I didn't find a database entry for "hey2004"
+Warning--I didn't find a database entry for "li2011"
+Warning--I didn't find a database entry for "schiffels2014"
+Warning--I didn't find a database entry for "terhorst2017"
+Warning--I didn't find a database entry for "racimo2016"
+Warning--I didn't find a database entry for "schraiber2015"
+Warning--I didn't find a database entry for "brisbin2012pcadmix"
+Warning--I didn't find a database entry for "sankararaman2008"
+Warning--I didn't find a database entry for "pritchard2000"
+Warning--I didn't find a database entry for "Racimo2015"
+Warning--I didn't find a database entry for "Heliconius2012"
+Warning--I didn't find a database entry for "Norris2015"
+Warning--I didn't find a database entry for "Stankowski2015"
+Warning--I didn't find a database entry for "matsuoka2002single"
+Warning--I didn't find a database entry for "wilkes1977"
+Warning--I didn't find a database entry for "lauter2004"
+Warning--I didn't find a database entry for "doebley1984"
+Warning--I didn't find a database entry for "vanHeerwaarden2011"
+Warning--I didn't find a database entry for "doebley1987"
+Warning--I didn't find a database entry for "warburton2011"
+Warning--I didn't find a database entry for "fukunaga2005"
+Warning--I didn't find a database entry for "hufford2013"
+Warning--I didn't find a database entry for "takahashi1955origin"
+Warning--I didn't find a database entry for "badr2000origin"
+Warning--I didn't find a database entry for "oka2012origin"
+Warning--I didn't find a database entry for "azhaguvel2007phylogenetic"
+Warning--I didn't find a database entry for "haberer2015barley"
+Warning--I didn't find a database entry for "nevo2010drought"
+Warning--I didn't find a database entry for "hillman2001new"
 Warning--I didn't find a database entry for "Poets2015"
 Warning--I didn't find a database entry for "dreiseitl2017heterogeneity"
+Warning--I didn't find a database entry for "von2006ab"
+Warning--I didn't find a database entry for "handley1994chromosome"
+Warning--I didn't find a database entry for "harter2004origin"
+Warning--I didn't find a database entry for "wills2006chloroplast"
+Warning--I didn't find a database entry for "lentz2008sunflower"
 Warning--I didn't find a database entry for "whitney2010adaptive"
+Warning--I didn't find a database entry for "schwarzbach2002likely"
+Warning--I didn't find a database entry for "rieseberg1988molecular"
+Warning--I didn't find a database entry for "welch2002patterns"
+Warning--I didn't find a database entry for "kane2008genetics"
+Warning--I didn't find a database entry for "heiser1951hybridization"
 Warning--I didn't find a database entry for "whitney2006adaptive"
 Warning--I didn't find a database entry for "rieseberg2007hybridization"
+Warning--I didn't find a database entry for "cohen1973factors"
+Warning--I didn't find a database entry for "miller1991inheritance"
+Warning--I didn't find a database entry for "dussle2004pl"
+Warning--I didn't find a database entry for "rahim2002inheritance"
+Warning--I didn't find a database entry for "saucă2010introgression"
+Warning--I didn't find a database entry for "besnard1997specifying"
+Warning--I didn't find a database entry for "yatabe2007rampant"
 Warning--I didn't find a database entry for "Baute2015"
+Warning--I didn't find a database entry for "fuller2010consilience"
 Warning--I didn't find a database entry for "vaughan2008evolving"
+Warning--I didn't find a database entry for "molina2011molecular"
 Warning--I didn't find a database entry for "Huang2012"
+Warning--I didn't find a database entry for "second1982origin"
+Warning--I didn't find a database entry for "zhao2010genomic"
 Warning--I didn't find a database entry for "wang2017asian"
+Warning--I didn't find a database entry for "hufford2013genomic"
 Warning--I didn't find a database entry for "bredeson2016sequencing"
+Warning--I didn't find a database entry for "johns1986ongoing"
+Warning--I didn't find a database entry for "gavrilenko2013genetic"
+Warning--I didn't find a database entry for "rick1958role"
 Warning--I didn't find a database entry for "diez2015olive"
+Warning--I didn't find a database entry for "lam2010resequencing"
+Warning--I didn't find a database entry for "papa2003asymmetry"
 Warning--I didn't find a database entry for "myles2011genetic"
+Warning--I didn't find a database entry for "aldrich1992patterns"
+Warning--I didn't find a database entry for "zohary1969wild"
 Warning--I didn't find a database entry for "cornille2012new"
-Warning--empty journal in Dempewolf2017
-Warning--empty institution in terhorst2017
-Warning--empty journal in hufford2013genomic
-You've used 81 entries,
+Warning--I didn't find a database entry for "Spooner2014"
+Warning--I didn't find a database entry for "Gavrilenko2013"
+Warning--I didn't find a database entry for "Zeder2006"
+Warning--I didn't find a database entry for "Ross-Ibarra2007"
+Warning--I didn't find a database entry for "Takuno2015"
+You've used 0 entries,
             1876 wiz_defined-function locations,
-            982 strings with 20634 characters,
-and the built_in function-call counts, 27606 in all, are:
-= -- 2809
-> -- 1215
+            592 strings with 5253 characters,
+and the built_in function-call counts, 20 in all, are:
+= -- 0
+> -- 0
 < -- 0
-+ -- 435
-- -- 354
-* -- 2090
-:= -- 3856
-add.period$ -- 83
-call.type$ -- 81
-change.case$ -- 80
++ -- 0
+- -- 0
+* -- 2
+:= -- 9
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 1345
-empty$ -- 2294
-format.name$ -- 354
-if$ -- 6685
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 81
-missing$ -- 82
-newline$ -- 248
-num.names$ -- 81
-pop$ -- 138
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1094
+skip$ -- 1
 stack$ -- 0
-substring$ -- 2208
-swap$ -- 698
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 275
-width$ -- 83
-write$ -- 849
-(There were 5 error messages)
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 2 error messages)
