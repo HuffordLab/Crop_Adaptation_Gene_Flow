@@ -3,94 +3,100 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib
-I was expecting an "="---line 1675 of file bib_gj.bib
+"{" immediately follows a field name---line 11 of file bib_gj.bib
+ : @article
+ :         {ren2013tibet,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 1685 of file bib_gj.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1917 of file bib_gj.bib
+I was expecting an "="---line 1927 of file bib_gj.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3037 of file bib_gj.bib
+Repeated entry---line 3047 of file bib_gj.bib
  : @article{Hufford2013
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3049 of file bib_gj.bib
+Repeated entry---line 3059 of file bib_gj.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3154 of file bib_gj.bib
+Repeated entry---line 3175 of file bib_gj.bib
  : @article{Martin2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3251 of file bib_gj.bib
+Repeated entry---line 3272 of file bib_gj.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3344 of file bib_gj.bib
+I was expecting a `,' or a `}'---line 3365 of file bib_gj.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3370 of file bib_gj.bib
+Repeated entry---line 3391 of file bib_gj.bib
  : @article{heliconius2012
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3488 of file bib_gj.bib
+Repeated entry---line 3509 of file bib_gj.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3561 of file bib_gj.bib
+Repeated entry---line 3582 of file bib_gj.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3649 of file bib_gj.bib
+Repeated entry---line 3670 of file bib_gj.bib
  : @article{heiser1951hybridization
  :                                 ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ren2013tibet"
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
-You've used 93 entries,
+Warning--empty year in Spooner2014
+You've used 94 entries,
             1876 wiz_defined-function locations,
-            1034 strings with 23876 characters,
-and the built_in function-call counts, 32329 in all, are:
-= -- 3234
-> -- 1531
+            1039 strings with 24145 characters,
+and the built_in function-call counts, 32842 in all, are:
+= -- 3281
+> -- 1563
 < -- 0
-+ -- 545
-- -- 452
-* -- 2500
-:= -- 4569
-add.period$ -- 95
-call.type$ -- 93
-change.case$ -- 92
++ -- 556
+- -- 462
+* -- 2546
+:= -- 4641
+add.period$ -- 96
+call.type$ -- 94
+change.case$ -- 93
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 1547
-empty$ -- 2635
-format.name$ -- 452
-if$ -- 7776
+cite$ -- 98
+duplicate$ -- 1568
+empty$ -- 2671
+format.name$ -- 462
+if$ -- 7894
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 94
-newline$ -- 284
-num.names$ -- 93
-pop$ -- 154
+int.to.str$ -- 94
+missing$ -- 95
+newline$ -- 287
+num.names$ -- 94
+pop$ -- 156
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1256
+skip$ -- 1276
 stack$ -- 0
-substring$ -- 2539
-swap$ -- 804
+substring$ -- 2587
+swap$ -- 817
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 318
-width$ -- 95
-write$ -- 978
-(There were 11 error messages)
+warning$ -- 4
+while$ -- 322
+width$ -- 96
+write$ -- 988
+(There were 12 error messages)
