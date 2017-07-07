@@ -25,6 +25,7 @@ I was expecting a `,' or a `}'---line 3107 of file ../bib_gj.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Huang2012"
+Warning--I didn't find a database entry for "vaughan2008evolving"
 Warning--I didn't find a database entry for "Poets2015"
 Warning--I didn't find a database entry for "dreiseitl2017heterogeneity"
 Warning--I didn't find a database entry for "whitney2010adaptive"
@@ -37,50 +38,46 @@ Warning--I didn't find a database entry for "myles2011genetic"
 Warning--I didn't find a database entry for "cornille2012new"
 Warning--I didn't find a database entry for "Currat2008"
 Warning--empty institution in terhorst2017
-Warning--empty author in ricepedia
-Warning--empty title in ricepedia
-Warning--empty journal in ricepedia
-Warning--empty year in ricepedia
 Warning--empty journal in hufford2013genomic
-You've used 87 entries,
+You've used 80 entries,
             1876 wiz_defined-function locations,
-            1004 strings with 20808 characters,
-and the built_in function-call counts, 28640 in all, are:
-= -- 2912
-> -- 1235
+            972 strings with 19568 characters,
+and the built_in function-call counts, 26483 in all, are:
+= -- 2713
+> -- 1127
 < -- 0
-+ -- 445
-- -- 358
-* -- 2157
-:= -- 4002
-add.period$ -- 88
-call.type$ -- 87
-change.case$ -- 85
++ -- 406
+- -- 326
+* -- 1990
+:= -- 3699
+add.period$ -- 82
+call.type$ -- 80
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 93
-duplicate$ -- 1405
-empty$ -- 2420
-format.name$ -- 358
-if$ -- 6939
+cite$ -- 82
+duplicate$ -- 1293
+empty$ -- 2234
+format.name$ -- 326
+if$ -- 6421
 int.to.chr$ -- 0
-int.to.str$ -- 87
-missing$ -- 87
-newline$ -- 266
-num.names$ -- 86
-pop$ -- 162
+int.to.str$ -- 80
+missing$ -- 80
+newline$ -- 245
+num.names$ -- 80
+pop$ -- 139
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1124
+skip$ -- 1040
 stack$ -- 0
-substring$ -- 2242
-swap$ -- 711
+substring$ -- 2109
+swap$ -- 659
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 292
-width$ -- 89
-write$ -- 903
+warning$ -- 2
+while$ -- 272
+width$ -- 82
+write$ -- 836
 (There were 5 error messages)

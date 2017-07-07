@@ -224,9 +224,12 @@ M.~B. Hufford, P.~Lubinksy, T.~Pyh{\"a}j{\"a}rvi, M.~T. Devengenzo, N.~C.
   Ellstrand, and J.~Ross-Ibarra, ``The genomic signature of crop-wild
   introgression in maize,'' {\em Plos genetics}, 2013.
 
-\bibitem{oka2012origin}
-H.-I. Oka, {\em Origin of cultivated rice}.
-\newblock Elsevier, 2012.
+\bibitem{molina2011molecular}
+J.~Molina, M.~Sikora, N.~Garud, J.~M. Flowers, S.~Rubinstein, A.~Reynolds,
+  P.~Huang, S.~Jackson, B.~A. Schaal, C.~D. Bustamante, {\em et~al.},
+  ``Molecular evidence for a single evolutionary origin of domesticated rice,''
+  {\em Proceedings of the National Academy of Sciences}, vol.~108, no.~20,
+  pp.~8351--8356, 2011.
 
 \bibitem{fuller2010consilience}
 D.~Q. Fuller, Y.-I. Sato, C.~Castillo, L.~Qin, A.~R. Weisskopf, E.~J.
@@ -235,53 +238,10 @@ D.~Q. Fuller, Y.-I. Sato, C.~Castillo, L.~Qin, A.~R. Weisskopf, E.~J.
   Archaeological and Anthropological Sciences}, vol.~2, no.~2, pp.~115--131,
   2010.
 
-\bibitem{ricepedia}
-
-
-\bibitem{molina2011molecular}
-J.~Molina, M.~Sikora, N.~Garud, J.~M. Flowers, S.~Rubinstein, A.~Reynolds,
-  P.~Huang, S.~Jackson, B.~A. Schaal, C.~D. Bustamante, {\em et~al.},
-  ``Molecular evidence for a single evolutionary origin of domesticated rice,''
-  {\em Proceedings of the National Academy of Sciences}, vol.~108, no.~20,
-  pp.~8351--8356, 2011.
-
 \bibitem{second1982origin}
 G.~Second, ``Origin of the genic diversity of cultivated rice (oryza spp.):
   study of the polymorphism scored at 40 isozyme loci.,'' {\em
   遺伝学雑誌}, vol.~57, no.~1, pp.~25--57, 1982.
-
-\bibitem{khush2003classifying}
-G.~Khush, D.~Brar, P.~Virk, S.~Tang, S.~Malik, G.~Busto, Y.~Lee, R.~McNally,
-  L.~Trinh, Y.~Jiang, {\em et~al.}, ``Classifying rice germplasm by isozyme
-  polymorphism and origin of cultivated rice,'' {\em IRRI Discuss Pap},
-  vol.~46, p.~279, 2003.
-
-\bibitem{londo2006phylogeography}
-J.~P. Londo, Y.-C. Chiang, K.-H. Hung, T.-Y. Chiang, and B.~A. Schaal,
-  ``Phylogeography of asian wild rice, oryza rufipogon, reveals multiple
-  independent domestications of cultivated rice, oryza sativa,'' {\em
-  Proceedings of the National Academy of Sciences}, vol.~103, no.~25,
-  pp.~9578--9583, 2006.
-
-\bibitem{zhao2010genomic}
-K.~Zhao, M.~Wright, J.~Kimball, G.~Eizenga, A.~McClung, M.~Kovach, W.~Tyagi,
-  M.~L. Ali, C.-W. Tung, A.~Reynolds, {\em et~al.}, ``Genomic diversity and
-  introgression in o. sativa reveal the impact of domestication and breeding on
-  the rice genome,'' {\em PloS one}, vol.~5, no.~5, p.~e10780, 2010.
-
-\bibitem{brar1997alien}
-D.~Brar and G.~Khush, ``Alien introgression in rice,'' in {\em Oryza: From
-  Molecule to Plant}, pp.~35--47, Springer, 1997.
-
-\bibitem{khush1974inheritance}
-G.~S. KHUSH and K.~Ling, ``Inheritance of resistance to grassy stunt virus and
-  its vector in rice,'' {\em Journal of Heredity}, vol.~65, no.~3,
-  pp.~135--136, 1974.
-
-\bibitem{ting1933wild}
-Y.~Ting, ``Wild rice of kwangtung and new variety bred from the hybrids of wild
-  rice with cultivated rice,'' {\em Coll. Agric. Sun Yatsen Univ., Agron.
-  Bull}, vol.~3, pp.~1--22, 1933.
 
 \bibitem{von1995ecographical}
 R.~Von~Bothmer, N.~Jacobsen, C.~Baden, R.~J{\o}rgensen, and I.~Linde-Laursen,
@@ -296,6 +256,10 @@ A.~Badr, R.~Sch, H.~El~Rabey, S.~Effgen, H.~Ibrahim, C.~Pozzi, W.~Rohde,
   F.~Salamini, {\em et~al.}, ``On the origin and domestication history of
   barley (hordeum vulgare),'' {\em Molecular Biology and Evolution}, vol.~17,
   no.~4, pp.~499--510, 2000.
+
+\bibitem{oka2012origin}
+H.-I. Oka, {\em Origin of cultivated rice}.
+\newblock Elsevier, 2012.
 
 \bibitem{azhaguvel2007phylogenetic}
 P.~Azhaguvel and T.~Komatsuda, ``A phylogenetic analysis based on nucleotide
