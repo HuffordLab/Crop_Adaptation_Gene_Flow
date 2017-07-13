@@ -2,6 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
+Case mismatch error between cite keys huang2012 and Huang2012
+---line 81 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+ : \citation{huang2012
+ :                    }
+I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib
 "{" immediately follows a field name---line 11 of file bib_gj.bib
  : @article
@@ -47,6 +52,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 3582 of file bib_gj.bib
  : @article{lam2010resequencing
  :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3700 of file bib_gj.bib
+ : @article{zhou2017
+ :                  ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "ren2013tibet"
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
@@ -95,4 +104,4 @@ warning$ -- 4
 while$ -- 244
 width$ -- 75
 write$ -- 765
-(There were 11 error messages)
+(There were 13 error messages)

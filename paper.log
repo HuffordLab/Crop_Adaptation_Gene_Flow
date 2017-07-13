@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2017 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUL 2017 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,10 +357,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <li_figure.png, id=19, 2007.5pt x 2007.5pt>
 File: li_figure.png Graphic file (type png)
  <use li_figure.png>
-Package pdftex.def Info: li_figure.png used on input line 162.
+Package pdftex.def Info: li_figure.png used on input line 163.
 (pdftex.def)             Requested size: 493.65549pt x 493.63377pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 162--163
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 163--164
  [][] 
  []
 
@@ -368,71 +368,59 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 162--163
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `ren2013tibet' on page 3 undefined on input line 172.
+Package natbib Warning: Citation `ren2013tibet' on page 3 undefined on input line 173.
 
 [3] [4]
-Overfull \hbox (286.74146pt too wide) in paragraph at lines 428--474
+Overfull \hbox (268.49918pt too wide) in paragraph at lines 429--469
  [] 
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 488--488
+Underfull \hbox (badness 4859) in paragraph at lines 483--483
 []|\OT1/cmr/m/n/10 Hybrids and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []|\OT1/cmr/m/n/10 Evidence of
  []
 
 
-Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 498.
+Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 493.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 502--502
+Underfull \hbox (badness 2189) in paragraph at lines 497--497
 []|\OT1/cmr/m/it/10 O. e. \OT1/cmr/m/n/10 ssp. \OT1/cmr/m/it/10 eu-ropaea \OT1/cmr/m/n/10 var.
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 508--508
+Underfull \hbox (badness 3058) in paragraph at lines 503--503
 []|\OT1/cmr/m/n/10 Grapes (\OT1/cmr/m/it/10 Vi-tis vinifera \OT1/cmr/m/n/10 subsp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
 []|\OT1/cmr/m/n/10 Sorghum (\OT1/cmr/m/it/10 Sorghum bi-color
  []
 
-<vertical.png, id=27, 359.09157pt x 610.53094pt>
-File: vertical.png Graphic file (type png)
- <use vertical.png>
-Package pdftex.def Info: vertical.png used on input line 522.
-(pdftex.def)             Requested size: 493.65549pt x 839.3755pt.
-
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 522--523
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 228.27467pt on input line 525.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<boxplot_3.png, id=28, 620.3175pt x 593.96906pt>
-File: boxplot_3.png Graphic file (type png)
- <use boxplot_3.png>
-Package pdftex.def Info: boxplot_3.png used on input line 529.
+<combination.png, id=27, 620.3175pt x 593.96906pt>
+File: combination.png Graphic file (type png)
+ <use combination.png>
+Package pdftex.def Info: combination.png used on input line 524.
 (pdftex.def)             Requested size: 493.65549pt x 472.6835pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 529--530
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 524--525
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6] [7] (./paper.bbl [8] [9] [10] [11]
+[5] [6] [7]
+
+Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 619.
+
+(./paper.bbl [8] [9] [10] [11]
 Missing character: There is no È in font cmti10!
 Missing character: There is no Å in font cmti10!
 Missing character: There is no ∫ in font cmti10!
@@ -452,20 +440,20 @@ Missing character: There is no å in font cmti10!
 
 Package natbib Warning: There were undefined citations.
 
-[13] [14 <./li_figure.png>] [15 <./vertical.png (PNG copy)>] [16 <./boxplot_3.png (PNG copy)>] (./paper.aux) ) 
+[13] [14 <./li_figure.png>] [15 <./combination.png (PNG copy)>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5478 strings out of 493089
- 77880 string characters out of 6134842
- 214418 words of memory out of 5000000
- 8847 multiletter control sequences out of 15000+600000
+ 5473 strings out of 493089
+ 77809 string characters out of 6134842
+ 213409 words of memory out of 5000000
+ 8843 multiletter control sequences out of 15000+600000
  11515 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,879b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,879b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (16 pages, 792785 bytes).
+Output written on paper.pdf (15 pages, 790931 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
