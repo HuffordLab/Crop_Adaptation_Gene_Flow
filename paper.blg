@@ -63,45 +63,45 @@ Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
 Warning--empty year in Spooner2014
-You've used 72 entries,
+You've used 69 entries,
             1876 wiz_defined-function locations,
-            919 strings with 19779 characters,
-and the built_in function-call counts, 25671 in all, are:
-= -- 2515
-> -- 1309
+            901 strings with 19075 characters,
+and the built_in function-call counts, 24395 in all, are:
+= -- 2389
+> -- 1244
 < -- 0
-+ -- 463
-- -- 391
-* -- 2019
-:= -- 3665
-add.period$ -- 73
-call.type$ -- 72
-change.case$ -- 72
++ -- 440
+- -- 371
+* -- 1919
+:= -- 3487
+add.period$ -- 70
+call.type$ -- 69
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 1214
-empty$ -- 2041
-format.name$ -- 391
-if$ -- 6139
+cite$ -- 73
+duplicate$ -- 1157
+empty$ -- 1942
+format.name$ -- 371
+if$ -- 5836
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 72
-newline$ -- 220
-num.names$ -- 72
-pop$ -- 121
+int.to.str$ -- 69
+missing$ -- 69
+newline$ -- 211
+num.names$ -- 69
+pop$ -- 116
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 994
+skip$ -- 943
 stack$ -- 0
-substring$ -- 1963
-swap$ -- 639
+substring$ -- 1843
+swap$ -- 606
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 243
-width$ -- 74
-write$ -- 756
+while$ -- 231
+width$ -- 71
+write$ -- 725
 (There were 13 error messages)
