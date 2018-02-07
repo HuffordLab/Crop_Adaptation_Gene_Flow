@@ -36,7 +36,6 @@
 
 %Short Research reviews should be in the range 3500–4000 words, with up to 40 references and 6 figures/tables.
 
-
 The process of domestication is often conceptualized as geographically constrained, with crops originating from a wild progenitor within one or more defined centers followed by expansion to the modern-day extent of cultivation \cite{Harlan1992}.
 However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and geographically diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017, Fuller2014}.
 An additional important aspect of the emerging complexity of domestication is beneficial gene flow (\emph{i.e.}, adaptive introgression) from locally adapted wild relatives during crop expansion following initial domestication.
@@ -57,7 +56,7 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 \mbh{In this section, I think the overall content is good, but we need to edit to make it more accessible and more explicit about how methods are implemented to detect adaptive introgression}
 
-The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}).
+The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). \gmj{Are there newer resequencing methods to discuss here?  DART-Seq, etc?}
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
 Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
@@ -99,7 +98,7 @@ Patterns of allele sharing are interpreted in a phylogenetic context and the met
 Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}.
 The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern and is capable of determining introgression directionality.
 
-Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role.
+\gmj{This paragraph about application seems like it might not belong in this section.  Maybe it should be a part of the introduction?  Or, maybe each of these examples could be mentioned directly following the method(s) that was used in the study?}Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role.
 For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015});
 introgression of wing coloration loci has conferred M\"{u}llerian mimicry
 (a type of mimicry in which two unpalatable species resemble one another, compounding the efficacy of their repellant signal)
@@ -119,6 +118,7 @@ Below we present a summary of findings from maize, barley, and rice, three promi
 \begin{enumerate}
 \item{Maize:}
 
+\gmj{Li, can you update this section with your recent publication's findings?}
 
 The relationship between maize (\emph{Zea mays} ssp. \emph{mays}) and the teosinte \emph{Zea mays} ssp. \emph{mexicana} (hereafter, \emph{mexicana}) offers a prime case study of adaptive wild-to-crop introgression.
 Maize was domesticated from \emph{Zea mays} ssp. \emph{parviglumis} (hereafter, \emph{parviglumis})  approximately 9,000 BP in the lowlands of the Balsas River Valley in Mexico \cite{matsuoka2002single}.
@@ -262,6 +262,12 @@ Furthermore, the contemporary distribution of wild rice does not capture the ran
 
 %note from Asian wild rice is a hybrid swarm with extensive gene flow and feralization from domesticated rice:
 %Cite this paper to talk about how the ranges of the several subspecies of domesticated rice are distinct/sometimes overlap.  The paper makes the point that this overlap helps facilitate gene flow.
+
+
+
+
+
+
 
 
 
@@ -476,7 +482,7 @@ After hybrization events that lead to introgression, how long might the detectab
 %Does one see different architectures of introgression across different regions?
 %Have introgressed alleles been constrained to the population which initially recieved the introgression, or have those alleles spread to the rest of of the crop species?
 Introgressed regions are easier to detect when there has been limited recombination to break them apart.
-Therefore, introgressions are easiest to detect when they are either recent (few generations means few recombination events) or involve structural variation (which diminishes recombination rate). \gmj{or when the introgressed region is nearer the centromere, where recombination is less common?}
+Therefore, introgressions are easiest to detect when they are either recent (few generations means few recombination events) or involve structural variation (which diminishes recombination rate).
 Because recombination progressively breaks apart LD in introgressed regions, measurements of LD can be used to date introgression events (as in \cite{Poets2015}).
 
 
