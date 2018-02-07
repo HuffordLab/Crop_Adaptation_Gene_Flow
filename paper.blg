@@ -2,6 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
+Case mismatch error between cite keys huang2012 and Huang2012
+---line 84 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+ : \citation{huang2012
+ :                    }
+I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib
 "{" immediately follows a field name---line 11 of file bib_gj.bib
  : @article
@@ -48,51 +53,57 @@ Repeated entry---line 3582 of file bib_gj.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3700 of file bib_gj.bib
+ : @article{zhou2017
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "ren2013tibet"
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
+Warning--I didn't find a database entry for "harris2016genetic"
+Warning--I didn't find a database entry for "fu2016genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
 Warning--empty year in Spooner2014
-You've used 73 entries,
+You've used 69 entries,
             1876 wiz_defined-function locations,
-            922 strings with 19825 characters,
-and the built_in function-call counts, 25817 in all, are:
-= -- 2529
-> -- 1313
+            903 strings with 19105 characters,
+and the built_in function-call counts, 24395 in all, are:
+= -- 2389
+> -- 1244
 < -- 0
-+ -- 465
-- -- 392
-* -- 2024
-:= -- 3686
-add.period$ -- 75
-call.type$ -- 73
-change.case$ -- 72
++ -- 440
+- -- 371
+* -- 1919
+:= -- 3487
+add.period$ -- 70
+call.type$ -- 69
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 1223
-empty$ -- 2061
-format.name$ -- 392
-if$ -- 6177
+cite$ -- 73
+duplicate$ -- 1157
+empty$ -- 1942
+format.name$ -- 371
+if$ -- 5836
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 74
-newline$ -- 224
-num.names$ -- 73
-pop$ -- 127
+int.to.str$ -- 69
+missing$ -- 69
+newline$ -- 211
+num.names$ -- 69
+pop$ -- 116
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 995
+skip$ -- 943
 stack$ -- 0
-substring$ -- 1963
-swap$ -- 640
+substring$ -- 1843
+swap$ -- 606
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 244
-width$ -- 75
-write$ -- 765
-(There were 11 error messages)
+while$ -- 231
+width$ -- 71
+write$ -- 725
+(There were 13 error messages)
