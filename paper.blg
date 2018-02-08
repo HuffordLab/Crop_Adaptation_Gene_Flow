@@ -7,49 +7,49 @@ Case mismatch error between cite keys huang2012 and Huang2012
  : \citation{huang2012
  :                    }
 I'm skipping whatever remains of this command
-Database file #1: bib_gj.bib
-"{" immediately follows a field name---line 19 of file bib_gj.bib
+Database file #1: bib_gj.bib.bib
+"{" immediately follows a field name---line 40 of file bib_gj.bib.bib
  : @article
  :         {ren2013tibet,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1693 of file bib_gj.bib
+I was expecting an "="---line 1714 of file bib_gj.bib.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1935 of file bib_gj.bib
+I was expecting an "="---line 1956 of file bib_gj.bib.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3055 of file bib_gj.bib
+Repeated entry---line 3076 of file bib_gj.bib.bib
  : @article{Hufford2013
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3067 of file bib_gj.bib
+Repeated entry---line 3088 of file bib_gj.bib.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3183 of file bib_gj.bib
+Repeated entry---line 3204 of file bib_gj.bib.bib
  : @article{Martin2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3280 of file bib_gj.bib
+Repeated entry---line 3301 of file bib_gj.bib.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3373 of file bib_gj.bib
+I was expecting a `,' or a `}'---line 3394 of file bib_gj.bib.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3399 of file bib_gj.bib
+Repeated entry---line 3420 of file bib_gj.bib.bib
  : @article{heliconius2012
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3517 of file bib_gj.bib
+Repeated entry---line 3538 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3590 of file bib_gj.bib
+Repeated entry---line 3611 of file bib_gj.bib.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
@@ -60,45 +60,45 @@ Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty journal in hufford2013genomic
 Warning--empty year in Spooner2014
-You've used 90 entries,
+You've used 91 entries,
             1876 wiz_defined-function locations,
-            1019 strings with 23704 characters,
-and the built_in function-call counts, 31202 in all, are:
-= -- 3079
-> -- 1542
+            1022 strings with 24006 characters,
+and the built_in function-call counts, 31749 in all, are:
+= -- 3128
+> -- 1580
 < -- 0
-+ -- 548
-- -- 458
-* -- 2436
-:= -- 4448
-add.period$ -- 92
-call.type$ -- 90
-change.case$ -- 89
++ -- 561
+- -- 470
+* -- 2485
+:= -- 4528
+add.period$ -- 93
+call.type$ -- 91
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 1488
-empty$ -- 2520
-format.name$ -- 458
-if$ -- 7480
+cite$ -- 95
+duplicate$ -- 1509
+empty$ -- 2557
+format.name$ -- 470
+if$ -- 7605
 int.to.chr$ -- 0
-int.to.str$ -- 90
-missing$ -- 91
-newline$ -- 275
-num.names$ -- 90
-pop$ -- 154
+int.to.str$ -- 91
+missing$ -- 92
+newline$ -- 278
+num.names$ -- 91
+pop$ -- 155
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1196
+skip$ -- 1216
 stack$ -- 0
-substring$ -- 2372
-swap$ -- 769
+substring$ -- 2423
+swap$ -- 782
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 302
-width$ -- 92
-write$ -- 944
+while$ -- 306
+width$ -- 93
+write$ -- 955
 (There were 12 error messages)

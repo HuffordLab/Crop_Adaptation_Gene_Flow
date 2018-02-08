@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 FEB 2018 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 FEB 2018 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,8 +375,8 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340 \begin{tabular}{0.9\textwidth}
-                                    {llll}
+l.340 \begin{tabular}{0.8\textwidth}
+                                    {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -387,20 +387,20 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340 \begin{tabular}{0.9\textwidth}
-                                    {llll}
+l.340 \begin{tabular}{0.8\textwidth}
+                                    {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./paper.tex:340: Package array Error:  Illegal pream-token (9): `c' used.
+./paper.tex:340: Package array Error:  Illegal pream-token (8): `c' used.
 
 See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340 \begin{tabular}{0.9\textwidth}
-                                    {llll}
+l.340 \begin{tabular}{0.8\textwidth}
+                                    {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -411,8 +411,8 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340 \begin{tabular}{0.9\textwidth}
-                                    {llll}
+l.340 \begin{tabular}{0.8\textwidth}
+                                    {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -464,13 +464,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7] [8]
 
-Package natbib Warning: Citation `harris2016genetic' on page 9 undefined on input line 540.
+Package natbib Warning: Citation `harris2016genetic' on page 9 undefined on input line 535.
 
 
-Package natbib Warning: Citation `fu2016genetic' on page 9 undefined on input line 541.
+Package natbib Warning: Citation `fu2016genetic' on page 9 undefined on input line 536.
 
 
-Package natbib Warning: Citation `huang2012' on page 9 undefined on input line 558.
+Package natbib Warning: Citation `huang2012' on page 9 undefined on input line 553.
 
 [9] (./paper.bbl [10] [11] [12]
 Missing character: There is no é in font cmti10!
@@ -499,15 +499,15 @@ Package natbib Warning: There were undefined citations.
 
 [16] [17 <./li_figure.png>] [18 <./combination.png (PNG copy)>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5528 strings out of 493089
- 79278 string characters out of 6134842
- 214681 words of memory out of 5000000
- 8897 multiletter control sequences out of 15000+600000
+ 5531 strings out of 493089
+ 79338 string characters out of 6134842
+ 214697 words of memory out of 5000000
+ 8900 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,879b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,879b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (18 pages, 814094 bytes).
+Output written on paper.pdf (18 pages, 812907 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
