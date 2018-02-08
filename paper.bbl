@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Harlan1992}
 J.~R. Harlan, {\em Crops \& Man}.
@@ -388,6 +388,84 @@ E.~Van Der~Vossen, A.~Sikkema, B.~t.~L. Hekkert, J.~Gros, P.~Stevens,
 S.~Johnston, T.~Den~Nijs, S.~Peloquin, and R.~Hanneman~Jr, ``The significance
   of genic balance to endosperm development in interspecific crosses,'' {\em
   Theoretical and applied genetics}, vol.~57, no.~1, pp.~5--9, 1980.
+
+\bibitem{wegmann2011}
+D.~Wegmann, D.~E. Kessner, K.~R. Veeramah, R.~A. Mathias, D.~L. Nicolae, L.~R.
+  Yanek, Y.~V. Sun, D.~G. Torgerson, N.~Rafaels, T.~Mosley, {\em et~al.},
+  ``Recombination rates in admixed individuals identified by ancestry-based
+  inference,'' {\em Nature genetics}, vol.~43, no.~9, pp.~847--853, 2011.
+
+\bibitem{christe2016}
+C.~Christe, K.~N. St{\"o}lting, L.~Bresadola, B.~Fussi, B.~Heinze, D.~Wegmann,
+  and C.~Lexer, ``Selection against recombinant hybrids maintains reproductive
+  isolation in hybridizing populus species despite f1 fertility and recurrent
+  gene flow,'' {\em Molecular ecology}, vol.~25, no.~11, pp.~2482--2498, 2016.
+
+\bibitem{churchhouse2013}
+C.~Churchhouse and J.~Marchini, ``Multiway admixture deconvolution using phased
+  or unphased ancestral panels,'' {\em Genetic epidemiology}, vol.~37, no.~1,
+  pp.~1--12, 2013.
+
+\bibitem{eyheramendy2015}
+S.~Eyheramendy, F.~I. Martinez, F.~Manevy, C.~Vial, and G.~M. Repetto,
+  ``Genetic structure characterization of chileans reflects historical
+  immigration patterns,'' {\em Nature communications}, vol.~6, 2015.
+
+\bibitem{pugach2016complex}
+I.~Pugach, R.~Matveev, V.~Spitsyn, S.~Makarov, I.~Novgorodov, V.~Osakovsky,
+  M.~Stoneking, and B.~Pakendorf, ``The complex admixture history and recent
+  southern origins of siberian populations,'' {\em Molecular biology and
+  evolution}, p.~msw055, 2016.
+
+\bibitem{moreno2014genetics}
+A.~Moreno-Estrada, C.~R. Gignoux, J.~C. Fern{\'a}ndez-L{\'o}pez, F.~Zakharia,
+  M.~Sikora, A.~V. Contreras, V.~Acu{\~n}a-Alonzo, K.~Sandoval, C.~Eng,
+  S.~Romero-Hidalgo, {\em et~al.}, ``The genetics of mexico recapitulates
+  native american substructure and affects biomedical traits,'' {\em Science},
+  vol.~344, no.~6189, pp.~1280--1285, 2014.
+
+\bibitem{patterson2012}
+N.~Patterson, P.~Moorjani, Y.~Luo, S.~Mallick, N.~Rohland, Y.~Zhan,
+  T.~Genschoreck, T.~Webster, and D.~Reich, ``Ancient admixture in human
+  history,'' {\em Genetics}, vol.~192, no.~3, pp.~1065--1093, 2012.
+
+\bibitem{durand2011}
+E.~Y. Durand, N.~Patterson, D.~Reich, and M.~Slatkin, ``Testing for ancient
+  admixture between closely related populations,'' {\em Molecular biology and
+  evolution}, vol.~28, no.~8, pp.~2239--2252, 2011.
+
+\bibitem{malinsky2015}
+M.~Malinsky, R.~J. Challis, A.~M. Tyers, S.~Schiffels, Y.~Terai, B.~P.
+  Ngatunga, E.~A. Miska, R.~Durbin, M.~J. Genner, and G.~F. Turner, ``Genomic
+  islands of speciation separate cichlid ecomorphs in an east african crater
+  lake,'' {\em Science}, vol.~350, no.~6267, pp.~1493--1498, 2015.
+
+\bibitem{zhang2016genome}
+W.~Zhang, K.~K. Dasmahapatra, J.~Mallet, G.~R. Moreira, and M.~R. Kronforst,
+  ``Genome-wide introgression among distantly related heliconius butterfly
+  species,'' {\em Genome biology}, vol.~17, no.~1, p.~1, 2016.
+
+\bibitem{fontaine2015}
+M.~C. Fontaine, J.~B. Pease, A.~Steele, R.~M. Waterhouse, D.~E. Neafsey, I.~V.
+  Sharakhov, X.~Jiang, A.~B. Hall, F.~Catteruccia, E.~Kakani, {\em et~al.},
+  ``Extensive introgression in a malaria vector species complex revealed by
+  phylogenomics,'' {\em Science}, vol.~347, no.~6217, p.~1258524, 2015.
+
+\bibitem{pease2016}
+J.~B. Pease, D.~C. Haak, M.~W. Hahn, and L.~C. Moyle, ``Phylogenomics reveals
+  three sources of adaptive variation during a rapid radiation,'' {\em PLoS
+  Biol}, vol.~14, no.~2, p.~e1002379, 2016.
+
+\bibitem{kingan2015}
+S.~B. Kingan, A.~J. Geneva, J.~P. Vedanayagam, and D.~Garrigan, ``Genome
+  divergence and gene flow between drosophila simulans and d. mauritiana,''
+  {\em bioRxiv}, p.~024711, 2015.
+
+\bibitem{sams2016}
+A.~J. Sams, A.~Dumaine, Y.~N{\'e}d{\'e}lec, V.~Yotova, C.~Alfieri, J.~E.
+  Tanner, P.~W. Messer, and L.~B. Barreiro, ``Adaptively introgressed
+  neandertal haplotype at the oas locus functionally impacts innate immune
+  responses in humans,'' {\em Genome Biology}, vol.~17, no.~1, p.~246, 2016.
 
 \bibitem{hufford2013genomic}
 M.~B. Hufford, P.~Lubinksy, T.~Pyh{\"a}j{\"a}rvi, M.~T. Devengenzo, N.~C.
