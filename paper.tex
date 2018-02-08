@@ -9,6 +9,7 @@
 \usepackage[english]{babel}
 \usepackage{colortbl}
 \usepackage{booktabs}
+\usepackage{tabularx}
 \usepackage[x11names,dvipsnames,table]{xcolor}
 \bibliographystyle{ieeetr}
 \newcommand{\mbh}[1]{\textcolor{orange}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
@@ -63,6 +64,7 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 \mbh{In this section, I think the overall content is good, but we need to edit to make it more accessible and more explicit about how methods are implemented to detect adaptive introgression}
 
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). \gmj{Are there newer resequencing methods to discuss here?  DART-Seq, etc?}
+\lwang{I think it is fine to mention two of these methods, it is not our focus.}
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
 Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
@@ -125,16 +127,14 @@ Below we present a summary of findings from maize, barley, and rice, three promi
 \begin{enumerate}
 \item{Maize:}
 
-\gmj{Li, can you update this section with your recent publication's findings?}
-
 The relationship between maize (\emph{Zea mays} ssp. \emph{mays}) and the teosinte \emph{Zea mays} ssp. \emph{mexicana} (hereafter, \emph{mexicana}) offers a prime case study of adaptive wild-to-crop introgression.
 Maize was domesticated from \emph{Zea mays} ssp. \emph{parviglumis} (hereafter, \emph{parviglumis})  approximately 9,000 BP in the lowlands of the Balsas River Valley in Mexico \cite{matsuoka2002single}.
 From this domestication center, maize spread into the highlands of the Mexican Central Plateau, where it came into sympatry with \emph{mexicana}.
 Introgression from \emph{mexicana} to maize in the Central Plateau has been reported based on both morphological \cite {wilkes1977} and molecular \cite{vanHeerwaarden2011, doebley1987} data.
-However, \citep{hufford2013} first localized \emph{mexicana} introgression to chromosomal regions and provided evidence that it was likely adaptive.
+However, Hufford et al. \cite{hufford2013} first localized \emph{mexicana} introgression to chromosomal regions and provided evidence that it was likely adaptive.
 %The following is not fully clear.  Cut or revise.
-The authors identified nine genomic regions in several maize populations which consistently showed evidence of \emph{mexicana} introgression based on chromosome painting methods including HAPMIX and the linkage model of STRUCTURE (Figure \ref{fig:introgressionMaize}).
-These introgressed segments overlapped QTL that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be adaptive at high elevation.
+The authors identified nine genomic regions in several maize populations which consistently showed evidence of \emph{mexicana} introgression based on chromosome painting methods including HAPMIX(Figure \ref{fig:introgressionMaize}).
+These introgressed segments overlapped with QTLs that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be adaptive at high elevation.
 In a growth chamber experiment, the authors demonstrated that maize populations with \emph{mexicana} introgression showed greater plant height (a proxy for fitness) under highland environmental conditions than populations that lacked introgression.
 Height differences were not detected under lowland conditions.
 %Among the nine regions, three span the centromeres of chromosomes 5, 6, and 10, and one is located in the inversion polymorphism on chromosome 4, suggesting a significant role of genome structures restricting recombination in adaptive introgression.
@@ -156,12 +156,8 @@ A recent study \cite{wang2017} employed the ABBA-BABA and $\hat{f_{d}}$ statisti
 %The signal of introgression is absent for the other three populations.
 %On chromosome 5, the signals of introgression (the peak region of the distribution) are present in MexHigh, GuaHigh and Southwestern US Highland (SW\_US), but not the other two.
 %More details on the other chromosomes can be found in \cite{Wang2015manuscript}.
-Overall, analyses revealed that  \emph{mexicana} introgressions were transferred to nearby high elevation regions in Guatemala and the southwestern United States, but more distant high elevation regions (\emph{e.g.,} the Andes) showed no \emph{mexicana} ancestry. 
-%The Andean maize, the population totally isolated from the occurrence of any teosinte species, underwent the severest historical bottleneck, as a population in the front wave of the serial founder effects. 
-%The stronger genetic drift introduced by the smaller historical population size increased homozygosity but reduced the heterozygosity of the population, and it also extended the length of homozygosity.
-%The high frequency of deleterious alleles caused by stronger genetic drift in the Andes population, together with the reduced efficiency of selection against deleterious sites, contributes to the observed higher mutation load in the well-isolated maize population.
-%Although it is clear that the absence of introgression from wild relatives provided fewer genetic resources for highland adaptation (making the highland adaptation in the Andes unique), it is yet unknown whether or not being out of reach of wild relatives is a reason for reduced fitness in the Andes population.
-%Furthermore, the question of whether convergent evolution occurs between populations with and without introgression from wild relatives is a key topic for future studies in maize.
+Overall, analyses revealed that  \emph{mexicana} introgressions were transferred to Meso-American high elevation regions in Guatemala and the southwestern United States, but more distant high elevation regions (\emph{e.g.,} the Andes) showed no \emph{mexicana} ancestry. 
+
 Since \emph{mexicana} haplotypes appear to have played an important role historically in adaptation of maize to challenging high-elevation conditions, modern breeding programs may further benefit from drawing on \emph{mexicana} germplasm, particularly in regions like the Andes where \emph{mexicana} alleles are not known to have spread.
 
 
@@ -171,17 +167,6 @@ Since \emph{mexicana} haplotypes appear to have played an important role histori
 	\caption{Li's caption here.}
 	\label{fig:introgressionMaize}
 \end{figure}
-
-
-
-
-
-
-
-
-
-
-
 
 
 \item{Barley:}
@@ -337,7 +322,11 @@ Resistance genes have been experimentally introgressed from wild poptato relativ
 \rowcolors{2}{white}{gray!25}
 \begin{center}
 \caption{List and brief description of recently developed methods and examples of empirical studies employing these methods.} \label{tab:tools}
+<<<<<<< HEAD
 \begin{tabular}{0.8\textwidth}{}
+=======
+\begin{tabularx}{.9\textwidth}{llll}
+>>>>>>> 94c457b028f3fd6f9a165bc61a11feb7becc5ab8
 \\\toprule  
 \rowcolor{white}
 {\bf methods}	& {\bf data type } &	{\bf reference} &  {\bf empirical studies } \\ \midrule
@@ -345,38 +334,35 @@ Resistance genes have been experimentally introgressed from wild poptato relativ
 \rowcolor{gray!25}
 {\emph{\bf chromosome paiting}} &   &   &   \\
 \rowcolor{gray!25}
-Hapmix	& phased haplotype; reference panel		& Price et al. 2009	&  Hufford et al. 2013;  Suarez et al. 2016 \\ 
+Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
 \rowcolor{gray!25}
-RASPberry &	phased haplotype &	Wegmann et al. 2011	 & Christe et al. 2016 \\
+RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
 \rowcolor{gray!25}
-MultiMix & phased/unphased genotype; reference panel &	Churchhouse and Marchini 2013 &	Eyheramendy et al. 2015 \\
+MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
 \rowcolor{gray!25}
-PCAdmix	 & phased haplotype	 & Brisbin et al. 2012	 & Moreno et al. 2014; Pugach et al. 2016 \\
+PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{pugach2016complex, moreno2014genetics} \\
 \rowcolor{gray!25}
-LAMP  &	phased haplotypes; reference panel	 & Sankararaman et al. 2008	 & Patterson et al. 2012 \\
+LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
 
 \rowcolor{white}
 {\emph{\bf phylogenetic relationship}} &   &   &   \\
 \rowcolor{white}
-ABBA-BABA/D-statistics	 & biallelic SNP  &	Durand et al. 2011	 &  Heliconius Genome Consortium 2012 \\
+ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
 \rowcolor{white}
-fd statistic &	biallelic SNP &	Martin et al. 2015  &	Malinsky et al. 2015; Zhang et al. 2016 \\ 
+fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{malinsky2015, zhang2016genome} \\ 
 \rowcolor{white}
-five taxon D statistics	& biallelic SNP	&  Pease and Hahn 2015	& Fontaine et al. 2015; Pease et al. 2016 \\
+five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015, pease2016} \\
 
 \rowcolor{gray!25}
 {\emph{\bf divergence}} &   &   &   \\
 \rowcolor{gray!25}
-Gmin &	biallelic SNP	&  Geneva et al. 2015	&  Kingan et al. 2015 \\
+Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
 \rowcolor{gray!25}
-RNDmin	& phased haplotype	& Rosenzweig et al. 2016	&  NA \\
+RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  NA \\
 \rowcolor{gray!25}
-(see .tex file for comment) & biallelic SNP & Racimo et al. 2016 & Sams et al. 2016 \\
+$U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
 
-%I was not able to add Li's entry to this cell without errors.  I'll put her entry in the line below:
-%U_{A,B,C(w,x,y)} and Q95_{A,B,C(w,y)}
-
-\end{tabular}
+\end{tabularx}
 \end{center}
 \end{table} 
 
