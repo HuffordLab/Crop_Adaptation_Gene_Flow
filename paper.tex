@@ -63,8 +63,9 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 \mbh{In this section, I think the overall content is good, but we need to edit to make it more accessible and more explicit about how methods are implemented to detect adaptive introgression}
 
-The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). \gmj{Are there newer resequencing methods to discuss here?  DART-Seq, etc?}
-\lwang{I think it is fine to mention two of these methods, it is not our focus.}
+The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). 
+%\gmj{Are there newer resequencing methods to discuss here?  DART-Seq, etc?}
+%\lwang{I think it is fine to mention two of these methods, it is not our focus.}
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{Martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
 Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
@@ -73,17 +74,17 @@ Rather, we focus on methods that explicitly identify introgressed genomic segmen
 First, introgressed segments are expected to show low differentiation from their source population.
 The $F_{st}$ and $d_{XY}$ statistics and their derivates including $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
 The former two statistics are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
-Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup: 
+Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup:  $RND_{min} = d_{min}/d_{out}$, where $d_{min}$ is the minimum sequence distance between haplotypes in species X and Y and $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup ($O$).
 
 % \begin{equation}
 %    G_{min} = \frac{d_{min}}{d_{XY}}
 % \end{equation}
 % where $d_{min}$ is the minimum sequence distance between haplotypes in species X and Y.
  
- \begin{equation}
- 	RND_{min} = \frac{d_{min}}{d_{out}}
- \end{equation}
-where $d_{min}$ is the minimum sequence distance between haplotypes in species X and Y and $d_{out}$ equals $(d_{XO} + d_{YO})/2$, the average sequence distance between each species and the outgroup ($O$).
+ %\begin{equation}
+
+ %\end{equation}
+
  
 These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($C$).
@@ -95,10 +96,10 @@ One form of chromosome painting utilizes hidden Markov models to evaluate ancest
 Another clusters admixed populations with reference samples using a sliding-window approach (\emph{e.g.}, PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}).
 And finally, introgression can be detected through chromosome painting by using a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}). 
 
-\gmj{Li, are you familiar with the analytical tools MIGRATE-N and BAYESASS?  Rieseberg comapres these two to STRUCTURE at some length in the discussion of this paper:
-https://biology.unm.edu/Whitney/Whitney%20Reprints/Scascitelli%20et%20al%202010.pdf
-Should we include these two methods, even in passing, in this portion of the paper?}
-\lwang{Garrett, I donot know these two methods. I am reading the paper you mentioned here.}
+%\gmj{Li, are you familiar with the analytical tools MIGRATE-N and BAYESASS?  Rieseberg comapres these two to STRUCTURE at some length in the discussion of this paper:
+%https://biology.unm.edu/Whitney/Whitney%20Reprints/Scascitelli%20et%20al%202010.pdf
+%Should we include these two methods, even in passing, in this portion of the paper?}
+%\lwang{These are more complex statistics to infer the overall demography, like Isolate with migration, which we have defined in the beginning that we will not touch it in the manuscript}
 
 Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
@@ -106,12 +107,11 @@ Patterns of allele sharing are interpreted in a phylogenetic context and the met
 Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}.
 The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern and is capable of determining introgression directionality.
 
-\gmj{This paragraph about application seems like it might not belong in this section.  Maybe it should be a part of the introduction?  Or, maybe each of these examples could be mentioned directly following the method(s) that was used in the study?}
-Application of these approaches across a number of plant and animal species suggests introgression can play an adaptive role.
+%\gmj{This paragraph about application seems like it might not belong in this section.  Maybe it should be a part of the introduction?  Or, maybe each of these examples could be mentioned directly following the method(s) that was used in the study?}
+Application of these approaches combined with population genetic statistics to detect selection across a number of plant and animal species suggests introgression can play an adaptive role.
 For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015});
 introgression of wing coloration loci has conferred M\"{u}llerian mimicry
 (a type of mimicry in which two unpalatable species resemble one another, compounding the efficacy of their repellant signal)
-%\mbh{I would explain a bit more here...wing coloration loci, protects against predation...}
 across butterfly species \cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}.
 
 
@@ -163,8 +163,8 @@ Since \emph{mexicana} haplotypes appear to have played an important role histori
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=17.35cm]{li_figure.png}
-	\caption{Li's caption here.}
+	\includegraphics[width=17.35cm]{./FigsAndTables/Figure1}
+	\caption{Hapmix vectors indicating introgression level from \emph{mexicana} to Mexican highland maize on chromosome 4. Data adopted from Hufford et al. \cite{hufford2013genomic}. ELP: EL Porvenir; IXT: Ixtlan ; NAB: Nabogame; OPO: Opopeo; PUR: Puruandiro; SAC: Santa Clara; SAP: San Pedro; TEN: Tenango del Aire; XOC: Xochimilco.}
 	\label{fig:introgressionMaize}
 \end{figure}
 
@@ -322,10 +322,10 @@ Resistance genes have been experimentally introgressed from wild poptato relativ
 \rowcolors{2}{white}{gray!25}
 \begin{center}
 \caption{List and brief description of recently developed methods and examples of empirical studies employing these methods.} \label{tab:tools}
-\begin{tabularx}{.9\textwidth}{llll}
+\begin{tabularx}{\textwidth}{llll}
 \\\toprule  
 \rowcolor{white}
-{\bf methods}	& {\bf data type } &	{\bf reference} &  {\bf empirical studies } \\ \midrule
+{\bf methods}	& {\bf data type } &	{\bf reference} &  {\bf examples } \\ \midrule
 
 \rowcolor{gray!25}
 {\emph{\bf chromosome paiting}} &   &   &   \\

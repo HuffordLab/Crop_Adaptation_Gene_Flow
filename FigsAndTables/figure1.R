@@ -12,12 +12,17 @@ chr4.x2z <- chr4 %>% select(1:13)
 names(chr4.x2z)
 names(chr4.x2z)[5:13] <- gsub("_x2z", "", names(chr4.x2z)[5:13])
 names(chr4.x2z)
-chr4.long <- gather(chr4.x2z, pop, introgression, ELP:XOC)
+chr4.long <- gather(chr4.x2z, populations, introgression, ELP:XOC)
 head(chr4.long)
-ggplot(data=chr4.long, aes(x=gen, y=introgression, color=pop, group=pop)) + geom_line() + theme(legend.position=c(0.9, 0.8)) + xlab("genetic position")
-ggsave("z2mIntro.pdf")
+#ggplot(data=chr4.long, aes(x=gen, y=introgression, color=populations, group=populations)) + geom_line() + theme(legend.position=c(0.9, 0.8)) + xlab("genetic position")
+#ggsave("z2mIntro.pdf")
 
 
-ggplot(data=chr4.long, aes(x=gen, y=introgression, color=pop, group=pop)) + geom_smooth(method="loess", size=1, formula = y ~ x, span=0.04) + theme(legend.position=c(0.9, 0.8)) + xlab("genetic position")
-ggsave("z2mIntro.loessRegression.pdf")
+#ggplot(data=chr4.long, aes(x=pos/1000000, y=introgression, color=populations, group=populations)) + geom_smooth(method="loess", size=1, formula = y ~ x, span=0.04) + theme(legend.position=c(0.9, 0.8)) + xlab("physical position (mb)") +
+#ylab("Hapmix vectors")
+#ggsave("Figure1.pdf")
+
+ggplot(data=chr4.long, aes(x=gen, y=introgression, color=populations, group=populations)) + geom_smooth(method="loess", size=1, formula = y ~ x, span=0.04) + theme(legend.position=c(0.9, 0.8)) + xlab("genetic position (cM)") +
+ylab("introgression level from mexicana to maize")
+ggsave("Figure1.pdf")
 
