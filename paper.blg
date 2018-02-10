@@ -2,23 +2,23 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
+Case mismatch error between cite keys Martin2015 and martin2015
+---line 30 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+ : \citation{Martin2015
+ :                     }
+I'm skipping whatever remains of this command
 Case mismatch error between cite keys Hufford2013 and hufford2013
----line 75 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 76 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{Hufford2013
  :                      ,suarez2016}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys heliconius2012 and Heliconius2012
----line 85 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 86 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{heliconius2012
  :                         }
 I'm skipping whatever remains of this command
-Case mismatch error between cite keys martin2015 and Martin2015
----line 86 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
- : \citation{martin2015
- :                     }
-I'm skipping whatever remains of this command
 Case mismatch error between cite keys huang2012 and Huang2012
----line 124 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 125 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{huang2012
  :                    }
 I'm skipping whatever remains of this command
@@ -73,7 +73,7 @@ Warning--empty institution in terhorst2017
 Warning--empty year in Spooner2014
 You've used 104 entries,
             1876 wiz_defined-function locations,
-            1096 strings with 27167 characters,
+            1095 strings with 27157 characters,
 and the built_in function-call counts, 36654 in all, are:
 = -- 3602
 > -- 1856
