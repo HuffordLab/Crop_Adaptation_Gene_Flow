@@ -141,28 +141,27 @@ J.~K. Pritchard, M.~Stephens, and P.~Donnelly, ``Inference of population
   structure using multilocus genotype data,'' {\em Genetics}, vol.~155, no.~2,
   pp.~945--959, 2000.
 
-\bibitem{Racimo2015}
-F.~Racimo, S.~Sankararaman, R.~Nielsen, and E.~Huerta-S{\'a}nchez, ``Evidence
-  for archaic adaptive introgression in humans,'' {\em Nature Reviews
-  Genetics}, vol.~16, no.~6, pp.~359--371, 2015.
-
-\bibitem{Heliconius2012}
-H.~G. Consortium {\em et~al.}, ``Butterfly genome reveals promiscuous exchange
-  of mimicry adaptations among species,'' {\em Nature}, vol.~487, no.~7405,
-  pp.~94--98, 2012.
-
-\bibitem{Norris2015}
-L.~C. Norris, B.~J. Main, Y.~Lee, T.~C. Collier, A.~Fofana, A.~J. Cornel, and
-  G.~C. Lanzaro, ``Adaptive introgression in an african malaria mosquito
-  coincident with the increased usage of insecticide-treated bed nets,'' {\em
-  Proceedings of the National Academy of Sciences}, vol.~112, no.~3,
-  pp.~815--820, 2015.
-
 \bibitem{Stankowski2015}
 S.~Stankowski and M.~A. Streisfeld, ``Introgressive hybridization facilitates
   adaptive divergence in a recent radiation of monkeyflowers,'' {\em
   Proceedings of the Royal Society of London B: Biological Sciences}, vol.~282,
   no.~1814, 2015.
+
+\bibitem{jeong2014}
+C.~Jeong, G.~Alkorta-Aranburu, B.~Basnyat, M.~Neupane, D.~B. Witonsky, J.~K.
+  Pritchard, C.~M. Beall, and A.~Di~Rienzo, ``Admixture facilitates genetic
+  adaptations to high altitude in tibet,'' {\em Nature communications}, vol.~5,
+  p.~3281, 2014.
+
+\bibitem{Racimo2015}
+F.~Racimo, S.~Sankararaman, R.~Nielsen, and E.~Huerta-S{\'a}nchez, ``Evidence
+  for archaic adaptive introgression in humans,'' {\em Nature Reviews
+  Genetics}, vol.~16, no.~6, pp.~359--371, 2015.
+
+\bibitem{heliconius2012}
+H.~G. Consortium {\em et~al.}, ``Butterfly genome reveals promiscuous exchange
+  of mimicry adaptations among species,'' {\em Nature}, vol.~487, no.~7405,
+  pp.~94--98, 2012.
 
 \bibitem{matsuoka2002single}
 Y.~Matsuoka, Y.~Vigouroux, M.~M. Goodman, J.~Sanchez, E.~Buckler, and
@@ -186,7 +185,7 @@ J.~Doebley, M.~M. Goodman, and C.~W. Stuber, ``Patterns of isozyme variation
   between maize and mexican annual teosinte,'' {\em Economic Botany}, vol.~41,
   no.~2, pp.~234--246, 1987.
 
-\bibitem{hufford2013}
+\bibitem{Hufford2013}
 M.~Hufford, P.~Lubinksy, T.~Pyh\"{a}j\"{a}rvi, M.~Devengenzo, N.~Ellstrand, and
   J.~Ross-Ibarra, ``The genomic signature of crop-wild introgression in
   maize,'' {\em PLoS Genetics}, vol.~9, no.~5, p.~e1003477, 2013.
@@ -365,6 +364,24 @@ P.~Schmiediche, J.~Hawkes, and C.~Ochoa, ``Breeding of the cultivated potato
 K.~S. Zimmerer, ``The ecogeography of andean potatoes,'' {\em BioScience},
   pp.~445--454, 1998.
 
+\bibitem{kingan2015}
+S.~B. Kingan, A.~J. Geneva, J.~P. Vedanayagam, and D.~Garrigan, ``Genome
+  divergence and gene flow between drosophila simulans and d. mauritiana,''
+  {\em bioRxiv}, p.~024711, 2015.
+
+\bibitem{sams2016}
+A.~J. Sams, A.~Dumaine, Y.~N{\'e}d{\'e}lec, V.~Yotova, C.~Alfieri, J.~E.
+  Tanner, P.~W. Messer, and L.~B. Barreiro, ``Adaptively introgressed
+  neandertal haplotype at the oas locus functionally impacts innate immune
+  responses in humans,'' {\em Genome Biology}, vol.~17, no.~1, p.~246, 2016.
+
+\bibitem{suarez2016}
+A.~Suarez-Gonzalez, C.~A. Hefer, C.~Christe, O.~Corea, C.~Lexer, Q.~C. Cronk,
+  and C.~J. Douglas, ``Genomic and functional approaches reveal a case of
+  adaptive introgression from populus balsamifera (balsam poplar) in p.
+  trichocarpa (black cottonwood),'' {\em Molecular ecology}, vol.~25, no.~11,
+  pp.~2427--2442, 2016.
+
 \bibitem{wegmann2011}
 D.~Wegmann, D.~E. Kessner, K.~R. Veeramah, R.~A. Mathias, D.~L. Nicolae, L.~R.
   Yanek, Y.~V. Sun, D.~G. Torgerson, N.~Rafaels, T.~Mosley, {\em et~al.},
@@ -431,17 +448,6 @@ M.~C. Fontaine, J.~B. Pease, A.~Steele, R.~M. Waterhouse, D.~E. Neafsey, I.~V.
 J.~B. Pease, D.~C. Haak, M.~W. Hahn, and L.~C. Moyle, ``Phylogenomics reveals
   three sources of adaptive variation during a rapid radiation,'' {\em PLoS
   Biol}, vol.~14, no.~2, p.~e1002379, 2016.
-
-\bibitem{kingan2015}
-S.~B. Kingan, A.~J. Geneva, J.~P. Vedanayagam, and D.~Garrigan, ``Genome
-  divergence and gene flow between drosophila simulans and d. mauritiana,''
-  {\em bioRxiv}, p.~024711, 2015.
-
-\bibitem{sams2016}
-A.~J. Sams, A.~Dumaine, Y.~N{\'e}d{\'e}lec, V.~Yotova, C.~Alfieri, J.~E.
-  Tanner, P.~W. Messer, and L.~B. Barreiro, ``Adaptively introgressed
-  neandertal haplotype at the oas locus functionally impacts innate immune
-  responses in humans,'' {\em Genome Biology}, vol.~17, no.~1, p.~246, 2016.
 
 \bibitem{rieseberg2007hybridization}
 L.~H. Rieseberg, S.-C. Kim, R.~A. Randell, K.~D. Whitney, B.~L. Gross,
