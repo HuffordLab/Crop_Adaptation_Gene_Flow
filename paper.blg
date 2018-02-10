@@ -3,117 +3,113 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Case mismatch error between cite keys Hufford2013 and hufford2013
----line 73 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 75 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{Hufford2013
  :                      ,suarez2016}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys heliconius2012 and Heliconius2012
----line 83 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 85 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{heliconius2012
  :                         }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys martin2015 and Martin2015
----line 84 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 86 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{martin2015
  :                     }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys huang2012 and Huang2012
----line 122 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+---line 124 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{huang2012
  :                    }
 I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib.bib
-"{" immediately follows a field name---line 40 of file bib_gj.bib.bib
+Repeated entry---line 61 of file bib_gj.bib.bib
+ : @article{civavn2015three
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 72 of file bib_gj.bib.bib
+ : @article{choi2018multiple
+ :                          ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 89 of file bib_gj.bib.bib
  : @article
  :         {ren2013tibet,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1714 of file bib_gj.bib.bib
+I was expecting an "="---line 1758 of file bib_gj.bib.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1956 of file bib_gj.bib.bib
+I was expecting an "="---line 2000 of file bib_gj.bib.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3076 of file bib_gj.bib.bib
- : @article{Hufford2013
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3088 of file bib_gj.bib.bib
+Repeated entry---line 3125 of file bib_gj.bib.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3204 of file bib_gj.bib.bib
- : @article{Martin2015
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3301 of file bib_gj.bib.bib
+Repeated entry---line 3320 of file bib_gj.bib.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3394 of file bib_gj.bib.bib
+I was expecting a `,' or a `}'---line 3416 of file bib_gj.bib.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3420 of file bib_gj.bib.bib
- : @article{heliconius2012
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3538 of file bib_gj.bib.bib
+Repeated entry---line 3560 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3611 of file bib_gj.bib.bib
+Repeated entry---line 3633 of file bib_gj.bib.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "hufford2013genomic"
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
 Warning--I didn't find a database entry for "harris2016genetic"
 Warning--I didn't find a database entry for "fu2016genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
-Warning--empty journal in hufford2013genomic
 Warning--empty year in Spooner2014
-You've used 105 entries,
+You've used 104 entries,
             1876 wiz_defined-function locations,
-            1095 strings with 27657 characters,
-and the built_in function-call counts, 36910 in all, are:
+            1096 strings with 27167 characters,
+and the built_in function-call counts, 36654 in all, are:
 = -- 3602
-> -- 1905
+> -- 1856
 < -- 0
-+ -- 674
-- -- 569
-* -- 2898
-:= -- 5287
++ -- 657
+- -- 553
+* -- 2849
+:= -- 5217
 add.period$ -- 107
-call.type$ -- 105
-change.case$ -- 104
+call.type$ -- 104
+change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 109
-duplicate$ -- 1759
-empty$ -- 2933
-format.name$ -- 569
-if$ -- 8830
+cite$ -- 107
+duplicate$ -- 1764
+empty$ -- 2918
+format.name$ -- 553
+if$ -- 8801
 int.to.chr$ -- 0
-int.to.str$ -- 105
+int.to.str$ -- 104
 missing$ -- 106
-newline$ -- 320
-num.names$ -- 105
-pop$ -- 181
+newline$ -- 318
+num.names$ -- 104
+pop$ -- 179
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1423
+skip$ -- 1443
 stack$ -- 0
-substring$ -- 2736
-swap$ -- 920
+substring$ -- 2726
+swap$ -- 934
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 347
-width$ -- 108
-write$ -- 1103
-(There were 15 error messages)
+warning$ -- 3
+while$ -- 342
+width$ -- 107
+write$ -- 1097
+(There were 14 error messages)
