@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 FEB 2018 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 FEB 2018 22:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,140 +390,124 @@ Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on inp
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4] [5]
+[3] [4]
 
-Package natbib Warning: Citation `Hufford2013' on page 6 undefined on input line 309.
-
-
-Package natbib Warning: Citation `suarez2016' on page 6 undefined on input line 309.
+Package natbib Warning: Citation `Hufford2013' on page 5 undefined on input line 263.
 
 
-Package natbib Warning: Citation `heliconius2012' on page 6 undefined on input line 309.
+Package natbib Warning: Citation `suarez2016' on page 5 undefined on input line 263.
 
 
-Overfull \hbox (39.59642pt too wide) in alignment at lines 309--309
+Package natbib Warning: Citation `heliconius2012' on page 5 undefined on input line 263.
+
+
+Overfull \hbox (39.59642pt too wide) in alignment at lines 263--263
 [][][][] 
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 320--320
+Underfull \hbox (badness 4859) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10 Hybrids and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10 Evidence of
  []
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 6 undefined on input line 321.
+Package natbib Warning: Citation `hufford2013genomic' on page 5 undefined on input line 275.
 
 
-Package natbib Warning: Citation `gavrilenko2013genetic' on page 6 undefined on input line 330.
+Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 284.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 334--334
+Underfull \hbox (badness 2189) in paragraph at lines 288--288
 []|\OT1/cmr/m/it/10 O. e. \OT1/cmr/m/n/10 ssp. \OT1/cmr/m/it/10 eu-ropaea \OT1/cmr/m/n/10 var.
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 340--340
+Underfull \hbox (badness 3058) in paragraph at lines 294--294
 []|\OT1/cmr/m/n/10 Grapes (\OT1/cmr/m/it/10 Vi-tis vinifera \OT1/cmr/m/n/10 subsp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []|\OT1/cmr/m/n/10 Sorghum (\OT1/cmr/m/it/10 Sorghum bi-color
  []
 
-<temperature_plot.png, id=28, 715.92468pt x 432.11438pt>
+<temperature_plot.png, id=25, 715.92468pt x 432.11438pt>
 File: temperature_plot.png Graphic file (type png)
  <use temperature_plot.png>
-Package pdftex.def Info: temperature_plot.png used on input line 361.
+Package pdftex.def Info: temperature_plot.png used on input line 315.
 (pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 361--362
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<boxplot.png, id=29, 715.92468pt x 432.11438pt>
+<boxplot.png, id=26, 715.92468pt x 432.11438pt>
 File: boxplot.png Graphic file (type png)
  <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 368.
+Package pdftex.def Info: boxplot.png used on input line 322.
 (pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 368--369
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 322--323
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7]
+[5] [6]
 
-Package natbib Warning: Citation `hufford2013genomic' on page 8 undefined on input line 415.
+Package natbib Warning: Citation `hufford2013genomic' on page 7 undefined on input line 369.
 
-[8]
+[7]
 
-Package natbib Warning: Citation `harris2016genetic' on page 9 undefined on input line 472.
-
-
-Package natbib Warning: Citation `fu2016genetic' on page 9 undefined on input line 473.
+Package natbib Warning: Citation `harris2016genetic' on page 8 undefined on input line 426.
 
 
-Package natbib Warning: Citation `huang2012' on page 9 undefined on input line 490.
+Package natbib Warning: Citation `fu2016genetic' on page 8 undefined on input line 427.
 
-[9] (./paper.bbl [10] [11] [12]
-Missing character: There is no È in font cmti10!
-Missing character: There is no Å in font cmti10!
-Missing character: There is no ∫ in font cmti10!
-Missing character: There is no ‰ in font cmti10!
-Missing character: There is no º in font cmti10!
-Missing character: There is no ù in font cmti10!
-Missing character: There is no Â in font cmti10!
-Missing character: There is no ≠ in font cmti10!
-Missing character: There is no ¶ in font cmti10!
-Missing character: There is no È in font cmti10!
-Missing character: There is no õ in font cmti10!
-Missing character: There is no ë in font cmti10!
-Missing character: There is no Ë in font cmti10!
-Missing character: There is no ™ in font cmti10!
-Missing character: There is no å in font cmti10!
- [13] [14]
-Underfull \hbox (badness 1215) in paragraph at lines 377--380
+
+Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 444.
+
+[8] (./paper.bbl [9] [10] [11] [12] [13]
+Underfull \hbox (badness 1215) in paragraph at lines 355--358
 []\OT1/cmr/m/n/10.95 J. G. Hawkes, ``Ori-gin of solanum juzepczukii buk and s cur-tilobum juz et buk,''
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 377--380
+Underfull \hbox (badness 2970) in paragraph at lines 355--358
 \OT1/cmr/m/it/10.95 ZEITSCHRIFT FUR PFLANZENZUCHTUNG-JOURNAL OF PLANT BREED-ING\OT1/cmr/m/n/10.95 ,
  []
 
-[15] [16])
+[14] [15])
 
 Package natbib Warning: There were undefined citations.
 
-[17] [18 <./FigsAndTables/Figure1.pdf>] [19 <./temperature_plot.png (PNG copy)>] [20 <./boxplot.png (PNG copy)>] (./paper.aux)
+[16] [17 <./FigsAndTables/Figure1.pdf>] [18 <./temperature_plot.png (PNG copy)>] [19 <./boxplot.png (PNG copy)>] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5630 strings out of 493089
- 80976 string characters out of 6134842
- 214043 words of memory out of 5000000
- 8994 multiletter control sequences out of 15000+600000
+ 5618 strings out of 493089
+ 80697 string characters out of 6134842
+ 215975 words of memory out of 5000000
+ 8982 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,861b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,644b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (20 pages, 341131 bytes).
+Output written on paper.pdf (19 pages, 337814 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
