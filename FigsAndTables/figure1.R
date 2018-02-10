@@ -20,9 +20,11 @@ head(chr4.long)
 seg <- data.frame(x1 = 162.885280, x2 = 192.761788, y1 = 2, y2 = 2)
 
 
-p <- ggplot(data=chr4.long, aes(x=pos/1000000, y=introgression, color=populations, group=populations)) + geom_smooth(method="loess", size=1, formula = y ~ x, span=0.01) + theme(legend.position=c(0.9, 0.8)) + xlab("physical position (mb)") +
+p <- ggplot(data=chr4.long, aes(x=pos/1000000, y=introgression, color=populations, group=populations)) + geom_smooth(method="loess", size=1, formula = y ~ x, span=0.05) + theme(legend.position=c(0.9, 0.8)) + xlab("physical position (mb)") +
 ylab("introgression level from mexicana to maize")+
-scale_y_continuous(limits=c(0, 2))
+scale_y_continuous(limits=c(0, 2)) +
+geom_rect(xmin=162.9, xmax=192.8, ymin=0, ymax=0.05)
+
 p + geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2), data = seg, size=2)+
 scale_y_continous(limits=c(0, 2))
 

@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Case mismatch error between cite keys huang2012 and Huang2012
----line 119 of file /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
+---line 122 of file /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{huang2012
  :                    }
 I'm skipping whatever remains of this command
@@ -55,45 +55,45 @@ Warning--I didn't find a database entry for "fu2016genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty year in Spooner2014
-You've used 101 entries,
+You've used 102 entries,
             1876 wiz_defined-function locations,
-            1073 strings with 26375 characters,
-and the built_in function-call counts, 35515 in all, are:
-= -- 3482
-> -- 1809
+            1078 strings with 26537 characters,
+and the built_in function-call counts, 35911 in all, are:
+= -- 3525
+> -- 1823
 < -- 0
-+ -- 640
-- -- 539
-* -- 2761
-:= -- 5061
-add.period$ -- 104
-call.type$ -- 101
-change.case$ -- 99
++ -- 645
+- -- 543
+* -- 2791
+:= -- 5113
+add.period$ -- 105
+call.type$ -- 102
+change.case$ -- 100
 chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 1709
-empty$ -- 2826
-format.name$ -- 539
-if$ -- 8525
+cite$ -- 105
+duplicate$ -- 1728
+empty$ -- 2859
+format.name$ -- 543
+if$ -- 8622
 int.to.chr$ -- 0
-int.to.str$ -- 101
-missing$ -- 103
-newline$ -- 309
-num.names$ -- 101
-pop$ -- 177
+int.to.str$ -- 102
+missing$ -- 104
+newline$ -- 312
+num.names$ -- 102
+pop$ -- 178
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1395
+skip$ -- 1412
 stack$ -- 0
-substring$ -- 2626
-swap$ -- 903
+substring$ -- 2666
+swap$ -- 914
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 330
-width$ -- 104
-write$ -- 1063
+while$ -- 334
+width$ -- 105
+write$ -- 1074
 (There were 11 error messages)
