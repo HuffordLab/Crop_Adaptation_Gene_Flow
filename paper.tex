@@ -80,18 +80,17 @@ And finally, introgression can be detected through chromosome painting by using 
 Third, the ABBA-BABA statistic (also known as the D-statistic) and related statistics are widely applied to introgression detection.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
 Patterns of allele sharing are interpreted in a phylogenetic context and the method is best suited to detection of introgression at the genome level.
-Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}.
+Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{martin2015} and the five-taxon D-statistic \cite{pease2015}.
 The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern and is capable of determining introgression directionality.
 
 
 Application of these approaches combined with population genetic statistics to detect selection across a number of plant and animal species suggests introgression can play an adaptive role.
-For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015});
-introgression of wing coloration loci has conferred M\"{u}llerian mimicry
+For example, based on the sequence divergence, introgression has been detected across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species resulting in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015};
+Jeong et al. \cite{jeong2014} utilized HAPMIX to disclose introgression from Sherpa to Tibetan humans at loci controlling high altitude adaptation (reviewed in \cite{Racimo2015});
+ABBA-BABA statistics were employed to reveal introgression of wing coloration loci conferring M\"{u}llerian mimicry
 (a type of mimicry in which two unpalatable species resemble one another, compounding the efficacy of their repellant signal)
-across butterfly species \cite{Heliconius2012}; introgression has spread insecticide resistance across mosquito species \cite{Norris2015}, and introgression across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species has resulted in adaptation to pollinator preference and contributed to speciation \cite{Stankowski2015}.
-
-
-
+across butterfly species \cite{heliconius2012}.
+.
 
 
 
@@ -107,7 +106,7 @@ The relationship between maize (\emph{Zea mays} ssp. \emph{mays}) and the teosin
 Maize was domesticated from \emph{Zea mays} ssp. \emph{parviglumis} (hereafter, \emph{parviglumis})  approximately 9,000 BP in the lowlands of the Balsas River Valley in Mexico \cite{matsuoka2002single}.
 From this domestication center, maize spread into the highlands of the Mexican Central Plateau, where it came into sympatry with \emph{mexicana}.
 Introgression from \emph{mexicana} to maize in the Central Plateau has been reported based on both morphological \cite {wilkes1977} and molecular \cite{vanHeerwaarden2011, doebley1987} data.
-However, Hufford et al. \cite{hufford2013} first localized \emph{mexicana} introgression to chromosomal regions and provided evidence that it was likely adaptive.
+However, Hufford et al. \cite{Hufford2013} first localized \emph{mexicana} introgression to chromosomal regions and provided evidence that it was likely adaptive.
 The authors identified nine genomic regions in several maize populations which consistently showed evidence of \emph{mexicana} introgression based on chromosome painting methods including HAPMIX(Figure \ref{fig:introgressionMaize}).
 These introgressed segments overlapped with QTLs that had previously been found to control anthocyanin content and leaf macrohairs \cite{lauter2004}, traits known to be adaptive at high elevation.
 In a growth chamber experiment, the authors demonstrated that maize populations with \emph{mexicana} introgression showed greater plant height (a proxy for fitness) under highland environmental conditions than populations that lacked introgression.
@@ -123,10 +122,12 @@ Since \emph{mexicana} haplotypes appear to have played an important role histori
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=17.35cm]{./FigsAndTables/Figure1}
-	\caption{Hapmix vectors indicating introgression level from \emph{mexicana} to Mexican highland maize on chromosome 4. Data adopted from Hufford et al. \cite{hufford2013genomic}. ELP: EL Porvenir; IXT: Ixtlan ; NAB: Nabogame; OPO: Opopeo; PUR: Puruandiro; SAC: Santa Clara; SAP: San Pedro; TEN: Tenango del Aire; XOC: Xochimilco.}
+	\includegraphics[width=17.35cm]{./FigsAndTables/Figure1withInset}
+	\caption{Hapmix vectors indicating introgression level from \emph{mexicana} to Mexican highland maize on chromosome 4. Data adopted from Hufford et al. \cite{Hufford2013}. ELP: EL Porvenir; IXT: Ixtlan ; NAB: Nabogame; OPO: Opopeo; PUR: Puruandiro; SAC: Santa Clara; SAP: San Pedro; TEN: Tenango del Aire; XOC: Xochimilco. Insets showed the phenotypes of macrohairs on lowland (red) and highland (blue) maize stems.}
 	\label{fig:introgressionMaize}
 \end{figure}
+
+
 
 
 \item{Barley:}
@@ -230,28 +231,6 @@ Andean potatoes exhibit high ecological versatility, due in part either to allel
 {\bf methods}	& {\bf data type } &	{\bf reference} &  {\bf examples } \\ \midrule
 
 \rowcolor{gray!25}
-{\emph{\bf chromosome painting}} &   &   &   \\
-\rowcolor{gray!25}
-Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
-\rowcolor{gray!25}
-RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
-\rowcolor{gray!25}
-MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
-\rowcolor{gray!25}
-PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{pugach2016complex, moreno2014genetics} \\
-\rowcolor{gray!25}
-LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
-
-\rowcolor{white}
-{\emph{\bf phylogenetic relationship}} &   &   &   \\
-\rowcolor{white}
-ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
-\rowcolor{white}
-fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{malinsky2015, zhang2016genome} \\ 
-\rowcolor{white}
-five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015, pease2016} \\
-
-\rowcolor{gray!25}
 {\emph{\bf divergence}} &   &   &   \\
 \rowcolor{gray!25}
 Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
@@ -259,6 +238,29 @@ Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
 RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  NA \\
 \rowcolor{gray!25}
 $U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
+
+\rowcolor{white}
+{\emph{\bf chromosome painting}} &   &   &   \\
+\rowcolor{white}
+Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
+\rowcolor{white}
+RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
+\rowcolor{white}
+MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
+\rowcolor{white}
+PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{pugach2016complex, moreno2014genetics} \\
+\rowcolor{white}
+LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
+
+\rowcolor{gray!25}
+{\emph{\bf phylogenetic relationship}} &   &   &   \\
+\rowcolor{gray!25}
+ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
+\rowcolor{gray!25}
+fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{malinsky2015, zhang2016genome} \\ 
+\rowcolor{gray!25}
+five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015, pease2016} \\
+
 
 \end{tabularx}
 \end{center}
@@ -272,7 +274,7 @@ $U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & 
 \begin{tabular}{|p{5cm}|p{5cm}|p{2.6cm}|p{2.6cm}|p{2.6cm}|l|}
 \hline
 Crop & Compatible Wild Relatives & Hybrids and/or Hybridization & Evidence of Crop Introgression & Evidence of Adaptiveness & Source \\ \hline \hline
-Maize (\emph{Zea mays} subsp. \emph{mays}) & \emph{Z. m.} subsp. \emph{mexicana}, \emph{Z. m. } subsp. \emph{parviglumis} & X & X & X & \cite{hufford2013genomic} \\ 
+Maize (\emph{Zea mays} subsp. \emph{mays}) & \emph{Z. m.} subsp. \emph{mexicana}, \emph{Z. m. } subsp. \emph{parviglumis} & X & X & X & \cite{Hufford2013} \\ 
 \hline 
 Asian Rice (\emph{Oryza sativa}) & \emph{O. rufipogon} & X & X & X & \cite{Huang2012} \\ 
 \hline
@@ -366,7 +368,7 @@ For example, \emph{mexicana} introgression into maize described above accounts f
 Takuno and co-authors \cite{Takuno2015} have shown that a demographic model incorporating this introgression is a significantly better fit to empirical data than a model lacking introgression.
 Failure to account for introgression in maize would therefore compromise domestication candidate detection, particularly if a study contained maize samples from the Mexican highlands.
 Likewise, introgression that increased nucleotide diversity in the domesticate or decreased differentiation at domestication loci would confound a strict outlier approach.
-However, previous work, also in maize, has shown that known domestication loci are particularly resistant to introgression \cite{hufford2013genomic}, likely due to ongoing selection favoring the domesticated phenotype.
+However, previous work, also in maize, has shown that known domestication loci are particularly resistant to introgression \cite{Hufford2013}, likely due to ongoing selection favoring the domesticated phenotype.
 
 %\lwang{I donot quite understand this point. So, it is assumed that the introgressed haplotype has higher diversity, which renders difficulty to detect selection in such regions, right? But the case in maize is that even the introgressed haplotypes had higher diversity, but as selection has act long time on the region, the observed current diversity has already been reduced.}
 

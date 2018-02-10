@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 FEB 2018 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2018 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,80 +367,87 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package natbib Warning: Citation `Martin2015' on page 2 undefined on input line 83.
+Package natbib Warning: Citation `jeong2014' on page 2 undefined on input line 89.
 
-[2] <./FigsAndTables/Figure1.pdf, id=18, 491.8375pt x 421.575pt>
-File: ./FigsAndTables/Figure1.pdf Graphic file (type pdf)
- <use ./FigsAndTables/Figure1.pdf>
-Package pdftex.def Info: ./FigsAndTables/Figure1.pdf used on input line 126.
+
+Package natbib Warning: Citation `heliconius2012' on page 2 undefined on input line 92.
+
+[2]
+
+Package natbib Warning: Citation `Hufford2013' on page 3 undefined on input line 109.
+
+<./FigsAndTables/Figure1withInset.pdf, id=18, 491.8375pt x 421.575pt>
+File: ./FigsAndTables/Figure1withInset.pdf Graphic file (type pdf)
+ <use ./FigsAndTables/Figure1withInset.pdf>
+Package pdftex.def Info: ./FigsAndTables/Figure1withInset.pdf used on input line 125.
 (pdftex.def)             Requested size: 493.65549pt x 423.14996pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 126--127
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on input line 127.
+Package natbib Warning: Citation `Hufford2013' on page 3 undefined on input line 126.
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on input line 127.
+Package natbib Warning: Citation `Hufford2013' on page 3 undefined on input line 126.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4]
 
-Package natbib Warning: Citation `Hufford2013' on page 5 undefined on input line 263.
+Package natbib Warning: Citation `Hufford2013' on page 5 undefined on input line 265.
 
 
-Package natbib Warning: Citation `suarez2016' on page 5 undefined on input line 263.
+Package natbib Warning: Citation `suarez2016' on page 5 undefined on input line 265.
 
 
-Package natbib Warning: Citation `heliconius2012' on page 5 undefined on input line 263.
+Package natbib Warning: Citation `heliconius2012' on page 5 undefined on input line 265.
 
 
-Overfull \hbox (39.59642pt too wide) in alignment at lines 263--263
+Overfull \hbox (39.59642pt too wide) in alignment at lines 265--265
 [][][][] 
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 274--274
+Underfull \hbox (badness 4859) in paragraph at lines 276--276
 []|\OT1/cmr/m/n/10 Hybrids and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\OT1/cmr/m/n/10 Evidence of
  []
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 5 undefined on input line 275.
+Package natbib Warning: Citation `Hufford2013' on page 5 undefined on input line 277.
 
 
-Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 284.
+Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 286.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 288--288
+Underfull \hbox (badness 2189) in paragraph at lines 290--290
 []|\OT1/cmr/m/it/10 O. e. \OT1/cmr/m/n/10 ssp. \OT1/cmr/m/it/10 eu-ropaea \OT1/cmr/m/n/10 var.
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 294--294
+Underfull \hbox (badness 3058) in paragraph at lines 296--296
 []|\OT1/cmr/m/n/10 Grapes (\OT1/cmr/m/it/10 Vi-tis vinifera \OT1/cmr/m/n/10 subsp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 []|\OT1/cmr/m/n/10 Sorghum (\OT1/cmr/m/it/10 Sorghum bi-color
  []
 
 <temperature_plot.png, id=25, 715.92468pt x 432.11438pt>
 File: temperature_plot.png Graphic file (type png)
  <use temperature_plot.png>
-Package pdftex.def Info: temperature_plot.png used on input line 315.
+Package pdftex.def Info: temperature_plot.png used on input line 317.
 (pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 315--316
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 317--318
  [][] 
  []
 
@@ -450,10 +457,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <boxplot.png, id=26, 715.92468pt x 432.11438pt>
 File: boxplot.png Graphic file (type png)
  <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 322.
+Package pdftex.def Info: boxplot.png used on input line 324.
 (pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 322--323
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 324--325
  [][] 
  []
 
@@ -462,17 +469,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5] [6]
 
-Package natbib Warning: Citation `hufford2013genomic' on page 7 undefined on input line 369.
+Package natbib Warning: Citation `Hufford2013' on page 7 undefined on input line 371.
 
 [7]
 
-Package natbib Warning: Citation `harris2016genetic' on page 8 undefined on input line 426.
+Package natbib Warning: Citation `harris2016genetic' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `fu2016genetic' on page 8 undefined on input line 427.
+Package natbib Warning: Citation `fu2016genetic' on page 8 undefined on input line 429.
 
 
-Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 444.
+Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 446.
 
 [8] (./paper.bbl [9] [10] [11] [12] [13]
 Underfull \hbox (badness 1215) in paragraph at lines 355--358
@@ -488,24 +495,24 @@ Underfull \hbox (badness 2970) in paragraph at lines 355--358
 
 Package natbib Warning: There were undefined citations.
 
-[16] [17 <./FigsAndTables/Figure1.pdf>] [18 <./temperature_plot.png (PNG copy)>] [19 <./boxplot.png (PNG copy)>] (./paper.aux)
+[16] [17 <./FigsAndTables/Figure1withInset.pdf>] [18 <./temperature_plot.png (PNG copy)>] [19 <./boxplot.png (PNG copy)>] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5630 strings out of 493014
- 80880 string characters out of 6133351
+ 5629 strings out of 493014
+ 80904 string characters out of 6133351
  216311 words of memory out of 5000000
- 9050 multiletter control sequences out of 15000+600000
+ 9049 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,35p,644b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (19 pages, 337814 bytes).
+Output written on paper.pdf (19 pages, 985082 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 173 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
