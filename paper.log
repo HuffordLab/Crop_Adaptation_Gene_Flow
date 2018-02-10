@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 FEB 2018 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 FEB 2018 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,77 +369,90 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package natbib Warning: Citation `Martin2015' on page 2 undefined on input line 90.
+Package natbib Warning: Citation `Martin2015' on page 2 undefined on input line 83.
 
-[2] <./FigsAndTables/Figure1.pdf, id=19, 491.8375pt x 421.575pt>
+[2] <./FigsAndTables/Figure1.pdf, id=18, 491.8375pt x 421.575pt>
 File: ./FigsAndTables/Figure1.pdf Graphic file (type pdf)
  <use ./FigsAndTables/Figure1.pdf>
-Package pdftex.def Info: ./FigsAndTables/Figure1.pdf used on input line 149.
+Package pdftex.def Info: ./FigsAndTables/Figure1.pdf used on input line 142.
 (pdftex.def)             Requested size: 493.65549pt x 423.14996pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 149--150
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on input line 150.
+Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on input line 143.
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on input line 150.
+Package natbib Warning: Citation `hufford2013genomic' on page 3 undefined on input line 143.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4] [5]
 
-Package natbib Warning: Citation `Hufford2013' on page 6 undefined on input line 335.
+Package natbib Warning: Citation `Hufford2013' on page 6 undefined on input line 328.
 
 
-Package natbib Warning: Citation `suarez2016' on page 6 undefined on input line 335.
+Package natbib Warning: Citation `suarez2016' on page 6 undefined on input line 328.
 
 
-Package natbib Warning: Citation `heliconius2012' on page 6 undefined on input line 335.
+Package natbib Warning: Citation `heliconius2012' on page 6 undefined on input line 328.
 
 
-Overfull \hbox (39.59642pt too wide) in alignment at lines 335--335
+Overfull \hbox (39.59642pt too wide) in alignment at lines 328--328
 [][][][] 
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 346--346
+Underfull \hbox (badness 4859) in paragraph at lines 339--339
 []|\OT1/cmr/m/n/10 Hybrids and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 []|\OT1/cmr/m/n/10 Evidence of
  []
 
 
-Package natbib Warning: Citation `hufford2013genomic' on page 6 undefined on input line 347.
+Package natbib Warning: Citation `hufford2013genomic' on page 6 undefined on input line 340.
 
 
-Package natbib Warning: Citation `gavrilenko2013genetic' on page 6 undefined on input line 356.
+Package natbib Warning: Citation `gavrilenko2013genetic' on page 6 undefined on input line 349.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 360--360
+Underfull \hbox (badness 2189) in paragraph at lines 353--353
 []|\OT1/cmr/m/it/10 O. e. \OT1/cmr/m/n/10 ssp. \OT1/cmr/m/it/10 eu-ropaea \OT1/cmr/m/n/10 var.
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 366--366
+Underfull \hbox (badness 3058) in paragraph at lines 359--359
 []|\OT1/cmr/m/n/10 Grapes (\OT1/cmr/m/it/10 Vi-tis vinifera \OT1/cmr/m/n/10 subsp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []|\OT1/cmr/m/n/10 Sorghum (\OT1/cmr/m/it/10 Sorghum bi-color
  []
 
-<temperature_plot.png, id=29, 715.92468pt x 432.11438pt>
+<temperature_plot.png, id=28, 715.92468pt x 432.11438pt>
 File: temperature_plot.png Graphic file (type png)
  <use temperature_plot.png>
-Package pdftex.def Info: temperature_plot.png used on input line 387.
+Package pdftex.def Info: temperature_plot.png used on input line 380.
+(pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
+
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 380--381
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<boxplot.png, id=29, 715.92468pt x 432.11438pt>
+File: boxplot.png Graphic file (type png)
+ <use boxplot.png>
+Package pdftex.def Info: boxplot.png used on input line 387.
 (pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
 
 Overfull \hbox (23.90047pt too wide) in paragraph at lines 387--388
@@ -449,34 +462,21 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 387--388
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<boxplot.png, id=30, 715.92468pt x 432.11438pt>
-File: boxplot.png Graphic file (type png)
- <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 394.
-(pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
-
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 394--395
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [6] [7]
 
-Package natbib Warning: Citation `hufford2013genomic' on page 8 undefined on input line 441.
+Package natbib Warning: Citation `hufford2013genomic' on page 8 undefined on input line 434.
 
 [8]
 
-Package natbib Warning: Citation `harris2016genetic' on page 9 undefined on input line 498.
+Package natbib Warning: Citation `harris2016genetic' on page 9 undefined on input line 491.
 
 
-Package natbib Warning: Citation `fu2016genetic' on page 9 undefined on input line 499.
+Package natbib Warning: Citation `fu2016genetic' on page 9 undefined on input line 492.
 
 
-Package natbib Warning: Citation `huang2012' on page 9 undefined on input line 516.
+Package natbib Warning: Citation `huang2012' on page 9 undefined on input line 509.
 
-[9] (./paper.bbl [10] [11] [12] [13]
+[9] (./paper.bbl [10] [11] [12]
 Missing character: There is no È in font cmti10!
 Missing character: There is no Å in font cmti10!
 Missing character: There is no ∫ in font cmti10!
@@ -492,7 +492,7 @@ Missing character: There is no ë in font cmti10!
 Missing character: There is no Ë in font cmti10!
 Missing character: There is no ™ in font cmti10!
 Missing character: There is no å in font cmti10!
- [14]
+ [13] [14]
 Underfull \hbox (badness 1215) in paragraph at lines 377--380
 []\OT1/cmr/m/n/10.95 J. G. Hawkes, ``Ori-gin of solanum juzepczukii buk and s cur-tilobum juz et buk,''
  []
@@ -502,11 +502,11 @@ Underfull \hbox (badness 2970) in paragraph at lines 377--380
 \OT1/cmr/m/it/10.95 ZEITSCHRIFT FUR PFLANZENZUCHTUNG-JOURNAL OF PLANT BREED-ING\OT1/cmr/m/n/10.95 ,
  []
 
-[15] [16] [17])
+[15] [16])
 
 Package natbib Warning: There were undefined citations.
 
-[18] [19 <./FigsAndTables/Figure1.pdf>] [20 <./temperature_plot.png (PNG copy)>] [21 <./boxplot.png (PNG copy)>] (./paper.aux)
+[17] [18 <./FigsAndTables/Figure1.pdf>] [19 <./temperature_plot.png (PNG copy)>] [20 <./boxplot.png (PNG copy)>] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -514,16 +514,16 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5630 strings out of 493089
  80976 string characters out of 6134842
- 215043 words of memory out of 5000000
+ 214043 words of memory out of 5000000
  8994 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,861b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,861b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (21 pages, 341589 bytes).
+Output written on paper.pdf (20 pages, 341104 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

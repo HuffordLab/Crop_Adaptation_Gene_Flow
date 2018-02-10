@@ -54,11 +54,8 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 \section*{Introgression methods and their application}
 
-\mbh{In this section, I think the overall content is good, but we need to edit to make it more accessible and more explicit about how methods are implemented to detect adaptive introgression}
 
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). 
-%\gmj{Are there newer resequencing methods to discuss here?  DART-Seq, etc?}
-%\lwang{I think it is fine to mention two of these methods, it is not our focus.}
 High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
 Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
@@ -79,18 +76,14 @@ One form of chromosome painting utilizes hidden Markov models to evaluate ancest
 Another clusters admixed populations with reference samples using a sliding-window approach (\emph{e.g.}, PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}).
 And finally, introgression can be detected through chromosome painting by using a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}). 
 
-%\gmj{Li, are you familiar with the analytical tools MIGRATE-N and BAYESASS?  Rieseberg comapres these two to STRUCTURE at some length in the discussion of this paper:
-%https://biology.unm.edu/Whitney/Whitney%20Reprints/Scascitelli%20et%20al%202010.pdf
-%Should we include these two methods, even in passing, in this portion of the paper?}
-%\lwang{These are more complex statistics to infer the overall demography, like Isolate with migration, which we have defined in the beginning that we will not touch it in the manuscript}
 
-Third, the ABBA-BABA statistic (also known as the D-statistic) and its derivatives are widely applied to introgression detection.
+Third, the ABBA-BABA statistic (also known as the D-statistic) and related statistics are widely applied to introgression detection.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
 Patterns of allele sharing are interpreted in a phylogenetic context and the method is best suited to detection of introgression at the genome level.
 Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{Martin2015} and the five-taxon D-statistic \cite{pease2015}.
 The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern and is capable of determining introgression directionality.
 
-%\gmj{This paragraph about application seems like it might not belong in this section.  Maybe it should be a part of the introduction?  Or, maybe each of these examples could be mentioned directly following the method(s) that was used in the study?}
+
 Application of these approaches combined with population genetic statistics to detect selection across a number of plant and animal species suggests introgression can play an adaptive role.
 For example, introgression from ancient hominins (\emph{e.g.}, Neanderthals and Denisovans) to humans has been detected at loci controlling skin pigmentation, defense against pathogens, and toleration of high altitude (reviewed in \cite{Racimo2015});
 introgression of wing coloration loci has conferred M\"{u}llerian mimicry
@@ -105,7 +98,7 @@ across butterfly species \cite{Heliconius2012}; introgression has spread insecti
 \section*{Crop adaptation through introgression}
 
 Genome-wide data from extensive samples of crops and their wild relatives, in combination with the new methods described above, have recently allowed detailed analysis of wild-to-crop introgression in some of the world's most important crops (\textbf{Table 2}).
-Below we present a summary of findings from maize, barley, and rice, three promising systems in which introgression from wild relatives appear to have played an adaptive role.
+Below we present a summary of findings from maize, barley, rice, and potato, four promising systems in which introgression from wild relatives appears to have played an adaptive role.
 
 \begin{enumerate}
 \item{Maize:}
@@ -302,7 +295,7 @@ Andean potatoes exhibit high ecological versatility, due in part either to allel
 {\bf methods}	& {\bf data type } &	{\bf reference} &  {\bf examples } \\ \midrule
 
 \rowcolor{gray!25}
-{\emph{\bf chromosome paiting}} &   &   &   \\
+{\emph{\bf chromosome painting}} &   &   &   \\
 \rowcolor{gray!25}
 Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
 \rowcolor{gray!25}
