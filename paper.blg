@@ -3,11 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Case mismatch error between cite keys huang2012 and Huang2012
-<<<<<<< HEAD
----line 119 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
-=======
----line 122 of file /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
->>>>>>> 12fe55c3033debbc176c70774439969fa2eb0237
+---line 122 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
  : \citation{huang2012
  :                    }
 I'm skipping whatever remains of this command
@@ -61,17 +57,10 @@ Warning--empty institution in terhorst2017
 Warning--empty year in Spooner2014
 You've used 102 entries,
             1876 wiz_defined-function locations,
-<<<<<<< HEAD
-            1073 strings with 26455 characters,
-and the built_in function-call counts, 35515 in all, are:
-= -- 3482
-> -- 1809
-=======
-            1078 strings with 26537 characters,
+            1078 strings with 26617 characters,
 and the built_in function-call counts, 35911 in all, are:
 = -- 3525
 > -- 1823
->>>>>>> 12fe55c3033debbc176c70774439969fa2eb0237
 < -- 0
 + -- 645
 - -- 543
