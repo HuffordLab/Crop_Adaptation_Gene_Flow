@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2018 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2018 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,7 +381,7 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 119--120
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4]
-Overfull \hbox (59.77925pt too wide) in alignment at lines 259--259
+Overfull \hbox (67.4366pt too wide) in alignment at lines 259--259
 [][][][] 
  []
 
@@ -439,17 +439,18 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 318--319
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6] [7]
+[5] [6]
 
-Package natbib Warning: Citation `harris2016genetic' on page 8 undefined on input line 422.
+Package natbib Warning: Citation `harris2016genetic' on page 7 undefined on input line 422.
 
 
-Package natbib Warning: Citation `fu2016genetic' on page 8 undefined on input line 423.
+Package natbib Warning: Citation `fu2016genetic' on page 7 undefined on input line 423.
 
+[7]
 
 Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 440.
 
-[8] (./paper.bbl [9] [10] [11] [12] [13]
+(./paper.bbl [8] [9] [10] [11] [12]
 Underfull \hbox (badness 1215) in paragraph at lines 354--357
 []\OT1/cmr/m/n/10.95 J. G. Hawkes, ``Ori-gin of solanum juzepczukii buk and s cur-tilobum juz et buk,''
  []
@@ -459,11 +460,11 @@ Underfull \hbox (badness 2970) in paragraph at lines 354--357
 \OT1/cmr/m/it/10.95 ZEITSCHRIFT FUR PFLANZENZUCHTUNG-JOURNAL OF PLANT BREED-ING\OT1/cmr/m/n/10.95 ,
  []
 
-[14] [15] [16])
+[13] [14] [15])
 
 Package natbib Warning: There were undefined citations.
 
-[17] [18 <./FigsAndTables/Figure1new.pdf>] [19 <./temperature_plot.png (PNG copy)>] [20 <./boxplot.png (PNG copy)>] (./paper.aux)
+[16] [17 <./FigsAndTables/Figure1new.pdf>] [18] [19 <./temperature_plot.png (PNG copy)>] [20 <./boxplot.png (PNG copy)>] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -471,13 +472,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5619 strings out of 493089
  80738 string characters out of 6134842
- 217009 words of memory out of 5000000
+ 217011 words of memory out of 5000000
  8983 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,644b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,644b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (20 pages, 1068183 bytes).
+Output written on paper.pdf (20 pages, 1069269 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream

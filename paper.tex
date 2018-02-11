@@ -42,8 +42,8 @@ However, archaeological and genetic evidence are beginning to reveal that, in ma
 An additional important aspect of the emerging complexity of domestication is beneficial gene flow (\emph{i.e.}, adaptive introgression) from locally adapted wild relatives during crop expansion following initial domestication.
 
 
-Adaptive introgression has three components: hybridization between two genomes, backcrossing to one of the parents, and selection on different recombinant genotypes with progressively diminished linkage drag \cite{barton2001role, Feuillet200824}.
-In domesticated species, adaptive introgression would consist of crop/wild hybrids backcrossing to a crop, retention and increase in frequency of adaptive wild haplotypes in the crop, and selection against undesirable wild background.
+Adaptive introgression has three components: hybridization between differentiated taxa, backcrossing to one of the parents, and selection on recombinant genotypes with progressively diminished linkage drag \cite{barton2001role, Feuillet200824}.
+In domesticated species, adaptive introgression would consist of crop/wild hybrids backcrossing to a crop followed by increase in frequency of adaptive wild haplotypes in the crop and selection against undesirable wild background.
 To date, the literature on crop-wild gene flow has largely focused on the risk of transgene introgression from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{Dempewolf2017}).
 The history of natural and potentially adaptive introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
 However, new tools and methods have recently been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
@@ -56,21 +56,21 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). 
-High-density marker data can be used with haplotype-based and other methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
+High-density marker data can be used with recently developed methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
-Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, on patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
+Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
 
 First, introgressed segments are expected to show low differentiation from their source population.
 The $F_{st}$ and $d_{XY}$ statistics and their derivates including $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
 The former two statistics are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
 Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup \cite{rosenzweig2016}.
-These statistics have recently been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
+These statistics have been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes number of sites where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($A$).
-A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequencies in the admixed population (B) \cite{racimo2016}.
+A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ percentile of allele frequency in the admixed population (B) \cite{racimo2016}.
 Further modifications have allowed specification of more than one source population (see details in \cite{racimo2016}).
  
 Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations based on patterns of allele/haplotype sharing \cite{schraiber2015}. 
-One form of chromosome painting utilizes hidden Markov models to evaluate ancestry across admixed genomes through comparison to reference, non-admixed individuals (\emph{e.g.}, HAPMIX \cite{Price2009}). 
+One form of chromosome painting utilizes a hidden Markov models to evaluate ancestry across admixed genomes through comparison to reference, non-admixed individuals (\emph{e.g.}, HAPMIX \cite{Price2009}). 
 Another clusters admixed populations with reference samples using a sliding-window approach (\emph{e.g.}, PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}).
 And finally, introgression can be detected through chromosome painting by using a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}). 
 
@@ -214,7 +214,7 @@ Andean potatoes exhibit high ecological versatility, due in part either to allel
 
 
 
-\begin{table}
+\begin{table}[b]
 
 \rowcolors{2}{white}{gray!25}
 \begin{center}
@@ -222,10 +222,10 @@ Andean potatoes exhibit high ecological versatility, due in part either to allel
 \begin{tabularx}{\textwidth}{llll}
 \\\toprule  
 \rowcolor{white}
-{\bf methods}	& {\bf data type } &	{\bf references} &  {\bf applications } \\ \midrule
+{\bf Methods}	& {\bf Data Type } &	{\bf References} &  {\bf Applications } \\ \midrule
 
 \rowcolor{gray!25}
-{\emph{\bf divergence}} &   &   &   \\
+{\emph{\bf Divergence}} &   &   &   \\
 \rowcolor{gray!25}
 Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
 \rowcolor{gray!25}
@@ -234,7 +234,7 @@ RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  \cite{roda2017} \\
 $U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
 
 \rowcolor{white}
-{\emph{\bf chromosome painting}} &   &   &   \\
+{\emph{\bf Chromosome Painting}} &   &   &   \\
 \rowcolor{white}
 Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
 \rowcolor{white}
@@ -247,7 +247,7 @@ PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{pugach2016com
 LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
 
 \rowcolor{gray!25}
-{\emph{\bf phylogenetic relationship}} &   &   &   \\
+{\emph{\bf Phylogenetic Relationship}} &   &   &   \\
 \rowcolor{gray!25}
 ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
 \rowcolor{gray!25}
