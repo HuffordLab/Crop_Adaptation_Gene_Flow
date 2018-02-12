@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2018 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2018 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,11 +266,7 @@ File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2007/01/21 v2.11 Predefined colors according to Unix/X11 (UK)
-)) (./paper.aux
-
-LaTeX Warning: Label `fig:map' multiply defined.
-
-)
+)) (./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -420,32 +416,16 @@ Overfull \hbox (23.90047pt too wide) in paragraph at lines 301--302
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<boxplot.png, id=26, 715.92468pt x 432.11438pt>
-File: boxplot.png Graphic file (type png)
- <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 308.
-(pdftex.def)             Requested size: 493.65549pt x 297.96143pt.
-
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 308--309
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [5] [6]
 
-Package natbib Warning: Citation `harris2016genetic' on page 7 undefined on input line 412.
+Package natbib Warning: Citation `harris2016genetic' on page 7 undefined on input line 408.
 
 
-Package natbib Warning: Citation `fu2016genetic' on page 7 undefined on input line 413.
+Package natbib Warning: Citation `fu2016genetic' on page 7 undefined on input line 409.
 
 [7]
 
-Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 430.
+Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 415.
 
 (./paper.bbl [8] [9] [10] [11] [12]
 Underfull \hbox (badness 1215) in paragraph at lines 354--357
@@ -461,24 +441,20 @@ Underfull \hbox (badness 2970) in paragraph at lines 354--357
 
 Package natbib Warning: There were undefined citations.
 
-[16] [17 <./FigsAndTables/Figure1new.pdf>] [18] [19 <./temperature_plot.png (PNG copy)>] [20 <./boxplot.png (PNG copy)>] (./paper.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[16] [17 <./FigsAndTables/Figure1new.pdf>] [18] [19 <./temperature_plot.png (PNG copy)>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5619 strings out of 493089
- 80738 string characters out of 6134842
- 217011 words of memory out of 5000000
- 8983 multiletter control sequences out of 15000+600000
+ 5614 strings out of 493089
+ 80664 string characters out of 6134842
+ 216972 words of memory out of 5000000
+ 8979 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,644b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,634b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (20 pages, 1069193 bytes).
+Output written on paper.pdf (19 pages, 1043700 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
