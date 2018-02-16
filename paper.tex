@@ -11,6 +11,8 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage[x11names,dvipsnames,table]{xcolor}
+\usepackage{array}
+\newcolumntype{G}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \bibliographystyle{ieeetr}
 \newcommand{\mbh}[1]{\textcolor{orange}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
 \newcommand{\lwang}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Li's comments
@@ -158,24 +160,28 @@ While the precise history of domesticated rice remains in question, multiple lin
 \item{Potato}
 
 Modern potato (\emph{Solanum tuberosum}) is believed to have been domesticated in southern Peru in sympatry with a multitude of wild relatives about 6000-10000 BP, although the exact location and formal classification and phylogenetic relationships between these taxa have long been disputed \cite{huaman2002reclassification, spooner2005single, pickersgill1977origins, hawkes1988evolution}.
-A distance-based phylogeny assembled from a SNP array from a \emph{Solanum} diversity panel (which included wild, landrace, and cultivated species) formed three groups (North American, South American, and cultivated) and identified \emph{S. candolleanum} as being most probable wild progenitor of the potato \cite{hardigan2015taxonomy}.
+%A distance-based phylogeny assembled from a SNP array from a \emph{Solanum} diversity panel (which included wild, landrace, and cultivated species) formed three groups (North American, South American, and cultivated) and identified \emph{S. candolleanum} as being most probable wild progenitor of the potato \cite{hardigan2015taxonomy}.
+A distance-based phylogeny assembled from a SNP array from a \emph{Solanum} diversity panel identified \emph{S. candolleanum} as being most probable wild progenitor of the potato \cite{hardigan2015taxonomy}.
 
-Although potatoes are usually propogated clonally, farmers also promote sexual hybridization at times to improve disease resistance and develop new cultivars \cite{quiros1992increase}.
-Farmers continue to grow potatoes in close proximity to wild relatives, resulting in domesticate-weedy-wild hybrid complexes which promote introgressive hybridizatiion \cite{rabinowitz1990high, johns1987relationships, linder1987diversity}.
-These complexes, combined with a diverse range of biotic and environmental selective pressures and local farming practices (human-mediated migration, isolated farmsteads in fertile valleys, clonal propogation, and intentional maintenance of a variety of landraces), have fostered expansion of genetic diversity within potatoes subsequent to domestication \cite{brush1995potato}.
-However, as farmers tend to abandon fields after being used for potato cultivation, it is less likely that hybrids have an opportunity to form stable populations for maintained introgressive gene flow into the domesticated potato gene pool \cite{brush1995potato}.
-Also, natural selection may be subverted by farmer preference and artificial selection \cite{brush1981dynamics}.
+Certain barriers to crop-wild introgression persist.
+In general, potoates are propogated clonally, restricting gene flow between wild and domesticated populations (although farmers also promote sexual hybridization at times to improve disease resistance and to develop new cultivars \cite{quiros1992increase}).
+As farmers tend to abandon fields after being used for potato cultivation, it is less likely that hybrids have an opportunity to form stable populations for maintained introgressive gene flow into the domesticated potato gene pool \cite{brush1995potato}.
+Also, natural selection for locally-adaptive alleles may be subverted by farmer preference and artificial selection \cite{brush1981dynamics}.
 
 Nevertheless, introgressive hybridization is widespread in potatoes \cite{grun1990evolution}.
 The various cultivars of Andean potatoes are interfertile, forming one large plastic gene pool \cite{quiros1992increase}.
+Potatoes grow in close proximity to wild relatives, resulting in domesticate-weedy-wild hybrid complexes which promote introgressive hybridizatiion \cite{rabinowitz1990high, johns1987relationships, linder1987diversity}.
+These complexes, combined with a diverse range of biotic and environmental selective pressures and conducive local farming practices (human-mediated migration, isolated farmsteads in fertile valleys, intentional maintenance of a variety of landraces, and occasional intentional outcrossing), have fostered the expansion of genetic diversity within potatoes subsequent to domestication \cite{brush1995potato}.
+In their wild/landrace/domesticated diversity panel, Hardigan and colleagues \cite{hardigan2017genome} found a high level of genomic contribution from wild species (including \emph{S. candolleanum}) into Andean tetraploid cultivated landraces and North American cultivars (20.2\% and 32.1\%, respectively).
+
+In their wild/landrace/domesticated diversity panel, Hardigan and colleagues \cite{hardigan2017genome} found a high level of genomic contribution from wild species (including \emph{S. candolleanum}) into North American cultivars and Andean tetraploid cultivated landraces (32.1\% and 20.2\%, respectively).
+These Andean potatoes exhibit high ecological versatility, due in part either to alleleic diversity in polyploids or introgression of desirable alleles from wild relatives \cite{zimmerer1998ecogeography}.
+Genes located within these introgressed regions were more likely to be highly-expressed and stress-inducible, and contained loci related to disease resistance, drought tolerance, and heat tolerance, suggesting that these introgressed regions impart stress response mechanisms critical to survival, possibly facilitating tolerance for new environmental pressures during range expansion \cite{hardigan2017genome}.
+Drought- and frost-resistance genes introgressed from wild relatives are also reported to have expediated the spread of cultivated potatoes into the central Andean Altiplano \cite{johns1986ongoing, hawkes1962origin, schmiediche1980breeding}.
+
 %Cultivated diploid potatoes have been shown introgressed with genes from \emph{S. sparsipilum} \cite{rabinowitz1990high} and \emph{S. megistacrolobum} \cite{johns1987relationships, huaman1980solanum}.
 %Resistance genes have been experimentally introgressed from wild poptato relatives (\emph{S. tuberosum subsp. andigena}, \cite{van1999tight}, \emph{S. bulbocastanum}, \cite{van2003ancient}) into cultivated potato, although this process is hindered by compatability issues including ploidy levels and Endosperm Balance Number \cite{johnston1980significance}.
 %Hardigan and colleagues \cite{hardigan2017genome} find evidence of extensive adaptive introgression into cultivated potatoes.
-In their wild/landrace/domesticated diversity panel, Hardigan and colleagues \cite{hardigan2017genome} found a high level of genomic contribution from wild species (including \emph{S. candolleanum}) into Andean tetraploid cultivated landraces and North American cultivars (20.2\% and 32.1\%, respectively).
-Genes located within these introgressed regions were more likely to be highly-expressed, stress-inducible, and contained loci related to disease resistance, drought tolerance, and heat tolerance, suggesting that these introgressed regions impart stress response mechanisms critical to survival, possibly facilitating tolerance for new environmental pressures during range expansion.
-Drought- and frost-resistance genes introgressed from wild relatives are also reported to have expediated the spread of cultivated potatoes into the central Andean Altiplano \cite{johns1986ongoing, hawkes1962origin, schmiediche1980breeding}.
-Andean potatoes exhibit high ecological versatility, due in part either to alleleic diversity in polyploids or introgression of desirable alleles from wild relatives in diploids \cite{zimmerer1998ecogeography}.
-
 
 
 
@@ -245,7 +251,6 @@ fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{malinsky2015, zhang201
 \rowcolor{gray!25}
 five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015, pease2016} \\
 
-
 \end{tabularx}
 \end{center}
 \end{table} 
@@ -288,6 +293,12 @@ Apple (\emph{Malus domesticus}) & \emph{M. sylvestris}, \emph{M. orientalis}, \e
 \end{tabular}
 \end{adjustbox}
 \end{table}
+
+
+
+
+
+
 
 %\begin{figure}[h]
 %	\centering
@@ -379,30 +390,20 @@ However, previous work, also in maize, has shown that known domestication loci a
 Research has so far shown that adaptive crop-wild introgression has played a significant role in the domestication and dispersal of many agronomically-important crops.
 However, the dynamics of this process are not yet fully understood, especially in the context of individual case examples, and many questions remain.
 
-
 What is the genomic architecture of this introgression, and does the architecture suggest that it has been adaptive?
-%Is introgression generally restricted to very local populations, or does it pervasive over broad geographic ranges?
 At what geographic scale is introgression adaptive?
-\gmj{Barley and maize most strongly show geographic patterns that we can talk about here, but I'm not sure how to discuss them again.}
 To what extent does this depend on the slope of environmental gradients such as temperature, precipitation, and elevation across these ranges?
-\gmj{Refer to the map and bar graph here?}
-We can look at conservation of genomic architecture across landscapes and between populations, and make predictions about introgressions and their relations to local adaptation.
+We can look at conservation of genomic architecture across landscapes and between populations, and make predictions about introgressions and their relationship with local adaptation.
 If the genomic architecture of an introgressed region is conserved across a broad ecogeographical region, this suggests that the introgression imparts adaptation to general environmental or climatic variables.
 On the other hand, if the genomic architecture is conserved within populations but not between nearby populations in the region, this suggests that the introgressed regions offer adaptations to more local selective pressures.
 If the genomic architecture of an introgressed region is not conserved within a population, there is little evidence that the introgression is adaptive.
-\gmj{Determination of adaptiveness could be accomplished genomically (looking for high LD regions that indicate selective sweeps) or by functional identification?}
-
+Also, identification of environmental and/or disease tolerance loci within introgressed regions suggest adaptive significance.
 
 After hybrization events that lead to introgression, how long might the detectable genomic signals of introgression persist?
-%\gmj{Depends on number of generations, effective population size, mutation rate, recombination rate, patterns and strength of selection.}
-%\gmj{If an introgression from the progenitor sweeps across the cultivated species, how is it distinguished from a genomic region that is identical by descent and wasn't lost in the domestication process?}
-%Does one see different architectures of introgression across different regions?
-%Have introgressed alleles been constrained to the population which initially recieved the introgression, or have those alleles spread to the rest of of the crop species?
 Introgressed regions are easier to detect when there has been limited recombination to break them apart.
 Therefore, introgressions are easiest to detect when they are either recent (few generations means few recombination events) or involve structural variation (which diminishes recombination rate).
-\lwang{involve --> involving}
 Because recombination progressively breaks apart LD in introgressed regions, measurements of LD can be used to date introgression events (as in \cite{Poets2015}).
-
+Mutation rate, effective population size, and strength of selection also may influence the rate of breakup of introgressed regions.
 
 At what taxonomic scale does introgression occur?
 When do species become so diverged that introgression is either maladaptive or impossible (due to  Dobzhansky-Muller incompatiblities or other mechanisms)?
@@ -410,29 +411,14 @@ Theory indicates that the most significant limiting factor to gene flow between 
 Over time, diverged populations drift and become increasingly incompatible.
 Small effective population size, and correspondingly high genetic load, of the introgressive population also limits gene flow.
 Although perhaps less applicable in crop systems, this effect is seen in other well-documented cases of introgression (for example, Neanderthal introgression into humans, \cite{harris2016genetic}).
-\gmj{I tracked down the sources that indicate that introgression is suppressed around genes.  The case example was Neanderthal alleles into humans, the paper titled "The genetic history of Ice Age Europe" \cite{fu2016genetic}, cited by the Graham Coop paper.  However, I'm unclear if this is a general rule, or simply a consequence of Neanderthal being high in deleterious genetic load.  Wouldn't crop systems, with wild relatives harboring putatively adaptive alleles with low load, show a different pattern?}
-%To what extent does the level of introgression across taxa depend on divergence time and mutation load between donor and recipient taxa?
-\gmj{I could also talk about cross-incompatibility factors in maize/teosinte hybridization vs. highly compatible asian rice and its relatives.  I probably wouldn't need a new source for the rice, but I might need to cite a paper about tcb1, ga1, and ga2.}
-
-
-
-
-
-
-
-
-
-
-
-
 
 \subsection*{Applied:}
-Our identification and understanding of introgression in agroecosystems would be augmented by the development of wild relative genomic resources, such as annotated genomic sequence assemblies and functional genomic data sets \cite{huang2012}.
+Our identification and understanding of introgression in agroecosystems would be augmented by the development of wild relative genomic resources, such as annotated genomic sequence assemblies and functional genomic data sets \cite{Huang2012}.
 Additional study of introgression in agroecosystems could lead to advances in both basic and applied genetics, and specifically the continued improvement of modern crops.
 Loci underlying the domesticated phenotype can be more clearly identified by removing the confounding population genetic signals of introgression.
 These loci are potentially beneficial targets for crop improvement.
 Furthermore, adaptive introgression that is demonstrably tied to a specific environment may include beneficial alleles that can be utilized in crop breeding.
-\gmj{I could here include a handfull of examples of crops that farmers have bred adaptive alleles into.  Also, we could mention that identification of wild relatives responsible for valuable agronomic introgressed alleles could inform conservation efforts.}
+Identification of wild relative species or populations that harbor putatively adaptive genotypes may facilitate greater prioritization of conservation efforts.
 
 
 \section*{Conclusions}
@@ -451,7 +437,6 @@ As the historic role of wild relatives in the development of many crops is incre
 These efforts may be of particular value in the face of future climate volatility and change.
 
 Domesticated crops are among humanity's first and greatest inventions.
-%As a species, domesticated crops are among our first and greatest inventions.
 Interwoven in the genetic history of these crops is the story of our ancestors as they transitioned through the Agronomic Revolution.
 In this more nuanced and dynamic understanding of crop domestication, we gain insight into the evolutionary journey that crops and humanity took, and continue to take, together.
 \gmj{I let these final few sentences get a little more poetic than I normally would.  I think maybe I should reel them back in, or cut them.}
@@ -616,6 +601,100 @@ In this more nuanced and dynamic understanding of crop domestication, we gain in
 %rieseberg2007hybridization
 %this is a very good review.  i think i should use it for the table.
 %they also show that traits were imparted from debilis to texanus, and that these are adaptive.  i think they also show genetic evidence, but i'm not sure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\gmj{I was able to make the crop summary table look better, but I was unable so far to 1.) move it to the end of the document, and 2.) produce a working caption and table number label.}
+
+\begin{adjustbox}{angle=90}
+    %\begin{tabular}{llllll}
+        \small
+    \begin{tabular}{G{3cm}G{3.5cm}G{3cm}G{3.5cm}G{3.5cm}G{2cm}}
+        \rowcolor{white}
+    \\\toprule  
+    {\bf Domesticated Crop}	& {\bf Compatible Wild Relatives } &	{\bf Hybrids and/or Hybridization} &  {\bf Evidence of Crop Introgression } &	{\bf Evidence of Adaptativeness} & {\bf Sources}\\ \midrule
+    \rowcolor{gray!25}
+Apple (\emph{Malus domesticus}) & \emph{M. sylvestris}, \emph{M. orientalis}, \emph{M. baccata}, \emph{M. sieversii}  & X & X & & \cite{cornille2012new} \\
+\rowcolor{white}
+Asian Rice (\emph{Oryza sativa}) & \emph{O. rufipogon} & X & X & X & \cite{Huang2012} \\ 
+\rowcolor{gray!25}
+Barley (\emph{Hordeum vulgare}) & \emph{H. v.} subsp. \emph{spontaneum} & X & X & X & \cite{Poets2015} \\
+\rowcolor{white}
+Cassava (\emph{Manihot esculenta}) & \emph{M. glaziovii} & X & X & X & \cite{bredeson2016sequencing} \\
+\rowcolor{gray!25}
+Common Bean (\emph{Phaseolus vulgaris}) & \emph{P. v.} var. \emph{aborigineus, P. v.} var. \emph{mexicanus} [[not in this source]]& X & X &  & \cite{papa2003asymmetry} \\
+\rowcolor{white}
+Grapes (\emph{Vitis vinifera} subsp. \emph{vinifera}) & \emph{V. v.} subsp. \emph{sylvestris} & X & X &  &  \cite{myles2011genetic} \\
+\rowcolor{gray!25}
+Maize (\emph{Zea mays} subsp. \emph{mays}) & \emph{Z. m.} subsp. \emph{mexicana}, \emph{Z. m. } subsp. \emph{parviglumis} & X & X & X & \cite{Hufford2013} \\
+\rowcolor{white}
+Olive (\emph{Olea europaea} ssp. \emph{europaea} var. \emph{sativa}) & \emph{O. e.} ssp. \emph{europaea} var. \emph{sylvestris} & X & X & & \cite{diez2015olive} \\ 
+\rowcolor{gray!25}
+
+Potato (\emph{Solanum tuberosum}) & many & X & X & X & \cite{hardigan2017genome}\\
+\rowcolor{white}
+Soybeans (\emph{Glycine max}) & \emph{G. soja} & X & X &  & \cite{lam2010resequencing} \\ 
+ 
+\rowcolor{gray!25}
+Sorghum (\emph{Sorghum bicolor} subsp. \emph{bicolor}) & \emph{S. b.} subsp. \emph{arundinaceum, S. b.} subsp. {drummondii} & X & X &  & \cite{aldrich1992patterns} \\
+\rowcolor{white}
+
+Sunflower (\emph{Helianthus annuus}) & \emph{H. argophyllus}, \emph{H. bolanderi}, \emph{H. debilis}, \emph{H. petiolaris} & X &   &   & \cite{rieseberg2007hybridization}\\
+\rowcolor{gray!25}
+Tomato (\emph{Solanum lycopersicum}) & \emph{S. pimpinellifolium} & X & X & X & \cite{rick1958role} \\
+
+\rowcolor{white}
+ Wheat (\emph{Tritium monococcum, T. dicoccum, T. aestivum}) & \emph{T. m. boeoticum, T. dioccoides, T. urartu, Aegilops speltoides, A. tauschii} & X & X &  & \cite{zohary1969wild} \\
+    \end{tabular}
+\end{adjustbox}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
