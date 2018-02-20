@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 FEB 2018 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2018 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -269,18 +269,18 @@ File: x11nam.def 2007/01/21 v2.11 Predefined colors according to Unix/X11 (UK)
 )) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
@@ -366,92 +366,85 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <./FigsAndTables/Figure1new.pdf, id=18, 482.80376pt x 419.5675pt>
 File: ./FigsAndTables/Figure1new.pdf Graphic file (type pdf)
  <use ./FigsAndTables/Figure1new.pdf>
-Package pdftex.def Info: ./FigsAndTables/Figure1new.pdf used on input line 119.
+Package pdftex.def Info: ./FigsAndTables/Figure1new.pdf used on input line 120.
 (pdftex.def)             Requested size: 493.65549pt x 429.01593pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 119--120
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 120--121
  [][] 
  []
 
 [3] [4]
-Overfull \hbox (67.4366pt too wide) in alignment at lines 249--249
+Overfull \hbox (67.4366pt too wide) in alignment at lines 216--216
 [][][][] 
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 260--260
+Underfull \hbox (badness 4859) in paragraph at lines 227--227
 []|\OT1/cmr/m/n/10 Hybrids and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\OT1/cmr/m/n/10 Evidence of
  []
 
 
-Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 270.
+Package natbib Warning: Citation `gavrilenko2013genetic' on page 5 undefined on input line 237.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 274--274
+Underfull \hbox (badness 2189) in paragraph at lines 241--241
 []|\OT1/cmr/m/it/10 O. e. \OT1/cmr/m/n/10 ssp. \OT1/cmr/m/it/10 eu-ropaea \OT1/cmr/m/n/10 var.
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 280--280
+Underfull \hbox (badness 3058) in paragraph at lines 247--247
 []|\OT1/cmr/m/n/10 Grapes (\OT1/cmr/m/it/10 Vi-tis vinifera \OT1/cmr/m/n/10 subsp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\OT1/cmr/m/n/10 Sorghum (\OT1/cmr/m/it/10 Sorghum bi-color
  []
 
 <temperature_plot.png, id=25, 463.7325pt x 432.11438pt>
 File: temperature_plot.png Graphic file (type png)
  <use temperature_plot.png>
-Package pdftex.def Info: temperature_plot.png used on input line 301.
+Package pdftex.def Info: temperature_plot.png used on input line 274.
 (pdftex.def)             Requested size: 493.65549pt x 460.00392pt.
 
-Overfull \hbox (23.90047pt too wide) in paragraph at lines 301--302
+Overfull \hbox (23.90047pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
 [5] [6]
 
-Package natbib Warning: Citation `harris2016genetic' on page 7 undefined on input line 408.
-
-
-Package natbib Warning: Citation `fu2016genetic' on page 7 undefined on input line 409.
+Package natbib Warning: Citation `fu2016genetic' on page 7 undefined on input line 373.
 
 [7]
+Overfull \hbox (31.78322pt too wide) in paragraph at lines 634--635
+[] 
+ []
 
-Package natbib Warning: Citation `huang2012' on page 8 undefined on input line 415.
-
-(./paper.bbl [8] [9] [10] [11] [12]
-Underfull \hbox (badness 1215) in paragraph at lines 354--357
+[8] (./paper.bbl [9] [10] [11] [12] [13]
+Underfull \hbox (badness 1609) in paragraph at lines 334--337
 []\OT1/cmr/m/n/10.95 J. G. Hawkes, ``Ori-gin of solanum juzepczukii buk and s cur-tilobum juz et buk,''
  []
 
-
-Underfull \hbox (badness 2970) in paragraph at lines 354--357
-\OT1/cmr/m/it/10.95 ZEITSCHRIFT FUR PFLANZENZUCHTUNG-JOURNAL OF PLANT BREED-ING\OT1/cmr/m/n/10.95 ,
- []
-
-[13] [14] [15])
+[14] [15])
 
 Package natbib Warning: There were undefined citations.
 
 [16] [17 <./FigsAndTables/Figure1new.pdf>] [18] [19 <./temperature_plot.png (PNG copy)>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5614 strings out of 493089
- 80664 string characters out of 6134842
- 216972 words of memory out of 5000000
- 8979 multiletter control sequences out of 15000+600000
+ 5602 strings out of 493089
+ 80331 string characters out of 6134842
+ 229937 words of memory out of 5000000
+ 8967 multiletter control sequences out of 15000+600000
  11824 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,634b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,634b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper.pdf (19 pages, 1043700 bytes).
+Output written on paper.pdf (19 pages, 1045254 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream

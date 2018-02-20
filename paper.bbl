@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 
 \bibitem{Harlan1992}
 J.~R. Harlan, {\em Crops \& Man}.
@@ -309,34 +309,10 @@ C.~Quiros, R.~Ortega, L.~Van~Raamsdonk, M.~Herrera-Montoya, P.~Cisneros,
   andean farmer,'' {\em Genetic Resources and Crop Evolution}, vol.~39, no.~2,
   pp.~107--113, 1992.
 
-\bibitem{rabinowitz1990high}
-D.~Rabinowitz, C.~Linder, R.~Ortega, D.~Begazo, H.~Murguia, D.~Douches, and
-  C.~Quiros, ``High levels of interspecific hybridization betweensolanum
-  sparsipilum ands. stenotomum in experimental plots in the andes,'' {\em
-  American Potato Journal}, vol.~67, no.~2, pp.~73--81, 1990.
-
-\bibitem{johns1987relationships}
-T.~Johns, Z.~Huaman, C.~Ochoa, and P.~E. Schmiediche, ``Relationships among
-  wild, weed, and cultivated potatoes in the solanum x ajanhuiri complex,''
-  {\em Systematic Botany}, pp.~541--552, 1987.
-
-\bibitem{linder1987diversity}
-C.~R. Linder, {\em Diversity within traditional potato agriculture in the
-  Peruvian Andes and its relevance to crop evolution}.
-\newblock Cornell University, Aug., 1987.
-
 \bibitem{brush1995potato}
 S.~Brush, R.~Kesseli, R.~Ortega, P.~Cisneros, K.~Zimmerer, and C.~Quiros,
   ``Potato diversity in the andean center of crop domestication,'' {\em
   Conservation Biology}, vol.~9, no.~5, pp.~1189--1198, 1995.
-
-\bibitem{brush1981dynamics}
-S.~B. Brush, H.~J. Carney, and Z.~Hum{\'a}n, ``Dynamics of andean potato
-  agriculture,'' {\em Economic Botany}, vol.~35, no.~1, pp.~70--88, 1981.
-
-\bibitem{grun1990evolution}
-P.~Grun, ``The evolution of cultivated potatoes,'' {\em Economic Botany},
-  vol.~44, no.~3, pp.~39--55, 1990.
 
 \bibitem{hardigan2017genome}
 M.~A. Hardigan, F.~P.~E. Laimbeer, L.~Newton, E.~Crisovan, J.~P. Hamilton,
@@ -345,6 +321,10 @@ M.~A. Hardigan, F.~P.~E. Laimbeer, L.~Newton, E.~Crisovan, J.~P. Hamilton,
   complex evolutionary history and targets of domestication in the cultivated
   potato,'' {\em Proceedings of the National Academy of Sciences}, vol.~114,
   no.~46, pp.~E9999--E10008, 2017.
+
+\bibitem{zimmerer1998ecogeography}
+K.~S. Zimmerer, ``The ecogeography of andean potatoes,'' {\em BioScience},
+  pp.~445--454, 1998.
 
 \bibitem{johns1986ongoing}
 T.~Johns and S.~L. Keen, ``Ongoing evolution of the potato on the altiplano of
@@ -359,10 +339,6 @@ J.~G. Hawkes, ``Origin of solanum juzepczukii buk and s curtilobum juz et
 P.~Schmiediche, J.~Hawkes, and C.~Ochoa, ``Breeding of the cultivated potato
   species solanum x juzepczukii buk. and solanum x curtilobum juz. etbuk.,''
   {\em Euphytica}, vol.~29, no.~3, pp.~685--704, 1980.
-
-\bibitem{zimmerer1998ecogeography}
-K.~S. Zimmerer, ``The ecogeography of andean potatoes,'' {\em BioScience},
-  pp.~445--454, 1998.
 
 \bibitem{kingan2015}
 S.~B. Kingan, A.~J. Geneva, J.~P. Vedanayagam, and D.~Garrigan, ``Genome
@@ -546,6 +522,10 @@ J.~Ross-Ibarra, P.~L. Morrell, and B.~S. Gaut, ``Plant domestication, a unique
 S.~Takuno, P.~Ralph, K.~Swarts, R.~J. Elshire, J.~C. Glaubitz, E.~S. Buckler,
   M.~B. Hufford, and J.~Ross-Ibarra, ``Independent molecular basis of
   convergent highland adaptation in maize,'' {\em Genetics}, 2015.
+
+\bibitem{harris2016genetic}
+K.~Harris and R.~Nielsen, ``The genetic cost of neanderthal introgression,''
+  {\em Genetics}, vol.~203, no.~2, pp.~881--891, 2016.
 
 \bibitem{darwin2009origin}
 C.~Darwin and W.~F. Bynum, {\em The origin of species by means of natural
