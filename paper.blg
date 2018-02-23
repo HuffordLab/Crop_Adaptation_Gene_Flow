@@ -49,45 +49,45 @@ Warning--I didn't find a database entry for "fu2016genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty year in Spooner2014
-You've used 98 entries,
+You've used 95 entries,
             1876 wiz_defined-function locations,
-            1055 strings with 25851 characters,
-and the built_in function-call counts, 34805 in all, are:
-= -- 3415
-> -- 1775
+            1036 strings with 25348 characters,
+and the built_in function-call counts, 33981 in all, are:
+= -- 3325
+> -- 1756
 < -- 0
-+ -- 627
-- -- 529
-* -- 2710
-:= -- 4951
-add.period$ -- 100
-call.type$ -- 98
-change.case$ -- 97
++ -- 619
+- -- 524
+* -- 2654
+:= -- 4839
+add.period$ -- 97
+call.type$ -- 95
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 1674
-empty$ -- 2758
-format.name$ -- 529
-if$ -- 8355
+cite$ -- 98
+duplicate$ -- 1629
+empty$ -- 2679
+format.name$ -- 524
+if$ -- 8149
 int.to.chr$ -- 0
-int.to.str$ -- 98
-missing$ -- 99
-newline$ -- 299
-num.names$ -- 98
-pop$ -- 167
+int.to.str$ -- 95
+missing$ -- 96
+newline$ -- 290
+num.names$ -- 95
+pop$ -- 161
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1380
+skip$ -- 1348
 stack$ -- 0
-substring$ -- 2594
-swap$ -- 892
+substring$ -- 2528
+swap$ -- 871
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 321
-width$ -- 100
-write$ -- 1034
+while$ -- 311
+width$ -- 97
+write$ -- 1003
 (There were 10 error messages)
