@@ -45,49 +45,48 @@ Repeated entry---line 3644 of file bib_gj.bib.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
-Warning--I didn't find a database entry for "fu2016genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 Warning--empty year in Spooner2014
-You've used 95 entries,
+You've used 94 entries,
             1876 wiz_defined-function locations,
-            1036 strings with 25348 characters,
-and the built_in function-call counts, 33981 in all, are:
-= -- 3325
-> -- 1756
+            1031 strings with 25161 characters,
+and the built_in function-call counts, 33817 in all, are:
+= -- 3310
+> -- 1748
 < -- 0
-+ -- 619
-- -- 524
-* -- 2654
-:= -- 4839
-add.period$ -- 97
-call.type$ -- 95
++ -- 616
+- -- 522
+* -- 2647
+:= -- 4815
+add.period$ -- 95
+call.type$ -- 94
 change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 98
-duplicate$ -- 1629
-empty$ -- 2679
-format.name$ -- 524
-if$ -- 8149
+cite$ -- 97
+duplicate$ -- 1620
+empty$ -- 2659
+format.name$ -- 522
+if$ -- 8107
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 96
-newline$ -- 290
-num.names$ -- 95
-pop$ -- 161
+int.to.str$ -- 94
+missing$ -- 94
+newline$ -- 286
+num.names$ -- 94
+pop$ -- 155
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1348
+skip$ -- 1346
 stack$ -- 0
 substring$ -- 2528
-swap$ -- 871
+swap$ -- 870
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 311
-width$ -- 97
-write$ -- 1003
+while$ -- 310
+width$ -- 96
+write$ -- 994
 (There were 10 error messages)
