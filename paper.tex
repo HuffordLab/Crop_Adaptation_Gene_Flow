@@ -49,7 +49,7 @@ In domesticated species, adaptive introgression would consist of crop-wild hybri
 To date, the literature on crop-wild gene flow has largely focused on the risk of transgene introgression from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{Dempewolf2017}).
 The history of natural and potentially adaptive introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
 However, new tools and methods have recently been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
-Preliminary results suggest there is a need to expand our conception of domestication to include a broadening of the genetic base of crops that occurred through adaptive gene flow with newly encountered wild relatives during post-domestication expansion.
+Emerging results from these studies suggest there is a need to expand our conception of domestication to include a broadening of the genetic base of crops that occurred through adaptive gene flow with newly encountered wild relatives during post-domestication expansion.
 
 In this review, we will: 1) briefly describe recently developed methods for detecting introgression, 2) present case studies suggesting wild-to-crop introgression has conferred local adaptation, 3) consider how introgression bears upon fundamental questions of domestication, and 4) describe future advances in both basic and applied genetics that can be made through the study of introgression in agroecosystems.
 
@@ -58,7 +58,7 @@ In this review, we will: 1) briefly describe recently developed methods for dete
 
 
 The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated comprehensive study of introgression across a number of species (\textbf{Table 1}). 
-High-density marker data can be used with recently developed methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
+%High-density marker data can be used with recently developed methods to assign specific genomic regions to a taxon of origin and identify introgression across taxa \cite{martin2015,Price2009,Lawson2012,pease2015,rosenzweig2016,geneva2015}.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
 Rather, we focus on methods that explicitly identify introgressed genomic segments based on the extent of differentiation, patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
 
@@ -72,27 +72,26 @@ A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ per
 Further modifications have allowed specification of more than one source population (see details in \cite{racimo2016}).
  
 Second, local ancestry deconvolution (also known as chromosome painting) assigns genomic regions to various source populations based on patterns of allele/haplotype sharing \cite{schraiber2015}. 
-One form of chromosome painting utilizes a hidden Markov models to evaluate ancestry across admixed genomes through comparison to reference, non-admixed individuals (\emph{e.g.}, HAPMIX \cite{Price2009}). 
+One form of chromosome painting utilizes a hidden Markov model to evaluate ancestry across admixed genomes through comparison to reference, non-admixed individuals (\emph{e.g.}, HAPMIX \cite{Price2009}). 
 Another clusters admixed populations with reference samples using a sliding-window approach (\emph{e.g.}, PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}).
 And finally, introgression can be detected through chromosome painting by using a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}). 
 
 
-Third, the ABBA-BABA statistic (also known as the D-statistic) and related statistics are widely applied to introgression detection.
+Phylogenetic relationships are evaluated and applied to introgression detection using the ABBA-BABA statistic (also known as the D-statistic) and related metrics.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
-Patterns of allele sharing are interpreted in a phylogenetic context and the method is best suited to detection of introgression at the genome level.
-Elaborations of the D-statistic capable of localizing introgression to specific genomic regions include $\hat{f_{d}}$ \cite{martin2015} and the five-taxon D-statistic \cite{pease2015}.
+While the D-statistic is best suited to detection of introgression at the genome level, elaborations of the D-statistic including $\hat{f_{d}}$ \cite{martin2015} and the five-taxon D-statistic \cite{pease2015} are capable of localizing introgression to specific chromosomal regions. 
 The former is quite similar to the D-statistic but uses allele frequencies from each population/species, and the latter detects introgression based on the localized phylogenetic pattern and is capable of determining introgression directionality.
 
 
 Application of these approaches, in combination with population genetic statistics to detect selection, suggest introgression can play an adaptive role.
 For example, based on sequence divergence methods, introgression has been detected across \emph{Mimulus} (\emph{i.e.}, monkeyflower) species and appears to play a role in both adaptation to pollinator preference and speciation \cite{Stankowski2015}.
-Likewise, the HAPMIX chromosome painting method was applied by Jeong et al. \cite{jeong2014} to detect introgression from Nepalese Sherpa to Tibetan humans at loci controlling high altitude adaptation (reviewed in \cite{Racimo2015}).
-Finally, the phylogenetic ABBA-BABA statistic has revealed introgression of wing coloration loci conferring M\"{u}llerian mimicry across butterfly species \cite{heliconius2012}.
+Likewise, the HAPMIX chromosome painting method was applied by Jeong et al. \cite{jeong2014} to detect introgression in human populations from the Nepalese Sherpa to Tibetans at loci controlling high altitude adaptation (reviewed in \cite{Racimo2015}).
+Finally, the ABBA-BABA statistic has revealed introgression at wing coloration loci conferring M\"{u}llerian mimicry across butterfly species \cite{heliconius2012}.
 
 
 \section*{Crop adaptation through introgression}
 
-Genome-wide data from extensive samples of crops and their wild relatives, in combination with the new methods described above, have recently allowed detailed analysis of wild-to-crop introgression in some of the world's most important crops (\textbf{Table 2}).
+As range-wide genetic analyses of crops and their wild relatives have become feasible, evidence for substantial wild-to-crop introgression has been discovered in some of the world's most important crops (\textbf{Table 2}).
 Below we present a summary of findings from maize, barley, rice, and potato, four promising systems in which introgression from wild relatives appears to have played an adaptive role.
 
 \begin{enumerate}

@@ -52,37 +52,6 @@ H.~Dempewolf, G.~Baute, J.~Anderson, B.~Kilian, C.~Smith, and L.~Guarino,
   ``Past and future use of wild relatives in crop breeding,'' vol.~57,
   pp.~1070--1082, 2017.
 
-\bibitem{martin2015}
-S.~H. Martin, J.~W. Davey, and C.~D. Jiggins, ``Evaluating the use of
-  abba--baba statistics to locate introgressed loci,'' {\em Molecular biology
-  and evolution}, vol.~32, no.~1, pp.~244--257, 2015.
-
-\bibitem{Price2009}
-A.~L. Price, A.~Tandon, N.~Patterson, K.~C. Barnes, N.~Rafaels, I.~Ruczinski,
-  T.~H. Beaty, R.~Mathias, D.~Reich, and S.~Myers, ``Sensitive detection of
-  chromosomal segments of distinct ancestry in admixed populations,'' {\em PLoS
-  Genet}, vol.~5, no.~6, pp.~1--18, 2009.
-
-\bibitem{Lawson2012}
-D.~J. Lawson, G.~Hellenthal, S.~Myers, and D.~Falush, ``Inference of population
-  structure using dense haplotype data,'' {\em PLoS Genet}, vol.~8, no.~1,
-  pp.~1--16, 2012.
-
-\bibitem{pease2015}
-J.~B. Pease and M.~W. Hahn, ``Detection and polarization of introgression in a
-  five-taxon phylogeny,'' {\em Systematic biology}, vol.~64, no.~4,
-  pp.~651--662, 2015.
-
-\bibitem{rosenzweig2016}
-B.~K. Rosenzweig, J.~B. Pease, N.~J. Besansky, and M.~W. Hahn, ``Powerful
-  methods for detecting introgressed regions from population genomic data,''
-  {\em Molecular ecology}, 2016.
-
-\bibitem{geneva2015}
-A.~J. Geneva, C.~A. Muirhead, S.~B. Kingan, and D.~Garrigan, ``A new method to
-  scan genomes for introgression in a secondary contact model,'' {\em PloS
-  one}, vol.~10, no.~4, p.~e0118621, 2015.
-
 \bibitem{beaumont2002}
 M.~A. Beaumont, W.~Zhang, and D.~J. Balding, ``Approximate bayesian computation
   in population genetics,'' {\em Genetics}, vol.~162, no.~4, pp.~2025--2035,
@@ -115,6 +84,16 @@ J.~Terhorst, J.~A. Kamm, and Y.~S. Song, ``Robust and scalable inference of
   population history from hundreds of unphased whole genomes,'' tech. rep.,
   2017.
 
+\bibitem{geneva2015}
+A.~J. Geneva, C.~A. Muirhead, S.~B. Kingan, and D.~Garrigan, ``A new method to
+  scan genomes for introgression in a secondary contact model,'' {\em PloS
+  one}, vol.~10, no.~4, p.~e0118621, 2015.
+
+\bibitem{rosenzweig2016}
+B.~K. Rosenzweig, J.~B. Pease, N.~J. Besansky, and M.~W. Hahn, ``Powerful
+  methods for detecting introgressed regions from population genomic data,''
+  {\em Molecular ecology}, 2016.
+
 \bibitem{racimo2016}
 F.~Racimo, D.~Marnetto, and E.~Huerta-S{\'a}nchez, ``Signatures of archaic
   adaptive introgression in present-day human populations,'' {\em Molecular
@@ -123,6 +102,12 @@ F.~Racimo, D.~Marnetto, and E.~Huerta-S{\'a}nchez, ``Signatures of archaic
 \bibitem{schraiber2015}
 J.~G. Schraiber and J.~M. Akey, ``Methods and models for unravelling human
   evolutionary history,'' {\em Nature Reviews Genetics}, 2015.
+
+\bibitem{Price2009}
+A.~L. Price, A.~Tandon, N.~Patterson, K.~C. Barnes, N.~Rafaels, I.~Ruczinski,
+  T.~H. Beaty, R.~Mathias, D.~Reich, and S.~Myers, ``Sensitive detection of
+  chromosomal segments of distinct ancestry in admixed populations,'' {\em PLoS
+  Genet}, vol.~5, no.~6, pp.~1--18, 2009.
 
 \bibitem{brisbin2012pcadmix}
 A.~Brisbin, K.~Bryc, J.~Byrnes, F.~Zakharia, L.~Omberg, J.~Degenhardt,
@@ -140,6 +125,21 @@ S.~Sankararaman, S.~Sridhar, G.~Kimmel, and E.~Halperin, ``Estimating local
 J.~K. Pritchard, M.~Stephens, and P.~Donnelly, ``Inference of population
   structure using multilocus genotype data,'' {\em Genetics}, vol.~155, no.~2,
   pp.~945--959, 2000.
+
+\bibitem{Lawson2012}
+D.~J. Lawson, G.~Hellenthal, S.~Myers, and D.~Falush, ``Inference of population
+  structure using dense haplotype data,'' {\em PLoS Genet}, vol.~8, no.~1,
+  pp.~1--16, 2012.
+
+\bibitem{martin2015}
+S.~H. Martin, J.~W. Davey, and C.~D. Jiggins, ``Evaluating the use of
+  abba--baba statistics to locate introgressed loci,'' {\em Molecular biology
+  and evolution}, vol.~32, no.~1, pp.~244--257, 2015.
+
+\bibitem{pease2015}
+J.~B. Pease and M.~W. Hahn, ``Detection and polarization of introgression in a
+  five-taxon phylogeny,'' {\em Systematic biology}, vol.~64, no.~4,
+  pp.~651--662, 2015.
 
 \bibitem{Stankowski2015}
 S.~Stankowski and M.~A. Streisfeld, ``Introgressive hybridization facilitates
