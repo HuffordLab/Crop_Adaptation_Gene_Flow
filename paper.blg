@@ -47,46 +47,45 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
-Warning--empty year in Spooner2014
-You've used 93 entries,
+You've used 90 entries,
             1876 wiz_defined-function locations,
-            1025 strings with 24942 characters,
-and the built_in function-call counts, 33446 in all, are:
-= -- 3272
-> -- 1731
+            1009 strings with 24128 characters,
+and the built_in function-call counts, 32092 in all, are:
+= -- 3143
+> -- 1653
 < -- 0
-+ -- 610
-- -- 517
-* -- 2617
-:= -- 4763
-add.period$ -- 94
-call.type$ -- 93
-change.case$ -- 93
++ -- 583
+- -- 493
+* -- 2500
+:= -- 4571
+add.period$ -- 91
+call.type$ -- 90
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 1603
-empty$ -- 2629
-format.name$ -- 517
-if$ -- 8018
+cite$ -- 92
+duplicate$ -- 1546
+empty$ -- 2529
+format.name$ -- 493
+if$ -- 7702
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 93
-newline$ -- 283
-num.names$ -- 93
-pop$ -- 154
+int.to.str$ -- 90
+missing$ -- 90
+newline$ -- 274
+num.names$ -- 90
+pop$ -- 150
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1332
+skip$ -- 1281
 stack$ -- 0
-substring$ -- 2496
-swap$ -- 861
+substring$ -- 2373
+swap$ -- 828
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 306
-width$ -- 95
-write$ -- 983
+warning$ -- 2
+while$ -- 294
+width$ -- 92
+write$ -- 951
 (There were 10 error messages)

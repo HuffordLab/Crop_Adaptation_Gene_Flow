@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUN 2018 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUN 2018 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -417,7 +417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--258
  []
 
 [5] [6] [7]
-Overfull \hbox (31.78322pt too wide) in paragraph at lines 400--401
+Overfull \hbox (31.78322pt too wide) in paragraph at lines 402--403
 [] 
  []
 
@@ -427,15 +427,15 @@ Package natbib Warning: There were undefined citations.
 
 [16] [17 <./temperature_plot.png (PNG copy)>] [18 <./FigsAndTables/Figure1new.pdf>] [19] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5582 strings out of 493089
- 79879 string characters out of 6134842
- 227825 words of memory out of 5000000
- 8949 multiletter control sequences out of 15000+600000
+ 5573 strings out of 493089
+ 79696 string characters out of 6134842
+ 228777 words of memory out of 5000000
+ 8940 multiletter control sequences out of 15000+600000
  11163 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,35p,634b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (19 pages, 1018521 bytes).
+Output written on paper.pdf (19 pages, 1017537 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
