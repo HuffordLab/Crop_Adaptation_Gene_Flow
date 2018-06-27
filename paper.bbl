@@ -5,11 +5,6 @@ J.~R. Harlan, {\em Crops \& Man}.
 \newblock Madison, WI: American Society of Agronomy, Crop Science Society of
   America, 1992.
 
-\bibitem{brown2009complex}
-T.~A. Brown, M.~K. Jones, W.~Powell, and R.~G. Allaby, ``The complex origins of
-  domesticated crops in the fertile crescent,'' {\em Trends in Ecology \&
-  Evolution}, vol.~24, no.~2, pp.~103--109, 2009.
-
 \bibitem{Meyer2016}
 R.~S. Meyer, J.~Y. Choi, M.~Sanches, A.~Plessis, J.~M. Flowers, J.~Amas,
   K.~Dorph, A.~Barretto, B.~Gross, D.~Q. Fuller, I.~K. Bimpong, M.-N.
@@ -17,15 +12,11 @@ R.~S. Meyer, J.~Y. Choi, M.~Sanches, A.~Plessis, J.~M. Flowers, J.~Amas,
   ``Domestication history and geographical adaptation inferred from a snp map
   of african rice,'' {\em Nat Genet}, vol.~48, pp.~1083--1088, 09 2016.
 
-\bibitem{wang2017}
-L.~Wang, T.~M. Beissinger, A.~Lorant, C.~Ross-Ibarra, J.~Ross-Ibarra, and
-  M.~Hufford, ``The interplay of demography and selection during maize
-  domestication and expansion,'' {\em bioRxiv}, p.~114579, 2017.
-
-\bibitem{zhou2017}
-Y.~Zhou, M.~Massonnet, J.~Sanjak, D.~Cantu, and B.~S. Gaut, ``The evolutionary
-  genomics of grape (vitis vinifera ssp. vinifera) domestication,'' {\em
-  bioRxiv}, p.~146373, 2017.
+\bibitem{Wang2017}
+L.~Wang, T.~M. Beissinger, A.~Lorant, C.~Ross-Ibarra, J.~Ross-Ibarra, and M.~B.
+  Hufford, ``The interplay of demography and selection during maize
+  domestication and expansion,'' {\em Genome Biology}, vol.~18, p.~215, Nov
+  2017.
 
 \bibitem{Fuller2014}
 D.~Q. Fuller, T.~Denham, M.~Arroyo-Kalin, L.~Lucas, C.~J. Stevens, L.~Qin,
@@ -37,10 +28,6 @@ D.~Q. Fuller, T.~Denham, M.~Arroyo-Kalin, L.~Lucas, C.~J. Stevens, L.~Qin,
 \bibitem{barton2001role}
 N.~Barton, ``The role of hybridization in evolution,'' {\em Molecular Ecology},
   vol.~10, no.~3, pp.~551--568, 2001.
-
-\bibitem{Feuillet200824}
-C.~Feuillet, P.~Langridge, and R.~Waugh, ``Cereal breeding takes a walk on the
-  wild side,'' {\em Trends in Genetics}, vol.~24, no.~1, pp.~24 -- 32, 2008.
 
 \bibitem{stewart2003transgene}
 C.~N. Stewart, M.~D. Halfhill, and S.~I. Warwick, ``Transgene introgression
@@ -73,16 +60,6 @@ J.~Hey and R.~Nielsen, ``Multilocus methods for estimating population sizes,
 H.~Li and R.~Durbin, ``Inference of human population history from individual
   whole-genome sequences,'' {\em Nature}, vol.~475, no.~7357, pp.~493--496,
   2011.
-
-\bibitem{schiffels2014}
-S.~Schiffels and R.~Durbin, ``Inferring human population size and separation
-  history from multiple genome sequences,'' {\em Nature genetics}, vol.~46,
-  no.~8, pp.~919--925, 2014.
-
-\bibitem{terhorst2017}
-J.~Terhorst, J.~A. Kamm, and Y.~S. Song, ``Robust and scalable inference of
-  population history from hundreds of unphased whole genomes,'' tech. rep.,
-  2017.
 
 \bibitem{geneva2015}
 A.~J. Geneva, C.~A. Muirhead, S.~B. Kingan, and D.~Garrigan, ``A new method to
@@ -285,41 +262,22 @@ N.~Lauter, C.~Gustus, A.~Westerbergh, and J.~Doebley, ``The inheritance and
   evolution of leaf pigmentation and pubescence in teosinte,'' {\em Genetics},
   vol.~167, no.~4, pp.~1949--1959, 2004.
 
-\bibitem{takahashi1955origin}
-R.~Takahashi, ``The origin and evolution of cultivated barley,'' {\em Advances
-  in genetics}, vol.~7, pp.~227--266, 1955.
-
 \bibitem{badr2000origin}
 A.~Badr, R.~Sch, H.~El~Rabey, S.~Effgen, H.~Ibrahim, C.~Pozzi, W.~Rohde,
   F.~Salamini, {\em et~al.}, ``On the origin and domestication history of
   barley (hordeum vulgare),'' {\em Molecular Biology and Evolution}, vol.~17,
   no.~4, pp.~499--510, 2000.
 
-\bibitem{azhaguvel2007phylogenetic}
-P.~Azhaguvel and T.~Komatsuda, ``A phylogenetic analysis based on nucleotide
-  sequence of a marker linked to the brittle rachis locus indicates a
-  diphyletic origin of barley,'' {\em Annals of botany}, vol.~100, no.~5,
-  pp.~1009--1015, 2007.
-
-\bibitem{haberer2015barley}
-G.~Haberer and K.~F. Mayer, ``Barley: From brittle to stable harvest,'' {\em
-  Cell}, vol.~162, no.~3, pp.~469--471, 2015.
-
-\bibitem{ren2013tibet}
-X.~Ren, E.~Nevo, D.~Sun, and G.~Sun, ``Tibet as a potential domestication
-  center of cultivated barley of china,'' {\em PloS One}, vol.~8, no.~5,
-  p.~e62700, 2013.
+\bibitem{Morrell2007}
+P.~L. Morrell and M.~T. Clegg, ``Genetic evidence for a second domestication of
+  barley (hordeum vulgare) east of the fertile crescent,'' {\em Proceedings of
+  the National Academy of Sciences}, vol.~104, no.~9, pp.~3289--3294, 2007.
 
 \bibitem{dai2012tibet}
 F.~Dai, E.~Nevo, D.~Wu, J.~Comadran, M.~Zhou, L.~Qiu, Z.~Chen, A.~Beiles,
   G.~Chen, and G.~Zhang, ``Tibet is one of the centers of domestication of
   cultivated barley,'' {\em Proceedings of the National Academy of Sciences},
   vol.~109, no.~42, pp.~16969--16973, 2012.
-
-\bibitem{nevo2010drought}
-E.~Nevo and G.~Chen, ``Drought and salt tolerances in wild relatives for wheat
-  and barley improvement,'' {\em Plant, cell \& environment}, vol.~33, no.~4,
-  pp.~670--685, 2010.
 
 \bibitem{Poets2015}
 A.~M. Poets, Z.~Fang, M.~T. Clegg, and P.~L. Morrell, ``Barley landraces are
@@ -360,11 +318,6 @@ J.~Y. Choi and M.~D. Purugganan, ``Multiple origin but single domestication led
 \bibitem{vaughan2008evolving}
 D.~A. Vaughan, B.-R. Lu, and N.~Tomooka, ``The evolving story of rice
   evolution,'' {\em Plant science}, vol.~174, no.~4, pp.~394--408, 2008.
-
-\bibitem{huaman2002reclassification}
-Z.~Huam{\'a}n and D.~M. Spooner, ``Reclassification of landrace populations of
-  cultivated potatoes (solanum sect. petota),'' {\em American Journal of
-  Botany}, vol.~89, no.~6, pp.~947--965, 2002.
 
 \bibitem{spooner2005single}
 D.~M. Spooner, K.~McLean, G.~Ramsay, R.~Waugh, and G.~J. Bryan, ``A single

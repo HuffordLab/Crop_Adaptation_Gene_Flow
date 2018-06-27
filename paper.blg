@@ -15,76 +15,75 @@ I'm skipping whatever remains of this entry
  : @article
  :         {ren2013tibet,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1769 of file bib_gj.bib.bib
+I was expecting an "="---line 1788 of file bib_gj.bib.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 2011 of file bib_gj.bib.bib
+I was expecting an "="---line 2030 of file bib_gj.bib.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3136 of file bib_gj.bib.bib
+Repeated entry---line 3155 of file bib_gj.bib.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3331 of file bib_gj.bib.bib
+Repeated entry---line 3350 of file bib_gj.bib.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3427 of file bib_gj.bib.bib
+I was expecting a `,' or a `}'---line 3446 of file bib_gj.bib.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3571 of file bib_gj.bib.bib
+Repeated entry---line 3590 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3644 of file bib_gj.bib.bib
+Repeated entry---line 3663 of file bib_gj.bib.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
-Warning--empty institution in terhorst2017
-You've used 89 entries,
+You've used 79 entries,
             1876 wiz_defined-function locations,
-            1002 strings with 23978 characters,
-and the built_in function-call counts, 31760 in all, are:
-= -- 3105
-> -- 1645
+            947 strings with 22323 characters,
+and the built_in function-call counts, 28582 in all, are:
+= -- 2760
+> -- 1542
 < -- 0
-+ -- 580
-- -- 491
-* -- 2477
-:= -- 4528
-add.period$ -- 90
-call.type$ -- 89
-change.case$ -- 89
++ -- 542
+- -- 463
+* -- 2266
+:= -- 4108
+add.period$ -- 80
+call.type$ -- 79
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 1529
-empty$ -- 2499
-format.name$ -- 491
-if$ -- 7619
+cite$ -- 80
+duplicate$ -- 1355
+empty$ -- 2224
+format.name$ -- 463
+if$ -- 6823
 int.to.chr$ -- 0
-int.to.str$ -- 89
-missing$ -- 89
-newline$ -- 271
-num.names$ -- 89
-pop$ -- 149
+int.to.str$ -- 79
+missing$ -- 80
+newline$ -- 241
+num.names$ -- 79
+pop$ -- 130
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1266
+skip$ -- 1117
 stack$ -- 0
-substring$ -- 2341
-swap$ -- 819
+substring$ -- 2091
+swap$ -- 724
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 290
-width$ -- 91
-write$ -- 940
+warning$ -- 1
+while$ -- 258
+width$ -- 81
+write$ -- 837
 (There were 10 error messages)
