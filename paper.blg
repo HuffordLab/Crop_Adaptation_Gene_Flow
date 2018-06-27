@@ -1,6 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib.bib
 Repeated entry---line 72 of file bib_gj.bib.bib
@@ -46,45 +46,45 @@ Repeated entry---line 3644 of file bib_gj.bib.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
-You've used 89 entries,
+You've used 85 entries,
             1876 wiz_defined-function locations,
-            1002 strings with 23978 characters,
-and the built_in function-call counts, 31760 in all, are:
-= -- 3105
-> -- 1645
+            982 strings with 22801 characters,
+and the built_in function-call counts, 30131 in all, are:
+= -- 2949
+> -- 1550
 < -- 0
-+ -- 580
-- -- 491
-* -- 2477
-:= -- 4528
-add.period$ -- 90
-call.type$ -- 89
-change.case$ -- 89
++ -- 547
+- -- 462
+* -- 2355
+:= -- 4301
+add.period$ -- 86
+call.type$ -- 85
+change.case$ -- 85
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 1529
-empty$ -- 2499
-format.name$ -- 491
-if$ -- 7619
+cite$ -- 87
+duplicate$ -- 1445
+empty$ -- 2383
+format.name$ -- 462
+if$ -- 7225
 int.to.chr$ -- 0
-int.to.str$ -- 89
-missing$ -- 89
-newline$ -- 271
-num.names$ -- 89
-pop$ -- 149
+int.to.str$ -- 85
+missing$ -- 85
+newline$ -- 259
+num.names$ -- 85
+pop$ -- 141
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1266
+skip$ -- 1188
 stack$ -- 0
-substring$ -- 2341
-swap$ -- 819
+substring$ -- 2233
+swap$ -- 767
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 290
-width$ -- 91
-write$ -- 940
+while$ -- 278
+width$ -- 87
+write$ -- 898
 (There were 10 error messages)
