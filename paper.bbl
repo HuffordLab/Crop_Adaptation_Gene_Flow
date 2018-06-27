@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 
 \bibitem{Harlan1992}
 J.~R. Harlan, {\em Crops \& Man}.
@@ -52,37 +52,6 @@ H.~Dempewolf, G.~Baute, J.~Anderson, B.~Kilian, C.~Smith, and L.~Guarino,
   ``Past and future use of wild relatives in crop breeding,'' vol.~57,
   pp.~1070--1082, 2017.
 
-\bibitem{martin2015}
-S.~H. Martin, J.~W. Davey, and C.~D. Jiggins, ``Evaluating the use of
-  abba--baba statistics to locate introgressed loci,'' {\em Molecular biology
-  and evolution}, vol.~32, no.~1, pp.~244--257, 2015.
-
-\bibitem{Price2009}
-A.~L. Price, A.~Tandon, N.~Patterson, K.~C. Barnes, N.~Rafaels, I.~Ruczinski,
-  T.~H. Beaty, R.~Mathias, D.~Reich, and S.~Myers, ``Sensitive detection of
-  chromosomal segments of distinct ancestry in admixed populations,'' {\em PLoS
-  Genet}, vol.~5, no.~6, pp.~1--18, 2009.
-
-\bibitem{Lawson2012}
-D.~J. Lawson, G.~Hellenthal, S.~Myers, and D.~Falush, ``Inference of population
-  structure using dense haplotype data,'' {\em PLoS Genet}, vol.~8, no.~1,
-  pp.~1--16, 2012.
-
-\bibitem{pease2015}
-J.~B. Pease and M.~W. Hahn, ``Detection and polarization of introgression in a
-  five-taxon phylogeny,'' {\em Systematic biology}, vol.~64, no.~4,
-  pp.~651--662, 2015.
-
-\bibitem{rosenzweig2016}
-B.~K. Rosenzweig, J.~B. Pease, N.~J. Besansky, and M.~W. Hahn, ``Powerful
-  methods for detecting introgressed regions from population genomic data,''
-  {\em Molecular ecology}, 2016.
-
-\bibitem{geneva2015}
-A.~J. Geneva, C.~A. Muirhead, S.~B. Kingan, and D.~Garrigan, ``A new method to
-  scan genomes for introgression in a secondary contact model,'' {\em PloS
-  one}, vol.~10, no.~4, p.~e0118621, 2015.
-
 \bibitem{beaumont2002}
 M.~A. Beaumont, W.~Zhang, and D.~J. Balding, ``Approximate bayesian computation
   in population genetics,'' {\em Genetics}, vol.~162, no.~4, pp.~2025--2035,
@@ -115,6 +84,16 @@ J.~Terhorst, J.~A. Kamm, and Y.~S. Song, ``Robust and scalable inference of
   population history from hundreds of unphased whole genomes,'' tech. rep.,
   2017.
 
+\bibitem{geneva2015}
+A.~J. Geneva, C.~A. Muirhead, S.~B. Kingan, and D.~Garrigan, ``A new method to
+  scan genomes for introgression in a secondary contact model,'' {\em PloS
+  one}, vol.~10, no.~4, p.~e0118621, 2015.
+
+\bibitem{rosenzweig2016}
+B.~K. Rosenzweig, J.~B. Pease, N.~J. Besansky, and M.~W. Hahn, ``Powerful
+  methods for detecting introgressed regions from population genomic data,''
+  {\em Molecular ecology}, 2016.
+
 \bibitem{racimo2016}
 F.~Racimo, D.~Marnetto, and E.~Huerta-S{\'a}nchez, ``Signatures of archaic
   adaptive introgression in present-day human populations,'' {\em Molecular
@@ -123,6 +102,12 @@ F.~Racimo, D.~Marnetto, and E.~Huerta-S{\'a}nchez, ``Signatures of archaic
 \bibitem{schraiber2015}
 J.~G. Schraiber and J.~M. Akey, ``Methods and models for unravelling human
   evolutionary history,'' {\em Nature Reviews Genetics}, 2015.
+
+\bibitem{Price2009}
+A.~L. Price, A.~Tandon, N.~Patterson, K.~C. Barnes, N.~Rafaels, I.~Ruczinski,
+  T.~H. Beaty, R.~Mathias, D.~Reich, and S.~Myers, ``Sensitive detection of
+  chromosomal segments of distinct ancestry in admixed populations,'' {\em PLoS
+  Genet}, vol.~5, no.~6, pp.~1--18, 2009.
 
 \bibitem{brisbin2012pcadmix}
 A.~Brisbin, K.~Bryc, J.~Byrnes, F.~Zakharia, L.~Omberg, J.~Degenhardt,
@@ -140,6 +125,21 @@ S.~Sankararaman, S.~Sridhar, G.~Kimmel, and E.~Halperin, ``Estimating local
 J.~K. Pritchard, M.~Stephens, and P.~Donnelly, ``Inference of population
   structure using multilocus genotype data,'' {\em Genetics}, vol.~155, no.~2,
   pp.~945--959, 2000.
+
+\bibitem{Lawson2012}
+D.~J. Lawson, G.~Hellenthal, S.~Myers, and D.~Falush, ``Inference of population
+  structure using dense haplotype data,'' {\em PLoS Genet}, vol.~8, no.~1,
+  pp.~1--16, 2012.
+
+\bibitem{martin2015}
+S.~H. Martin, J.~W. Davey, and C.~D. Jiggins, ``Evaluating the use of
+  abba--baba statistics to locate introgressed loci,'' {\em Molecular biology
+  and evolution}, vol.~32, no.~1, pp.~244--257, 2015.
+
+\bibitem{pease2015}
+J.~B. Pease and M.~W. Hahn, ``Detection and polarization of introgression in a
+  five-taxon phylogeny,'' {\em Systematic biology}, vol.~64, no.~4,
+  pp.~651--662, 2015.
 
 \bibitem{Stankowski2015}
 S.~Stankowski and M.~A. Streisfeld, ``Introgressive hybridization facilitates
@@ -231,11 +231,6 @@ E.~Nevo and G.~Chen, ``Drought and salt tolerances in wild relatives for wheat
   and barley improvement,'' {\em Plant, cell \& environment}, vol.~33, no.~4,
   pp.~670--685, 2010.
 
-\bibitem{hillman2001new}
-G.~Hillman, R.~Hedges, A.~Moore, S.~Colledge, and P.~Pettitt, ``New evidence of
-  lateglacial cereal cultivation at abu hureyra on the euphrates,'' {\em The
-  Holocene}, vol.~11, no.~4, pp.~383--393, 2001.
-
 \bibitem{Poets2015}
 A.~M. Poets, Z.~Fang, M.~T. Clegg, and P.~L. Morrell, ``Barley landraces are
   characterized by geographically heterogeneous genomic origins,'' {\em Genome
@@ -309,34 +304,10 @@ C.~Quiros, R.~Ortega, L.~Van~Raamsdonk, M.~Herrera-Montoya, P.~Cisneros,
   andean farmer,'' {\em Genetic Resources and Crop Evolution}, vol.~39, no.~2,
   pp.~107--113, 1992.
 
-\bibitem{rabinowitz1990high}
-D.~Rabinowitz, C.~Linder, R.~Ortega, D.~Begazo, H.~Murguia, D.~Douches, and
-  C.~Quiros, ``High levels of interspecific hybridization betweensolanum
-  sparsipilum ands. stenotomum in experimental plots in the andes,'' {\em
-  American Potato Journal}, vol.~67, no.~2, pp.~73--81, 1990.
-
-\bibitem{johns1987relationships}
-T.~Johns, Z.~Huaman, C.~Ochoa, and P.~E. Schmiediche, ``Relationships among
-  wild, weed, and cultivated potatoes in the solanum x ajanhuiri complex,''
-  {\em Systematic Botany}, pp.~541--552, 1987.
-
-\bibitem{linder1987diversity}
-C.~R. Linder, {\em Diversity within traditional potato agriculture in the
-  Peruvian Andes and its relevance to crop evolution}.
-\newblock Cornell University, Aug., 1987.
-
 \bibitem{brush1995potato}
 S.~Brush, R.~Kesseli, R.~Ortega, P.~Cisneros, K.~Zimmerer, and C.~Quiros,
   ``Potato diversity in the andean center of crop domestication,'' {\em
   Conservation Biology}, vol.~9, no.~5, pp.~1189--1198, 1995.
-
-\bibitem{brush1981dynamics}
-S.~B. Brush, H.~J. Carney, and Z.~Hum{\'a}n, ``Dynamics of andean potato
-  agriculture,'' {\em Economic Botany}, vol.~35, no.~1, pp.~70--88, 1981.
-
-\bibitem{grun1990evolution}
-P.~Grun, ``The evolution of cultivated potatoes,'' {\em Economic Botany},
-  vol.~44, no.~3, pp.~39--55, 1990.
 
 \bibitem{hardigan2017genome}
 M.~A. Hardigan, F.~P.~E. Laimbeer, L.~Newton, E.~Crisovan, J.~P. Hamilton,
@@ -345,24 +316,6 @@ M.~A. Hardigan, F.~P.~E. Laimbeer, L.~Newton, E.~Crisovan, J.~P. Hamilton,
   complex evolutionary history and targets of domestication in the cultivated
   potato,'' {\em Proceedings of the National Academy of Sciences}, vol.~114,
   no.~46, pp.~E9999--E10008, 2017.
-
-\bibitem{johns1986ongoing}
-T.~Johns and S.~L. Keen, ``Ongoing evolution of the potato on the altiplano of
-  western bolivia,'' {\em Economic Botany}, vol.~40, no.~4, pp.~409--424, 1986.
-
-\bibitem{hawkes1962origin}
-J.~G. Hawkes, ``Origin of solanum juzepczukii buk and s curtilobum juz et
-  buk,'' {\em ZEITSCHRIFT FUR PFLANZENZUCHTUNG-JOURNAL OF PLANT BREEDING},
-  vol.~47, no.~1, p.~1, 1962.
-
-\bibitem{schmiediche1980breeding}
-P.~Schmiediche, J.~Hawkes, and C.~Ochoa, ``Breeding of the cultivated potato
-  species solanum x juzepczukii buk. and solanum x curtilobum juz. etbuk.,''
-  {\em Euphytica}, vol.~29, no.~3, pp.~685--704, 1980.
-
-\bibitem{zimmerer1998ecogeography}
-K.~S. Zimmerer, ``The ecogeography of andean potatoes,'' {\em BioScience},
-  pp.~445--454, 1998.
 
 \bibitem{kingan2015}
 S.~B. Kingan, A.~J. Geneva, J.~P. Vedanayagam, and D.~Garrigan, ``Genome
@@ -466,6 +419,10 @@ J.~V. Bredeson, J.~B. Lyons, S.~E. Prochnik, G.~A. Wu, C.~M. Ha,
   extensive interspecific hybridization and genetic diversity,'' {\em Nature
   biotechnology}, vol.~34, no.~5, pp.~562--570, 2016.
 
+\bibitem{johns1986ongoing}
+T.~Johns and S.~L. Keen, ``Ongoing evolution of the potato on the altiplano of
+  western bolivia,'' {\em Economic Botany}, vol.~40, no.~4, pp.~409--424, 1986.
+
 \bibitem{rick1958role}
 C.~M. Rick, ``The role of natural hybridization in the derivation of cultivated
   tomatoes of western south america,'' {\em Economic Botany}, vol.~12, no.~4,
@@ -512,25 +469,6 @@ A.~Cornille, P.~Gladieux, M.~J. Smulders, I.~Rold{\'a}n-Ruiz, F.~Laurens,
   of the european wild apple to the genome of cultivated varieties,'' {\em PLoS
   Genet}, vol.~8, no.~5, p.~e1002703, 2012.
 
-\bibitem{Spooner2014}
-D.~M. Spooner, M.~Ghislain, R.~Simon, S.~H. Jansky, and T.~Gavrilenko,
-  ``Systematics, diversity, genetics, and evolution of wild and cultivated
-  potatoes,'' {\em The Botanical Review}, vol.~80, no.~4, pp.~283--383.
-
-\bibitem{Gavrilenko2013}
-T.~Gavrilenko, O.~Antonova, A.~Shuvalova, E.~Krylova, N.~Alpatyeva, D.~M.
-  Spooner, and L.~Novikova, ``Genetic diversity and origin of cultivated
-  potatoes based on plastid microsatellite polymorphism,'' {\em Genetic
-  Resources and Crop Evolution}, vol.~60, no.~7, pp.~1997--2015, 2013.
-
-\bibitem{Hardigan2017}
-M.~A. Hardigan, F.~P.~E. Laimbeer, L.~Newton, E.~Crisovan, J.~P. Hamilton,
-  B.~Vaillancourt, K.~Wiegert-Rininger, J.~C. Wood, D.~S. Douches, E.~M.
-  Farr{\'e}, R.~E. Veilleux, and C.~R. Buell, ``Genome diversity of
-  tuber-bearing solanum uncovers complex evolutionary history and targets of
-  domestication in the cultivated potato,'' {\em Proceedings of the National
-  Academy of Sciences}, vol.~114, no.~46, pp.~E9999--E10008, 2017.
-
 \bibitem{Zeder2006}
 M.~A. Zeder, E.~Emshwiller, B.~D. Smith, and D.~G. Bradley, ``Documenting
   domestication: the intersection of genetics and archaeology,'' {\em Trends in
@@ -547,9 +485,8 @@ S.~Takuno, P.~Ralph, K.~Swarts, R.~J. Elshire, J.~C. Glaubitz, E.~S. Buckler,
   M.~B. Hufford, and J.~Ross-Ibarra, ``Independent molecular basis of
   convergent highland adaptation in maize,'' {\em Genetics}, 2015.
 
-\bibitem{darwin2009origin}
-C.~Darwin and W.~F. Bynum, {\em The origin of species by means of natural
-  selection: or, the preservation of favored races in the struggle for life}.
-\newblock Penguin, 2009.
+\bibitem{harris2016genetic}
+K.~Harris and R.~Nielsen, ``The genetic cost of neanderthal introgression,''
+  {\em Genetics}, vol.~203, no.~2, pp.~881--891, 2016.
 
 \end{thebibliography}

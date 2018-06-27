@@ -1,99 +1,91 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
+The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
-Case mismatch error between cite keys huang2012 and Huang2012
----line 122 of file /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
- : \citation{huang2012
- :                    }
-I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib.bib
-Repeated entry---line 61 of file bib_gj.bib.bib
+Repeated entry---line 72 of file bib_gj.bib.bib
  : @article{civavn2015three
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 72 of file bib_gj.bib.bib
+Repeated entry---line 83 of file bib_gj.bib.bib
  : @article{choi2018multiple
  :                          ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 89 of file bib_gj.bib.bib
+"{" immediately follows a field name---line 100 of file bib_gj.bib.bib
  : @article
  :         {ren2013tibet,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1758 of file bib_gj.bib.bib
+I was expecting an "="---line 1769 of file bib_gj.bib.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 2000 of file bib_gj.bib.bib
+I was expecting an "="---line 2011 of file bib_gj.bib.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3125 of file bib_gj.bib.bib
+Repeated entry---line 3136 of file bib_gj.bib.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3320 of file bib_gj.bib.bib
+Repeated entry---line 3331 of file bib_gj.bib.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3416 of file bib_gj.bib.bib
+I was expecting a `,' or a `}'---line 3427 of file bib_gj.bib.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3560 of file bib_gj.bib.bib
+Repeated entry---line 3571 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3633 of file bib_gj.bib.bib
+Repeated entry---line 3644 of file bib_gj.bib.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "gavrilenko2013genetic"
-Warning--I didn't find a database entry for "harris2016genetic"
-Warning--I didn't find a database entry for "fu2016genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
-Warning--empty year in Spooner2014
-You've used 102 entries,
+You've used 90 entries,
             1876 wiz_defined-function locations,
-            1078 strings with 26537 characters,
-and the built_in function-call counts, 35911 in all, are:
-= -- 3525
-> -- 1823
+            1009 strings with 24128 characters,
+and the built_in function-call counts, 32092 in all, are:
+= -- 3143
+> -- 1653
 < -- 0
-+ -- 645
-- -- 543
-* -- 2791
-:= -- 5113
-add.period$ -- 105
-call.type$ -- 102
-change.case$ -- 100
++ -- 583
+- -- 493
+* -- 2500
+:= -- 4571
+add.period$ -- 91
+call.type$ -- 90
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 105
-duplicate$ -- 1728
-empty$ -- 2859
-format.name$ -- 543
-if$ -- 8622
+cite$ -- 92
+duplicate$ -- 1546
+empty$ -- 2529
+format.name$ -- 493
+if$ -- 7702
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 104
-newline$ -- 312
-num.names$ -- 102
-pop$ -- 178
+int.to.str$ -- 90
+missing$ -- 90
+newline$ -- 274
+num.names$ -- 90
+pop$ -- 150
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1412
+skip$ -- 1281
 stack$ -- 0
-substring$ -- 2666
-swap$ -- 914
+substring$ -- 2373
+swap$ -- 828
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 334
-width$ -- 105
-write$ -- 1074
-(There were 11 error messages)
+warning$ -- 2
+while$ -- 294
+width$ -- 92
+write$ -- 951
+(There were 10 error messages)
