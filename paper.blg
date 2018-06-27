@@ -1,6 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib.bib
 Repeated entry---line 72 of file bib_gj.bib.bib
@@ -49,7 +49,7 @@ Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
 You've used 90 entries,
             1876 wiz_defined-function locations,
-            1009 strings with 24128 characters,
+            1009 strings with 24048 characters,
 and the built_in function-call counts, 32092 in all, are:
 = -- 3143
 > -- 1653
