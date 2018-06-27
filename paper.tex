@@ -29,15 +29,7 @@
 
 \begin{document}
 
-
-
-
-
-
-
 \maketitle
-
-%Short Research reviews should be in the range 3500–4000 words, with up to 40 references and 6 figures/tables.
 
 Plant domestication is often conceptualized as a geographically constrained process, with crops originating from a wild progenitor within one or more defined centers followed by expansion to the modern-day range of cultivation \cite{Harlan1992}.
 However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and geographically diffuse \cite{brown2009complex, Meyer2016, wang2017, zhou2017, Fuller2014}.
@@ -57,7 +49,7 @@ In this review, we: 1) briefly describe recently developed methods for detecting
 \section*{Introgression methods and their application}
 
 
-The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods, has facilitated the comprehensive study of introgression across a broad spectrum of domesticated species (\textbf{Table 1}).
+The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods (\textbf{Table 1}), has facilitated the comprehensive study of introgression across a broad spectrum of domesticated species.
 The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and a series of methods utilizing the sequentially Markovian coalescent (PSMC, MSMC and SMC++) \cite{li2011, schiffels2014, terhorst2017}). 
 Rather, we focus on three broad categories of methods that explicitly identify introgressed genomic segments based on the extent of differentiation, patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
 
@@ -90,6 +82,52 @@ For example, based on sequence divergence methods, introgression has been detect
 Likewise, the HAPMIX ancestry deconvolution method was applied by Jeong et al. \cite{jeong2014} to detect introgression in human populations from the Nepalese Sherpa to Tibetans at loci controlling high altitude adaptation (reviewed in \cite{Racimo2015}).
 Finally, the ABBA-BABA statistic has revealed introgression at wing coloration loci conferring M\"{u}llerian mimicry across butterfly species \cite{heliconius2012}.
 
+\begin{table}[h]
+
+\rowcolors{2}{white}{gray!25}
+\begin{center}
+\caption{List of recently developed methods for detecting introgression and examples of their use in empirical studies.} \label{tab:tools}
+\begin{tabularx}{\textwidth}{llll}
+\\\toprule  
+\rowcolor{white}
+{\bf Methods}	& {\bf Data Type } &	{\bf References} &  {\bf Applications } \\ \midrule
+
+\rowcolor{gray!25}
+{\emph{\bf Divergence}} &   &   &   \\
+\rowcolor{gray!25}
+Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
+\rowcolor{gray!25}
+RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  \cite{roda2017} \\
+\rowcolor{gray!25}
+$U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
+
+\rowcolor{white}
+{\emph{\bf Ancestry Deconvolution}} &   &   &   \\
+\rowcolor{white}
+Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
+\rowcolor{white}
+RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
+\rowcolor{white}
+MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
+\rowcolor{white}
+PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{pugach2016complex, moreno2014genetics} \\
+\rowcolor{white}
+LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
+
+\rowcolor{gray!25}
+{\emph{\bf Phylogenetic Relationship}} &   &   &   \\
+\rowcolor{gray!25}
+ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
+\rowcolor{gray!25}
+fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{malinsky2015, zhang2016genome} \\ 
+\rowcolor{gray!25}
+five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015, pease2016} \\
+
+\end{tabularx}
+\end{center}
+\end{table} 
+
+
 
 \section*{Crop adaptation through introgression}
 
@@ -97,10 +135,10 @@ As comprehensive genetic analyses of crops and their wild relatives have become 
 Below we present a summary of findings from maize, barley, rice, and potato, four systems in which introgression from wild relatives appears to have played an adaptive role.
 All four of these crops were domesticated in defined centers and have subsequently expanded to much broader distributions, a migration that brought them into contact with new populations of wild relatives (Figure \ref{fig:map}).
 
-\begin{figure}[b]
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=17.35cm]{temperature_plot.png}
-	\caption{Map of the natural ranges of wild relatives of four domesticated crops, overlayed with average annual temperature. The distribution of average annual temperature experienced in the geographic home ranges of wild relatives interfertile with four crops}
+	\includegraphics[width=15cm]{temperature_plot.png}
+	\caption{Map of the natural ranges of wild relatives of four domesticated crops, overlayed with average annual temperature. Approximate domestication center for each crop is denoted by a triangle}
 	\label{fig:map}
 \end{figure}
 
@@ -125,10 +163,10 @@ Overall, analyses revealed that  \emph{mexicana} introgression was pervasive in 
 Maize from the lowlands of northern South America appears to have been derived from Mesoamerican lowland maize and high elevation adaptation in Andean maize likely occurred \emph{de novo} from this genetic base.
 
 
-\begin{figure}[b]
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=17.35cm]{./FigsAndTables/Figure1new}
-	\caption{Hapmix vectors indicating introgression level from \emph{mexicana} to Mexican highland maize on chromosome 4. Data adopted from Hufford et al. \cite{Hufford2013}. ELP: EL Porvenir; IXT: Ixtlan ; NAB: Nabogame; OPO: Opopeo; PUR: Puruandiro; SAC: Santa Clara; SAP: San Pedro; TEN: Tenango del Aire; XOC: Xochimilco. Insets showed the phenotypes of macrohairs on lowland (red) and highland (blue) maize stems. The black bar indicated one of the QTLs for macrohairs and pigment density in Lauter et al. \cite{lauter2004}.}
+	\includegraphics[width=12cm]{./FigsAndTables/Figure1new}
+	\caption{Hapmix vectors indicating introgression level from \emph{mexicana} to Mexican highland maize on chromosome 4. Data adopted from Hufford et al. \cite{Hufford2013}. ELP: EL Porvenir; IXT: Ixtlan ; NAB: Nabogame; OPO: Opopeo; PUR: Puruandiro; SAC: Santa Clara; SAP: San Pedro; TEN: Tenango del Aire; XOC: Xochimilco. Insets show the phenotypic differences between lowland (red) and highland (blue) maize stems. The black bar indicates one of the QTLs for macrohairs and pigment density in Lauter et al. \cite{lauter2004}.}
 	\label{fig:introgressionMaize}
 \end{figure}
 
@@ -182,89 +220,43 @@ Data thus far indicate that wild introgression is often local or regional in its
 Additionally, when functional information is evaluated, as in the maize and potato studies, introgression has been found to occur at loci conferring adaptation to novel conditions not found in a crop's center of origin.
 Beyond these observations associated with post-domestication adaptation, pervasive wild-to-crop gene flow is also relevant to the study of domestication itself.
 
-\begin{table}[b]
-
-\rowcolors{2}{white}{gray!25}
-\begin{center}
-\caption{List and brief description of recently developed methods and examples of empirical studies employing these methods.} \label{tab:tools}
-\begin{tabularx}{\textwidth}{llll}
-\\\toprule  
-\rowcolor{white}
-{\bf Methods}	& {\bf Data Type } &	{\bf References} &  {\bf Applications } \\ \midrule
-
-\rowcolor{gray!25}
-{\emph{\bf Divergence}} &   &   &   \\
-\rowcolor{gray!25}
-Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
-\rowcolor{gray!25}
-RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  \cite{roda2017} \\
-\rowcolor{gray!25}
-$U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
-
-\rowcolor{white}
-{\emph{\bf Ancestry Deconvolution}} &   &   &   \\
-\rowcolor{white}
-Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013, suarez2016} \\ 
-\rowcolor{white}
-RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
-\rowcolor{white}
-MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
-\rowcolor{white}
-PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{pugach2016complex, moreno2014genetics} \\
-\rowcolor{white}
-LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
-
-\rowcolor{gray!25}
-{\emph{\bf Phylogenetic Relationship}} &   &   &   \\
-\rowcolor{gray!25}
-ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
-\rowcolor{gray!25}
-fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{malinsky2015, zhang2016genome} \\ 
-\rowcolor{gray!25}
-five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015, pease2016} \\
-
-\end{tabularx}
-\end{center}
-\end{table} 
-
-\begin{table}
-\centering
-\begin{adjustbox}{width=1\textwidth}
-\small
-\label{my-label}
-\begin{tabular}{|p{5cm}|p{5cm}|p{2.6cm}|p{2.6cm}|p{2.6cm}|l|}
-\hline
-Crop & Compatible Wild Relatives & Hybrids and/or Hybridization & Evidence of Crop Introgression & Evidence of Adaptiveness & Source \\ \hline \hline
-Maize (\emph{Zea mays} subsp. \emph{mays}) & \emph{Z. m.} subsp. \emph{mexicana}, \emph{Z. m. } subsp. \emph{parviglumis} & X & X & X & \cite{Hufford2013} \\ 
-\hline 
-Asian Rice (\emph{Oryza sativa}) & \emph{O. rufipogon} & X & X & X & \cite{Huang2012} \\ 
-\hline
-Barley (\emph{Hordeum vulgare}) & \emph{H. v.} subsp. \emph{spontaneum} & X & X & X & \cite{Poets2015} \\ \hline
-Sunflower (\emph{Helianthus annuus}) & \emph{H. argophyllus}, \emph{H. bolanderi}, \emph{H. debilis}, \emph{H. petiolaris} & X &   &   & \cite{rieseberg2007hybridization}\\ 
-\hline
-Cassava (\emph{Manihot esculenta}) & \emph{M. glaziovii} & X & X & X & \cite{bredeson2016sequencing} \\ 
-\hline
-Potato (\emph{Solanum tuberosum}) & many & X & X & X & \cite{hardigan2017genome, johns1986ongoing, gavrilenko2013genetic} \\
-\hline
-Tomato (\emph{Solanum lycopersicum}) & \emph{S. pimpinellifolium} & X & X & X & \cite{rick1958role} \\
-\hline
-Olive (\emph{Olea europaea} ssp. \emph{europaea} var. \emph{sativa}) & \emph{O. e.} ssp. \emph{europaea} var. \emph{sylvestris} & X & X & & \cite{diez2015olive} \\ 
-\hline
-Soybeans (\emph{Glycine max}) & \emph{G. soja} & X & X &  & \cite{lam2010resequencing} \\ 
-\hline
-Common Bean (\emph{Phaseolus vulgaris}) & \emph{P. v.} var. \emph{aborigineus, P. v.} var. \emph{mexicanus} [[not in this source]]& X & X &  & \cite{papa2003asymmetry} \\
-\hline
-Grapes (\emph{Vitis vinifera} subsp. \emph{vinifera}) & \emph{V. v.} subsp. \emph{sylvestris} & X & X &  &  \cite{myles2011genetic} \\
-\hline
-Sorghum (\emph{Sorghum bicolor} subsp. \emph{bicolor}) & \emph{S. b.} subsp. \emph{arundinaceum, S. b.} subsp. {drummondii} & X & X &  & \cite{aldrich1992patterns} \\
-\hline
-Wheat (\emph{Tritium monococcum, T. dicoccum, T. aestivum}) & \emph{T. m. boeoticum, T. dioccoides, T. urartu, Aegilops speltoides, A. tauschii} & X & X &  & \cite{zohary1969wild} \\
-\hline
-Apple (\emph{Malus domesticus}) & \emph{M. sylvestris}, \emph{M. orientalis}, \emph{M. baccata}, \emph{M. sieversii}  & X & X & & \cite{cornille2012new} \\
-\hline
-\end{tabular}
-\end{adjustbox}
-\end{table}
+%\centering
+%\begin{adjustbox}{width=1\textwidth}
+%\small
+%\label{my-label}
+%\begin{tabular}{|p{5cm}|p{5cm}|p{2.6cm}|p{2.6cm}|p{2.6cm}|l|}
+%\hline
+%Crop & Compatible Wild Relatives & Hybrids and/or Hybridization & Evidence of Crop Introgression & Evidence of Adaptiveness & Source \\ \hline \hline
+%Maize (\emph{Zea mays} subsp. \emph{mays}) & \emph{Z. m.} subsp. \emph{mexicana}, \emph{Z. m. } subsp. \emph{parviglumis} & X & X & X & \cite{Hufford2013} \\ 
+%\hline 
+%Asian Rice (\emph{Oryza sativa}) & \emph{O. rufipogon} & X & X & X & \cite{Huang2012} \\ 
+%\hline
+%Barley (\emph{Hordeum vulgare}) & \emph{H. v.} subsp. \emph{spontaneum} & X & X & X & \cite{Poets2015} \\ \hline
+%Sunflower (\emph{Helianthus annuus}) & \emph{H. argophyllus}, \emph{H. bolanderi}, \emph{H. debilis}, \emph{H. petiolaris} & X &   &   & \cite{rieseberg2007hybridization}\\ 
+%\hline
+%Cassava (\emph{Manihot esculenta}) & \emph{M. glaziovii} & X & X & X & \cite{bredeson2016sequencing} \\ 
+%\hline
+%Potato (\emph{Solanum tuberosum}) & many & X & X & X & \cite{hardigan2017genome, johns1986ongoing, gavrilenko2013genetic} \\
+%\hline
+%Tomato (\emph{Solanum lycopersicum}) & \emph{S. pimpinellifolium} & X & X & X & \cite{rick1958role} \\
+%\hline
+%Olive (\emph{Olea europaea} ssp. \emph{europaea} var. \emph{sativa}) & \emph{O. e.} ssp. \emph{europaea} var. \emph{sylvestris} & X & X & & \cite{diez2015olive} \\ 
+%\hline
+%Soybeans (\emph{Glycine max}) & \emph{G. soja} & X & X &  & \cite{lam2010resequencing} \\ 
+%\hline
+%Common Bean (\emph{Phaseolus vulgaris}) & \emph{P. v.} var. \emph{aborigineus, P. v.} var. \emph{mexicanus} [[not in this source]]& X & X &  & \cite{papa2003asymmetry} \\
+%\hline
+%Grapes (\emph{Vitis vinifera} subsp. \emph{vinifera}) & \emph{V. v.} subsp. \emph{sylvestris} & X & X &  &  \cite{myles2011genetic} \\
+%\hline
+%Sorghum (\emph{Sorghum bicolor} subsp. \emph{bicolor}) & \emph{S. b.} subsp. \emph{arundinaceum, S. b.} subsp. {drummondii} & X & X &  & \cite{aldrich1992patterns} \\
+%\hline
+%Wheat (\emph{Tritium monococcum, T. dicoccum, T. aestivum}) & \emph{T. m. boeoticum, T. dioccoides, T. urartu, Aegilops speltoides, A. tauschii} & X & X &  & \cite{zohary1969wild} \\
+%\hline
+%Apple (\emph{Malus domesticus}) & \emph{M. sylvestris}, \emph{M. orientalis}, \emph{M. baccata}, \emph{M. sieversii}  & X & X & & \cite{cornille2012new} \\
+%\hline
+%\end{tabular}
+%\end{adjustbox}
+%\end{table}
 
 \section*{Re-evaluating domestication}
 

@@ -1,6 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
+The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib.bib
 Repeated entry---line 72 of file bib_gj.bib.bib
@@ -44,48 +44,47 @@ Repeated entry---line 3644 of file bib_gj.bib.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "gavrilenko2013genetic"
 Warning--empty journal in Dempewolf2017
 Warning--empty institution in terhorst2017
-You've used 90 entries,
+You've used 89 entries,
             1876 wiz_defined-function locations,
-            1009 strings with 24048 characters,
-and the built_in function-call counts, 32092 in all, are:
-= -- 3143
-> -- 1653
+            1002 strings with 23978 characters,
+and the built_in function-call counts, 31760 in all, are:
+= -- 3105
+> -- 1645
 < -- 0
-+ -- 583
-- -- 493
-* -- 2500
-:= -- 4571
-add.period$ -- 91
-call.type$ -- 90
-change.case$ -- 90
++ -- 580
+- -- 491
+* -- 2477
+:= -- 4528
+add.period$ -- 90
+call.type$ -- 89
+change.case$ -- 89
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 1546
-empty$ -- 2529
-format.name$ -- 493
-if$ -- 7702
+cite$ -- 91
+duplicate$ -- 1529
+empty$ -- 2499
+format.name$ -- 491
+if$ -- 7619
 int.to.chr$ -- 0
-int.to.str$ -- 90
-missing$ -- 90
-newline$ -- 274
-num.names$ -- 90
-pop$ -- 150
+int.to.str$ -- 89
+missing$ -- 89
+newline$ -- 271
+num.names$ -- 89
+pop$ -- 149
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1281
+skip$ -- 1266
 stack$ -- 0
-substring$ -- 2373
-swap$ -- 828
+substring$ -- 2341
+swap$ -- 819
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 294
-width$ -- 92
-write$ -- 951
+while$ -- 290
+width$ -- 91
+write$ -- 940
 (There were 10 error messages)
