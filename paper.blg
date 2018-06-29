@@ -3,87 +3,79 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib.bib
-Repeated entry---line 72 of file bib_gj.bib.bib
- : @article{civavn2015three
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 83 of file bib_gj.bib.bib
- : @article{choi2018multiple
- :                          ,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 100 of file bib_gj.bib.bib
+"{" immediately follows a field name---line 122 of file bib_gj.bib.bib
  : @article
  :         {ren2013tibet,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1788 of file bib_gj.bib.bib
+I was expecting an "="---line 1810 of file bib_gj.bib.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 2030 of file bib_gj.bib.bib
+I was expecting an "="---line 2052 of file bib_gj.bib.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3155 of file bib_gj.bib.bib
+Repeated entry---line 3177 of file bib_gj.bib.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3350 of file bib_gj.bib.bib
+Repeated entry---line 3372 of file bib_gj.bib.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3446 of file bib_gj.bib.bib
+I was expecting a `,' or a `}'---line 3468 of file bib_gj.bib.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3590 of file bib_gj.bib.bib
+Repeated entry---line 3612 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3663 of file bib_gj.bib.bib
+Repeated entry---line 3685 of file bib_gj.bib.bib
  : @article{lam2010resequencing
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
-You've used 75 entries,
+You've used 72 entries,
             1876 wiz_defined-function locations,
-            927 strings with 21226 characters,
-and the built_in function-call counts, 26953 in all, are:
-= -- 2604
-> -- 1447
+            912 strings with 20777 characters,
+and the built_in function-call counts, 25950 in all, are:
+= -- 2501
+> -- 1405
 < -- 0
-+ -- 509
-- -- 434
-* -- 2144
-:= -- 3881
-add.period$ -- 76
-call.type$ -- 75
-change.case$ -- 74
++ -- 494
+- -- 422
+* -- 2071
+:= -- 3743
+add.period$ -- 73
+call.type$ -- 72
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 1271
-empty$ -- 2108
-format.name$ -- 434
-if$ -- 6429
+cite$ -- 73
+duplicate$ -- 1220
+empty$ -- 2024
+format.name$ -- 422
+if$ -- 6183
 int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 76
-newline$ -- 229
-num.names$ -- 75
-pop$ -- 122
+int.to.str$ -- 72
+missing$ -- 73
+newline$ -- 220
+num.names$ -- 72
+pop$ -- 116
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1039
+skip$ -- 997
 stack$ -- 0
-substring$ -- 1983
-swap$ -- 672
+substring$ -- 1905
+swap$ -- 645
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 246
-width$ -- 77
-write$ -- 795
-(There were 10 error messages)
+while$ -- 236
+width$ -- 74
+write$ -- 764
+(There were 8 error messages)
