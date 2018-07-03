@@ -1,6 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib.bib
 "{" immediately follows a field name---line 122 of file bib_gj.bib.bib
@@ -39,7 +39,7 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
 You've used 72 entries,
             1876 wiz_defined-function locations,
-            912 strings with 20777 characters,
+            912 strings with 20697 characters,
 and the built_in function-call counts, 25950 in all, are:
 = -- 2501
 > -- 1405
