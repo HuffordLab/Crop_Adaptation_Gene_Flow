@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUL 2018 15:57
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JUL 2018 16:33
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUL 2018 13:02
->>>>>>> 9238c2641e929f987b6ffe92e3beaea602c982d0
->>>>>>> 4aa7dc931ecda4c8b72af66f82f4912a14e563e3
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUL 2018 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,13 +361,8 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1
 
-<<<<<<< HEAD
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (67.4366pt too wide) in alignment at lines 129--129
-=======
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (67.4366pt too wide) in alignment at lines 126--126
->>>>>>> 9238c2641e929f987b6ffe92e3beaea602c982d0
+Overfull \hbox (67.4366pt too wide) in alignment at lines 129--129
 [][][][] 
  []
 
@@ -388,38 +375,17 @@ Package pdftex.def Info: temperature_plot_degC.pdf used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 [3] <./FigsAndTables/Figure1new2.pdf, id=22, 462.52798pt x 231.26399pt>
 File: ./FigsAndTables/Figure1new2.pdf Graphic file (type pdf)
  <use ./FigsAndTables/Figure1new2.pdf>
-Package pdftex.def Info: ./FigsAndTables/Figure1new2.pdf used on input line 168.
+Package pdftex.def Info: ./FigsAndTables/Figure1new2.pdf used on input line 172.
 (pdftex.def)             Requested size: 341.43306pt x 170.72331pt.
-=======
-[3] <./FigsAndTables/Figure1new.pdf, id=22, 449.68pt x 369.38pt>
-File: ./FigsAndTables/Figure1new.pdf Graphic file (type pdf)
- <use ./FigsAndTables/Figure1new.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: ./FigsAndTables/Figure1new.pdf used on input line 172.
-(pdftex.def)             Requested size: 341.43306pt x 296.72342pt.
-=======
-Package pdftex.def Info: ./FigsAndTables/Figure1new.pdf used on input line 168.
-(pdftex.def)             Requested size: 341.43306pt x 280.47244pt.
->>>>>>> 9238c2641e929f987b6ffe92e3beaea602c982d0
->>>>>>> 4aa7dc931ecda4c8b72af66f82f4912a14e563e3
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5] [6] [7]
-<<<<<<< HEAD
-Overfull \hbox (31.78322pt too wide) in paragraph at lines 395--396
-=======
-<<<<<<< HEAD
-Overfull \hbox (31.78322pt too wide) in paragraph at lines 383--384
-=======
-Overfull \hbox (31.78322pt too wide) in paragraph at lines 394--395
->>>>>>> 9238c2641e929f987b6ffe92e3beaea602c982d0
->>>>>>> 4aa7dc931ecda4c8b72af66f82f4912a14e563e3
+Overfull \hbox (31.78322pt too wide) in paragraph at lines 382--383
 [] 
  []
 
@@ -432,31 +398,15 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [13] [14]) [15] [16 <./temperature_plot_degC.pdf>] [17 <./FigsAndTables/Figure1new2.pdf>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5517 strings out of 493089
- 78443 string characters out of 6134842
- 210472 words of memory out of 5000000
- 8884 multiletter control sequences out of 15000+600000
- 11163 words of font info for 40 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,11n,35p,635b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (17 pages, 1333295 bytes).
-=======
  5529 strings out of 493014
  78631 string characters out of 6133351
- 210816 words of memory out of 5000000
+ 210808 words of memory out of 5000000
  8952 multiletter control sequences out of 15000+600000
  11163 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,737b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,35p,678b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<<<<<<< HEAD
-Output written on paper.pdf (17 pages, 3434050 bytes).
-=======
-Output written on paper.pdf (17 pages, 708708 bytes).
->>>>>>> 9238c2641e929f987b6ffe92e3beaea602c982d0
->>>>>>> 4aa7dc931ecda4c8b72af66f82f4912a14e563e3
+Output written on paper.pdf (17 pages, 3433492 bytes).
 PDF statistics:
  390 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
