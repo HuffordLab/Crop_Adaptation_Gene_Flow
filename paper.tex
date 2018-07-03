@@ -18,7 +18,7 @@
 \newcommand{\lwang}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Li's comments
 \newcommand{\gmj}[1]{\textcolor{blue}{ \emph{\scriptsize  #1}} } %creating command for Garrett's comments
 
-\title{Review: The Prevalence of Adaptive Introgression in Crop Histories}
+\title{Review: The Extent of Adaptive Wild Introgression in Crops}
 
 \author[1]{Authors: Garrett M. Janzen}%author information
 \author[1]{Li Wang}
@@ -33,29 +33,29 @@
 
 Plant domestication is often conceptualized as a geographically constrained process, with crops originating from a wild progenitor within one or more defined centers followed by expansion to the modern-day range of cultivation \cite{Harlan1992}.
 However, archaeological and genetic evidence are beginning to reveal that, in many cases, domestication has been temporally protracted and geographically diffuse \cite{Meyer2016, Wang2017, Fuller2014}.
-An additional important aspect of the emerging complexity of domestication is the occurrence of beneficial gene flow from locally adapted wild relatives to crops during their expansion following initial domestication.
+An additional important aspect of the emerging complexity of domestication is the occurrence of beneficial gene flow from locally adapted wild relatives to crops during their expansion following domestication.
 It is this adaptive introgression that is the subject of this review.
 
 Adaptive introgression has three components: hybridization between differentiated taxa, backcrossing to one of the parents, and selection on recombinant genotypes with progressively diminished linkage drag \cite{barton2001role}.
 In domesticated species, adaptive introgression would consist of crop-wild hybrids backcrossing to a crop followed by increase in frequency of adaptive wild alleles in the crop and selection against undesirable wild background.
 To date, the literature on crop-wild gene flow has largely focused on the risk of transgene introgression from domesticated crops into wild relatives (for a review, \cite{stewart2003transgene}) and on modern plant breeding efforts to introgress desired traits from wild relatives (for a review, \cite{Dempewolf2017}).
 The history of natural and potentially adaptive introgression of wild alleles into domesticated crops over evolutionary timescales has received considerably less attention.
-However, new tools and methods have recently been employed to detect genome-wide patterns of introgression, granting new insights into the prevalence of adaptive introgression in crop histories.
-Emerging results from these studies suggest there is a need to expand our conception of domestication to encompass the broadening of the genetic base of crops that occurred through adaptive gene flow from newly encountered wild relatives during post-domestication expansion.
+Recently developed tools and methods have been applied to high-density marker data to detect genome-wide patterns of introgression, granting novel insight into the prevalence of adaptive introgression in crop histories.
+Results from these studies suggest there is a need to expand our conception of domestication to encompass the broadening of the genetic base of crops that occurred through adaptive gene flow from newly encountered wild relatives during post-domestication expansion.
 
-In this review, we: 1) briefly describe recently developed methods for detecting introgression, 2) present case studies suggesting wild-to-crop introgression has conferred local adaptation, 3) consider how introgression bears upon fundamental questions of domestication, and 4) describe some key questions regarding crop adaptation that is mediated by gene flow from wild relatives.
+In this review, we: 1) briefly describe recently developed methods for detecting introgression, 2) present case studies suggesting wild-to-crop introgression has conferred local adaptation, 3) consider how introgression bears upon fundamental questions of domestication, and 4) describe key questions regarding crop adaptation through gene flow from wild relatives.
 
 
 \section*{Introgression methods and their application}
 
 
-The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods (\textbf{Table 1}), has facilitated the comprehensive study of introgression across a broad spectrum of domesticated species.
-The methods reviewed here do not include those marginally estimating introgression\slash migration rate as a component of demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and methods utilizing the sequentially Markovian coalescent (\emph{e.g.}, PSMC) \cite{li2011}). 
-Rather, we focus on three broad categories of methods that explicitly identify introgressed genomic segments based on the extent of differentiation, patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
+The decreasing cost of genome-wide resequencing and availability of reduced-representation genotyping (\emph{e.g.}, GBS and RAD-Seq), combined with new analytical methods (\textbf{Table 1}), has facilitated the comprehensive study of introgression across a broad spectrum of species.
+The methods reviewed here do not include those estimating introgression\slash migration rate as a component of broader demographic history (\emph{e.g.}, Approximate Bayesian Computation (ABC) \cite{beaumont2002}, diffusion approximations for demographic inference ($\delta a\delta i$) \cite{gutenkunst2009}, isolation with migration models \cite{hey2004}, and methods utilizing the sequentially Markovian coalescent (\emph{e.g.}, PSMC) \cite{li2011}). 
+Rather, we focus on three categories of methods that explicitly identify introgressed genomic segments based on the extent of differentiation, patterns of nucleotide/haplotype sharing, and phylogenetic relationships.
 
 First, introgressed segments are expected to show low differentiation from their source population.
-The $F_{st}$ and $d_{XY}$ statistics and their derivates including $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
-The former two statistics are insensitive to rare migrants and therefore lack power to detect recent introgression, while the latter two overcome this limitation.
+The $F_{st}$ and $d_{XY}$ statistics and derivates of $d_{XY}$ including $G_{min}$ \cite{geneva2015} and $RND_{min}$\cite{rosenzweig2016} gauge differentiation. 
+The former two statistics are insensitive to rare migrants in a population and therefore lack power to detect very recent introgression, while the latter two overcome this limitation.
 Additionally, $RND_{min}$ accounts for variable mutation rate, which is detected based on branch length to an outgroup \cite{rosenzweig2016}.
 These statistics have been further developed by adding differentiation between both non-admixed ($A$) and admixed populations ($B$) and a source population ($C$) \cite{racimo2016}. 
 For example, the $U_{A,B,C(w,x,y)}$ statistic summarizes the number of sites where an allele at frequency $y$ in the source population ($C$) has a frequency higher than $x$ in the admixed population ($B$) and lower than $w$ in the non-admixed population ($A$).
@@ -63,12 +63,14 @@ A similar statistic, $Q95_{A,B,C(w,y)}$, sets a hard cutoff at the $95^{th}$ per
 Further modifications have allowed specification of more than one source population (see details in \cite{racimo2016}).
 Since differentiation-based methods can be calculated site-by-site, high-density, genome-wide data are not necessarily required.
 However, accuracy of introgression estimates is improved with more comprehensive data.
+Phased data are also not a prerequisite for differentiation-based methods.
  
-Second, local ancestry deconvolution assigns genomic regions to various source populations based on patterns of allele or haplotype sharing \cite{schraiber2015}. 
+Second, ancestry deconvolution (also known as local-ancestry inference and chromosome painting) assigns genomic regions to various source populations based on patterns of allele or haplotype sharing \cite{schraiber2015}. 
 One form of ancestry deconvolution utilizes a hidden Markov model to evaluate ancestry across admixed genomes through comparison to reference, non-admixed individuals (\emph{e.g.}, HAPMIX \cite{Price2009}). 
 Another clusters admixed populations with reference samples using a sliding-window approach (\emph{e.g.}, PCAdmix \cite{brisbin2012pcadmix} and LAMP \cite{sankararaman2008}).
-And finally, introgression can be detected through ancestry deconvolution by using a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}).
+And, finally, a third version uses a Bayesian model \cite{pritchard2000} in which deviations from Hardy-Weinberg equilibrium are minimized through creation of genetic groups (\emph{e.g.}, fineSTRUCTURE \cite{Lawson2012}).
 Ancestry deconvolution methods are better suited to high-density marker or whole genome sequencing data given the intent to assign ancestry genome-wide.
+Many such methods also require accurate phasing of haplotypes.
 
 Phylogenetic relationships are evaluated and applied to introgression detection using the ABBA-BABA statistic (also known as the D-statistic) and related metrics.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
@@ -77,10 +79,11 @@ The former is quite similar to the D-statistic but uses allele frequencies from 
 Like differentiation methods, phylogeny-based detection of introgression can be employed using low-density data.
 However, because these methods require knowledge of whether an allele is ancestral or derived, data from a sufficiently diverged outgroup must also be included in analyses.
 
-Application of these approaches, in combination with population genetic statistics to detect selection, suggest that introgression can play an adaptive role.
+Collectively, introgression detection methods have been applied across a wide range of systems, identifying several instances of adaptive introgression.
 For example, based on sequence divergence methods, introgression has been detected in \emph{Mimulus} (\emph{i.e.}, monkeyflower) species and appears to play a role in both adaptation to pollinator preference and speciation \cite{Stankowski2015}.
-Likewise, the HAPMIX ancestry deconvolution method was applied by Jeong et al. \cite{jeong2014} to detect introgression in human populations from the Nepalese Sherpa to Tibetans at loci controlling high altitude adaptation (reviewed in \cite{Racimo2015}).
+Likewise, the HAPMIX ancestry deconvolution method was applied by Jeong et al. \cite{jeong2014} to detect introgression in human populations from the Nepalese Sherpa to Tibetans at loci controlling high altitude adaptation.
 Finally, the ABBA-BABA statistic has revealed introgression at wing coloration loci conferring M\"{u}llerian mimicry across butterfly species \cite{heliconius2012}.
+Below we describe the nascent application of these methods to crop systems as well as implications for the study of domestication and adaptation.
 
 \begin{table}[h]
 
@@ -131,9 +134,10 @@ five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015
 
 \section*{Crop adaptation through introgression}
 
-As comprehensive genetic analyses of crops and their wild relatives have become feasible across their geographic ranges, evidence for substantial wild-to-crop introgression has been discovered in some of the world's most important crops (\textbf{Table 2}).
-Below we present a summary of findings from maize, barley, rice, and potato, four systems in which introgression from wild relatives appears to have played an adaptive role.
+As comprehensive genetic analyses of crops and their wild relatives have become feasible across their geographic ranges, evidence for substantial crop-wild introgression has been discovered in some of the world's most important crops (\textbf{Table 2}).
+Below we present a summary of findings from maize, barley, rice, and potato, four systems in which crop-wild gene flow appears to have played an adaptive role.
 All four of these crops were domesticated in defined centers and have subsequently expanded to much broader distributions, a migration that brought them into contact with new populations of wild relatives (Figure \ref{fig:map}).
+Below we describe for each case study what is known about a crop's domestication history and the prevalence of adaptive introgression during post-domestication  expansion.
 
 \begin{figure}[h]
 	\centering
@@ -159,8 +163,8 @@ Height differences were not detected under lowland conditions, providing further
 
 Populations of \emph{mexicana} cannot be found outside the highlands of Mexico, yet maize has colonized and adapted to high elevation in a number of other regions.
 Wang and co-authors \cite{Wang2017} employed the ABBA-BABA and $\hat{f_{d}}$ statistics to evaluate if maize with \emph{mexicana} introgression was transferred to other highland regions or whether highland adaptation was obtained \emph{de novo} outside of Mexico.
-Overall, analyses revealed that  \emph{mexicana} introgression was pervasive in maize from Mesoamerican high elevation regions (the highlands of Mexico, Guatemala, and the southwestern United States), but more distant high elevation regions (\emph{e.g.,} the Andes) showed no \emph{mexicana} ancestry.
-Maize from the lowlands of northern South America appears to have been derived from Mesoamerican lowland maize and high elevation adaptation in Andean maize likely occurred \emph{de novo} from this genetic base.
+Overall, analyses revealed that  \emph{mexicana} introgression was pervasive in maize from Mesoamerican high elevation regions (the highlands of Mexico, Guatemala, and the southwestern United States), but that more distant high elevation regions (\emph{e.g.,} the Andes) showed no \emph{mexicana} ancestry.
+Maize from the lowlands of northern South America appears to have been derived from Mesoamerican lowland maize and high elevation adaptation in Andean maize likely occurred \emph{de novo} from this genetic base \cite{Takuno2015}.
 
 
 \begin{figure}[h]
@@ -173,33 +177,18 @@ Maize from the lowlands of northern South America appears to have been derived f
 \item{Barley:}
 
 Barley (\emph{Hordeum vulgare} subsp. \emph{vulgare}) was likely domesticated multiple times from wild subsp. \emph{spontaneum} roughly 8,000 to 10,000 BP.
-There is clear evidence of one domestication center in the Fertile Crescent \cite{badr2000origin, Morrell2007}, and many have supported an additional eastern domestication event, potentially from \emph{subsp. spontaneum} east of the Zargos mountains \cite{Morrell2007} or from subsp. \emph{spontaneum} var. \emph{agriocrithon} in modern-day Tibet \cite{dai2012tibet}.
-However, recent research \cite{pourkheirandish2018elucidation} suggests that Tibetan \emph{agriocrithon} is not a wild relative, but rather an intercultivar hybrid of domesticated landraces, casting doubt on the Tibetan domestication event from \emph{agriocrithon}.
-%However, recent research \cite{pourkheirandish2018elucidation} has suggested that var. \emph{agriocrithon} is a misidentified intercultivar hybrid of domesticated 6-row landraces, which they deem \emph{pseudo-agriocrithon}, as opposed to \emph{eu-agriocrithon}, which are six-rowed wild relatives derived from two-rowed \emph{ssp. spontaneum}.
-%The non-brittle rachis mutations (\emph{btr1} and \emph{btr2}) appear to have arisen in populations from the Levant, whereas the two most common of four alleles conferring 6-rowed spike morphology (\emph{vrs1.a1} and \emph{vrs1.a4}) originated in \emph{eu-agriocrithon} populations in Central Asia (Turkmenistan and Uzbekistan, respectively).
-%These two key barley domestication traits were combined when \emph{vrs1.a1} and \emph{vrs1.a4} introgressed from \emph{eu-agriocrithon} into cultivated barleys in the Levant.
-
-Presently, the distribution of subsp. \emph{spontaneum} stretches from the eastern Mediterranean through the Middle-East to west-central Asia, spanning clines in temperature, precipitation, soil type, and altitude \cite{Morrell2007}.
-Cultivated barley is found throughout much of the \emph{spontaneum} distribution and barley-\emph{spontaneum} hybrids are fertile and commonly found when these taxa co-occur.
-
-Two key barley domestication traits are non-brittle rachis and 6-row spike morphology.
-Haplotype analysis by Pourkheirandish and colleagues \cite{pourkheirandish2018elucidation} indicates that these two traits arose independently and were combined into domesticated barley when 6-row alleles (\emph{vrs1.a1} and \emph{vrs1.a4}) from \emph{spontaneum} introgressed into cultivated barleys from the Levant which harbored alleles for tough rachis (\emph{btr1} and \emph{btr2}).
+There is clear evidence of one domestication center in the Fertile Crescent \cite{badr2000origin, Morrell2007}, and others have supported additional eastern domestication events, potentially from subsp. \emph{spontaneum} east of the Zagros Mountains \cite{Morrell2007} or from subsp. \emph{spontaneum} var. \emph{agriocrithon} in modern-day Tibet \cite{dai2012tibet}.
+However, recent research casts doubt on Tibetan domestication and suggests that var. \emph{agriocrithon} is not a wild relative, but rather a hybrid of domesticated landraces \cite{pourkheirandish2018elucidation}.
+Presently, the distribution of wild barley stretches from the eastern Mediterranean through the Middle-East to west-central Asia, spanning clines in temperature, precipitation, soil type, and altitude \cite{Morrell2007}.
+Cultivated barley is found throughout much of wild barley's distribution and crop-wild hybrids are fertile and common when these taxa co-occur.
 
 Poets and co-authors \cite{Poets2015} recently investigated the range-wide contribution of wild barley to landraces, assessing both genome-wide and geographical patterns of introgression.
 This study identified several lines of evidence consistent with wild introgression aiding the expansion and adaptation of domesticated barley.
-Using ancestry deconvolution methods, the authors identified genomic regions of shared ancestry linking particular landraces to numerous wild relative populations.
+The authors utilized ancestry deconvolution methods to identify genomic regions of shared ancestry, which linked particular landraces to numerous wild relative populations.
 These results suggested landraces may have received wild introgression on a continual basis during post-domestication expansion.
 However, barley landraces also showed an excess of ancestry from nearby wild relatives, indicating a prevalence of local and potentially adaptive gene flow.
 Limited admixture linkage disequilibrium and small tracts of identity by state suggest substantial recombination has occurred since initial crop-wild hybridization and that even locally introgressed chromosomal regions are ancient, perhaps dating to the early expansion of barley post-domestication.
 While these results are consistent with adaptive introgression, wild barley haplotypes have yet to be definitively linked to specific adaptations in landraces post-domestication.
-
-%"The best current hypothesis holds that both vrs1.a1 and vrs1.a4 were introgressed from eu-agriocrithon into other wild barley genotypes and then outcrossed to cultivated barley (Figure 1)"
-
-%"The proposal here is that vrs1.a1 and vrs1.a4 emerged in agriocrithon before they were introgressed into ssp. vulgare (Figure 1)."
-
-%"The origin of two alleles (vrs1.a2 and a3) was previously shown (Komatsuda et al., 2007) to involve single mutations at the vrs1 locus that changed the domesticated two-rowed to six-rowed phenotype (Figure 1)."
-
-%"Both vrs1.a1 and vrs1.a4 arose in Central Asia, some 2500 km distant from the site of emergence of non-brittle rachis. The occurrence of six-rowed types among wild barley implies that the six-rowed allele pre-dates domestication, when early farmers still relied on ssp. spontaneum. This time line agrees, in part at least, with the notion that six-rowed cultivated barley was derived from agriocrithon (Aberg, 1938). The non-brittle rachis trait represents a strong genetic bottleneck, and its geographical origin lies far from that of eu-agriocrithon, clearly implying that eu-agriocrithon could not have been the immediate ancestor of the non-brittle barleys that were donors of vrs1.a1 and vrs1.a4 to cultivated barley."
 
 \item{Potato}
 
@@ -266,7 +255,7 @@ Beyond these observations associated with post-domestication adaptation, pervasi
 A framework in which crops are domesticated from a single wild population or even a single species is an oversimplification when introgression has been extensive throughout a crop's history.
 The addition of ongoing gene flow to our understanding of crop demography could therefore bear on fundamental questions of crop domestication:
 
-\subsection*{Where and from what taxon did a crop originate?}
+\subsection*{Where and from what taxa did a crop originate?}
 Depending on the extent of post-domestication gene flow with new wild relatives, identification of a crop's origin may be complicated or confounded entirely.
 Introgression between a crop and newly-encountered taxa decreases divergence of the crop from these donors.
 This signal could be mistaken for origin rather than gene flow.
