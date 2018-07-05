@@ -3,6 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
 Database file #1: bib_gj.bib.bib
+Repeated entry---line 94 of file bib_gj.bib.bib
+ : @article{civavn2015three
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 105 of file bib_gj.bib.bib
+ : @article{choi2018multiple
+ :                          ,
+I'm skipping whatever remains of this entry
 "{" immediately follows a field name---line 122 of file bib_gj.bib.bib
  : @article
  :         {ren2013tibet,
@@ -37,45 +45,45 @@ Repeated entry---line 3685 of file bib_gj.bib.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
-You've used 72 entries,
+You've used 76 entries,
             1876 wiz_defined-function locations,
-            912 strings with 20777 characters,
-and the built_in function-call counts, 25950 in all, are:
-= -- 2501
-> -- 1405
+            933 strings with 21566 characters,
+and the built_in function-call counts, 27337 in all, are:
+= -- 2642
+> -- 1467
 < -- 0
-+ -- 494
-- -- 422
-* -- 2071
-:= -- 3743
-add.period$ -- 73
-call.type$ -- 72
-change.case$ -- 71
++ -- 516
+- -- 440
+* -- 2176
+:= -- 3936
+add.period$ -- 77
+call.type$ -- 76
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 1220
-empty$ -- 2024
-format.name$ -- 422
-if$ -- 6183
+cite$ -- 77
+duplicate$ -- 1288
+empty$ -- 2138
+format.name$ -- 440
+if$ -- 6520
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 73
-newline$ -- 220
-num.names$ -- 72
-pop$ -- 116
+int.to.str$ -- 76
+missing$ -- 77
+newline$ -- 232
+num.names$ -- 76
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 997
+skip$ -- 1053
 stack$ -- 0
-substring$ -- 1905
-swap$ -- 645
+substring$ -- 2015
+swap$ -- 681
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 236
-width$ -- 74
-write$ -- 764
-(There were 8 error messages)
+while$ -- 250
+width$ -- 78
+write$ -- 806
+(There were 10 error messages)
