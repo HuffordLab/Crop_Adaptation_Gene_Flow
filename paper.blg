@@ -45,45 +45,45 @@ Repeated entry---line 3685 of file bib_gj.bib.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
-You've used 76 entries,
+You've used 75 entries,
             1876 wiz_defined-function locations,
-            933 strings with 21566 characters,
-and the built_in function-call counts, 27337 in all, are:
-= -- 2642
-> -- 1467
+            925 strings with 21365 characters,
+and the built_in function-call counts, 26979 in all, are:
+= -- 2604
+> -- 1453
 < -- 0
-+ -- 516
-- -- 440
-* -- 2176
-:= -- 3936
-add.period$ -- 77
-call.type$ -- 76
-change.case$ -- 75
++ -- 511
+- -- 436
+* -- 2148
+:= -- 3887
+add.period$ -- 76
+call.type$ -- 75
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 1288
-empty$ -- 2138
-format.name$ -- 440
-if$ -- 6520
+cite$ -- 76
+duplicate$ -- 1271
+empty$ -- 2108
+format.name$ -- 436
+if$ -- 6433
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 77
-newline$ -- 232
-num.names$ -- 76
-pop$ -- 123
+int.to.str$ -- 75
+missing$ -- 76
+newline$ -- 229
+num.names$ -- 75
+pop$ -- 122
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1053
+skip$ -- 1039
 stack$ -- 0
-substring$ -- 2015
-swap$ -- 681
+substring$ -- 1983
+swap$ -- 672
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 250
-width$ -- 78
-write$ -- 806
+while$ -- 246
+width$ -- 77
+write$ -- 795
 (There were 10 error messages)
