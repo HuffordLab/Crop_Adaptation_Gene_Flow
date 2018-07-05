@@ -41,8 +41,8 @@ scale_y_continuous(limits=c(0, 1.9), breaks=c(0.5,1.5)) +
 #geom_rect(xmin=162.9, xmax=192.8, ymin=0, ymax=1.9, color="black", alpha=0.1)+ 
 geom_bar(stat="identity", position = "stack", width=1)+
 facet_grid(populations ~ .)+
-geom_vline(xintercept=c(162.9, 192.8), linetype="dashed")
-#scale_fill_manual(values=c("gold", "maroon"))
+geom_vline(xintercept=c(162.9, 192.8), linetype="dashed")+
+scale_fill_manual(values=c("firebrick", "dodgerblue"))
 p
 
 ggsave("Figure1new.pdf")
