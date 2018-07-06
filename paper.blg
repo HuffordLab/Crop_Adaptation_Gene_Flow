@@ -1,11 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
-The style file: ieeetr.bst
-Illegal, another \bibdata command---line 187 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
- : \bibdata
- :         {bib_gj.bib}
-I'm skipping whatever remains of this command
+The style file: NewPhyt.bst.bst
 Database file #1: bib_gj.bib.bib
 Repeated entry---line 136 of file bib_gj.bib.bib
  : @article{civavn2015three
@@ -44,46 +40,47 @@ Repeated entry---line 3654 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Dempewolf2017
 You've used 75 entries,
-            1876 wiz_defined-function locations,
-            928 strings with 21563 characters,
-and the built_in function-call counts, 26988 in all, are:
-= -- 2591
-> -- 1474
-< -- 0
-+ -- 518
-- -- 443
-* -- 2165
-:= -- 3905
-add.period$ -- 76
+            3043 wiz_defined-function locations,
+            1084 strings with 22505 characters,
+and the built_in function-call counts, 59263 in all, are:
+= -- 4489
+> -- 3950
+< -- 20
++ -- 1742
+- -- 1301
+* -- 5257
+:= -- 9134
+add.period$ -- 225
 call.type$ -- 75
-change.case$ -- 74
-chr.to.int$ -- 0
+change.case$ -- 806
+chr.to.int$ -- 75
 cite$ -- 76
-duplicate$ -- 1261
-empty$ -- 2105
-format.name$ -- 443
-if$ -- 6421
-int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 76
-newline$ -- 229
-num.names$ -- 75
-pop$ -- 122
+duplicate$ -- 3686
+empty$ -- 3515
+format.name$ -- 1537
+if$ -- 11252
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 850
+newline$ -- 379
+num.names$ -- 300
+pop$ -- 1605
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 732
 quote$ -- 0
-skip$ -- 1023
+skip$ -- 1486
 stack$ -- 0
-substring$ -- 1979
-swap$ -- 662
-text.length$ -- 0
+substring$ -- 2488
+swap$ -- 2287
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 672
 warning$ -- 1
-while$ -- 246
-width$ -- 77
-write$ -- 795
-(There were 10 error messages)
+while$ -- 344
+width$ -- 0
+write$ -- 972
+(There were 9 error messages)

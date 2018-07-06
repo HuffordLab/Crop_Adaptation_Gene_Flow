@@ -2,7 +2,7 @@
 \usepackage{color}
 \usepackage{authblk}%allows footnote format for authors
 \usepackage[letterpaper, margin=1in]{geometry} %package that allows changes in margins and header/footers
-\usepackage[numbers,sort]{natbib}
+\usepackage[]{natbib}
 \usepackage{amsmath}
 \usepackage{rotating}
 \usepackage{adjustbox}
@@ -15,7 +15,7 @@
 \linenumbers
 \usepackage{array}
 \newcolumntype{G}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\bibliographystyle{ieeetr}
+\bibliographystyle{NewPhyt.bst}
 \renewcommand{\baselinestretch}{1.5}
 \newcommand{\mbh}[1]{\textcolor{orange}{ \emph{\scriptsize  #1}} } %creating command for Matt's comments
 \newcommand{\lwang}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %creating command for Li's comments
@@ -38,7 +38,7 @@ Number of Figures: 2, both in color
 
 Number of Tables: 2
 
-Word Count: 
+Word Count: 3,993
 
 \clearpage
 
@@ -107,53 +107,6 @@ For example, based on sequence divergence methods, introgression has been detect
 Likewise, the HAPMIX ancestry deconvolution method was applied by Jeong et al. \cite{jeong2014} to detect introgression from the Nepalese Sherpa to Tibetans at loci controlling high altitude adaptation.
 Finally, the ABBA-BABA statistic has revealed introgression at wing coloration loci conferring M\"{u}llerian mimicry across butterfly species \cite{heliconius2012}.
 Below we describe the nascent application of these methods to crop systems as well as implications for the study of domestication and adaptation.
-
-\begin{table}[h]
-
-\rowcolors{2}{white}{gray!25}
-\begin{center}
-\caption{List of recently developed methods for detecting introgression and examples of their use in empirical studies.} \label{tab:tools}
-\begin{tabularx}{\textwidth}{llll}
-\\\toprule  
-\rowcolor{white}
-{\bf Methods}	& {\bf Data Type } &	{\bf References} &  {\bf Applications } \\ \midrule
-
-\rowcolor{gray!25}
-{\emph{\bf Divergence}} &   &   &   \\
-\rowcolor{gray!25}
-Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
-\rowcolor{gray!25}
-RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  \cite{roda2017} \\
-\rowcolor{gray!25}
-$U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
-
-\rowcolor{white}
-{\emph{\bf Ancestry Deconvolution}} &   &   &   \\
-\rowcolor{white}
-Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013} \\ 
-\rowcolor{white}
-RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
-\rowcolor{white}
-MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
-\rowcolor{white}
-PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{moreno2014genetics} \\
-\rowcolor{white}
-LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
-
-\rowcolor{gray!25}
-{\emph{\bf Phylogenetic Relationship}} &   &   &   \\
-\rowcolor{gray!25}
-ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
-\rowcolor{gray!25}
-fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{zhang2016genome} \\ 
-\rowcolor{gray!25}
-five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015} \\
-
-\end{tabularx}
-\end{center}
-\end{table} 
-
-
 
 \section*{Crop adaptation through introgression}
 
@@ -341,6 +294,51 @@ The authors thank Daniel Gates, Peter Morrell, Jeffrey Ross-Ibarra and Jonathan 
 
 \bibliography{bib_gj.bib}
 
+\begin{table}[h]
+
+\rowcolors{2}{white}{gray!25}
+\begin{center}
+\caption{List of recently developed methods for detecting introgression and examples of their use in empirical studies.} \label{tab:tools}
+\begin{tabularx}{\textwidth}{llll}
+\\\toprule  
+\rowcolor{white}
+{\bf Methods}	& {\bf Data Type } &	{\bf References} &  {\bf Applications } \\ \midrule
+
+\rowcolor{gray!25}
+{\emph{\bf Divergence}} &   &   &   \\
+\rowcolor{gray!25}
+Gmin &	biallelic SNP	&  \cite{geneva2015}	 &  \cite{kingan2015}\\
+\rowcolor{gray!25}
+RNDmin	& phased haplotype	& \cite{rosenzweig2016} &  \cite{roda2017} \\
+\rowcolor{gray!25}
+$U_{A,B,C(w,x,y)}$ and $Q95_{A,B,C(w,y)}$ & biallelic SNP & \cite{Racimo2015} & \cite{sams2016} \\
+
+\rowcolor{white}
+{\emph{\bf Ancestry Deconvolution}} &   &   &   \\
+\rowcolor{white}
+Hapmix	& phased haplotype; reference panel		& \cite{Price2009}	&  \cite{Hufford2013} \\ 
+\rowcolor{white}
+RASPberry &	phased haplotype &	\cite{wegmann2011}	 & \cite{christe2016} \\
+\rowcolor{white}
+MultiMix & phased/unphased genotype; reference panel &	\cite{churchhouse2013} &	\cite{eyheramendy2015} \\
+\rowcolor{white}
+PCAdmix	 & phased haplotype	 & \cite{brisbin2012pcadmix}	 &  \cite{moreno2014genetics} \\
+\rowcolor{white}
+LAMP  &	phased haplotypes; reference panel	 & \cite{sankararaman2008}	 & \cite{patterson2012} \\
+
+\rowcolor{gray!25}
+{\emph{\bf Phylogenetic Relationship}} &   &   &   \\
+\rowcolor{gray!25}
+ABBA-BABA/D-statistics	 & biallelic SNP  &	\cite{durand2011}	 &  \cite{heliconius2012} \\
+\rowcolor{gray!25}
+fd statistic &	biallelic SNP &	\cite{martin2015}  &	\cite{zhang2016genome} \\ 
+\rowcolor{gray!25}
+five taxon D statistics	& biallelic SNP	&  \cite{pease2015}	& \cite{fontaine2015} \\
+
+\end{tabularx}
+\end{center}
+\end{table} 
+
 \begin{adjustbox}{angle=90}
     %\begin{tabular}{llllll}
         \small
@@ -383,8 +381,5 @@ Tomato (\emph{Solanum lycopersicum}) & \emph{S. pimpinellifolium} & X & X & X & 
 
     \end{tabular}
 \end{adjustbox}
-
-
-\bibliography{bib_gj.bib}
 
 \end{document}
