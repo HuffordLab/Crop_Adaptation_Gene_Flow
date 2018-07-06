@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUL 2018 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 JUL 2018 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,12 +363,12 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Overfull \hbox (67.4366pt too wide) in alignment at lines 129--129
 [][][][] 
  []
 
-[2] <temperature_plot_degC.pdf, id=18, 505.89pt x 505.89pt>
+<temperature_plot_degC.pdf, id=18, 505.89pt x 505.89pt>
 File: temperature_plot_degC.pdf Graphic file (type pdf)
  <use temperature_plot_degC.pdf>
 Package pdftex.def Info: temperature_plot_degC.pdf used on input line 144.
@@ -387,7 +387,7 @@ Package pdftex.def Info: ./FigsAndTables/Figure1new2.pdf used on input line 172.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5] [6] [7] [8]
-Overfull \hbox (31.78322pt too wide) in paragraph at lines 359--360
+Overfull \hbox (31.78322pt too wide) in paragraph at lines 361--362
 [] 
  []
 
@@ -408,7 +408,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,11n,35p,678b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (18 pages, 3437105 bytes).
+Output written on paper.pdf (18 pages, 3437333 bytes).
 PDF statistics:
  393 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
