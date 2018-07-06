@@ -358,12 +358,11 @@ J.~Ross-Ibarra, P.~L. Morrell, and B.~S. Gaut, ``Plant domestication, a unique
 K.~Harris and R.~Nielsen, ``The genetic cost of neanderthal introgression,''
   {\em Genetics}, vol.~203, no.~2, pp.~881--891, 2016.
 
-\bibitem{cornille2012new}
-A.~Cornille, P.~Gladieux, M.~J. Smulders, I.~Rold{\'a}n-Ruiz, F.~Laurens,
-  B.~Le~Cam, A.~Nersesyan, J.~Clavel, M.~Olonova, L.~Feugey, {\em et~al.},
-  ``New insight into the history of domesticated apple: secondary contribution
-  of the european wild apple to the genome of cultivated varieties,'' {\em PLoS
-  Genet}, vol.~8, no.~5, p.~e1002703, 2012.
+\bibitem{ma2017reduced}
+B.~Ma, L.~Liao, Q.~Peng, T.~Fang, H.~Zhou, S.~S. Korban, and Y.~Han, ``Reduced
+  representation genome sequencing reveals patterns of genetic diversity and
+  selection in apple,'' {\em Journal of integrative plant biology}, vol.~59,
+  no.~3, pp.~190--204, 2017.
 
 \bibitem{bredeson2016sequencing}
 J.~V. Bredeson, J.~B. Lyons, S.~E. Prochnik, G.~A. Wu, C.~M. Ha,
@@ -372,11 +371,12 @@ J.~V. Bredeson, J.~B. Lyons, S.~E. Prochnik, G.~A. Wu, C.~M. Ha,
   extensive interspecific hybridization and genetic diversity,'' {\em Nature
   biotechnology}, vol.~34, no.~5, pp.~562--570, 2016.
 
-\bibitem{papa2003asymmetry}
-R.~Papa and P.~Gepts, ``Asymmetry of gene flow and differential geographical
-  structure of molecular diversity in wild and domesticated common bean
-  (phaseolus vulgaris l.) from mesoamerica,'' {\em Theoretical and Applied
-  Genetics}, vol.~106, no.~2, pp.~239--250, 2003.
+\bibitem{rendon2017genomic}
+M.~Rend{\'o}n-Anaya, J.~M. Montero-Vargas, S.~Saburido-{\'A}lvarez, A.~Vlasova,
+  S.~Capella-Gutierrez, J.~J. Ordaz-Ortiz, O.~M. Aguilar, R.~P.
+  Vianello-Brondani, M.~Santalla, L.~Delaye, {\em et~al.}, ``Genomic history of
+  the origin and domestication of common bean unveils its closest sister
+  species,'' {\em Genome biology}, vol.~18, no.~1, p.~60, 2017.
 
 \bibitem{myles2011genetic}
 S.~Myles, A.~R. Boyko, C.~L. Owens, P.~J. Brown, F.~Grassi, M.~K. Aradhya,
@@ -390,11 +390,11 @@ C.~M. Diez, I.~Trujillo, N.~Martinez-Urdiroz, D.~Barranco, L.~Rallo, P.~Marfil,
   mediterranean basin,'' {\em New Phytologist}, vol.~206, no.~1, pp.~436--447,
   2015.
 
-\bibitem{lam2010resequencing}
-H.-M. Lam, X.~Xu, X.~Liu, W.~Chen, G.~Yang, F.-L. Wong, M.-W. Li, W.~He,
-  N.~Qin, B.~Wang, {\em et~al.}, ``Resequencing of 31 wild and cultivated
-  soybean genomes identifies patterns of genetic diversity and selection,''
-  {\em Nature genetics}, vol.~42, no.~12, pp.~1053--1059, 2010.
+\bibitem{han2016domestication}
+Y.~Han, X.~Zhao, D.~Liu, Y.~Li, D.~A. Lightfoot, Z.~Yang, L.~Zhao, G.~Zhou,
+  Z.~Wang, L.~Huang, {\em et~al.}, ``Domestication footprints anchor genomic
+  regions of agronomic importance in soybeans,'' {\em New Phytologist},
+  vol.~209, no.~2, pp.~871--884, 2016.
 
 \bibitem{aldrich1992patterns}
 P.~Aldrich, J.~Doebley, K.~Schertz, and A.~Stec, ``Patterns of allozyme
@@ -411,9 +411,11 @@ C.~M. Rick, ``The role of natural hybridization in the derivation of cultivated
   tomatoes of western south america,'' {\em Economic Botany}, vol.~12, no.~4,
   pp.~346--367, 1958.
 
-\bibitem{zohary1969wild}
-D.~Zohary, J.~R. Harlan, and A.~Vardi, ``The wild diploid progenitors of wheat
-  and their breeding value,'' {\em Euphytica}, vol.~18, no.~1, pp.~58--65,
-  1969.
+\bibitem{dvorak2006molecular}
+J.~Dvorak, E.~D. Akhunov, A.~R. Akhunov, K.~R. Deal, and M.-C. Luo, ``Molecular
+  characterization of a diagnostic dna marker for domesticated tetraploid wheat
+  provides evidence for gene flow from wild tetraploid wheat to hexaploid
+  wheat,'' {\em Molecular biology and evolution}, vol.~23, no.~7,
+  pp.~1386--1396, 2006.
 
 \end{thebibliography}

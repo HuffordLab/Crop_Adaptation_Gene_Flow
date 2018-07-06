@@ -2,6 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
 The style file: ieeetr.bst
+Illegal, another \bibdata command---line 187 of file /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+ : \bibdata
+ :         {bib_gj.bib}
+I'm skipping whatever remains of this command
 Database file #1: bib_gj.bib.bib
 Repeated entry---line 136 of file bib_gj.bib.bib
  : @article{civavn2015three
@@ -40,31 +44,27 @@ Repeated entry---line 3654 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3727 of file bib_gj.bib.bib
- : @article{lam2010resequencing
- :                             ,
-I'm skipping whatever remains of this entry
 Warning--empty journal in Dempewolf2017
 You've used 75 entries,
             1876 wiz_defined-function locations,
-            925 strings with 21365 characters,
-and the built_in function-call counts, 26979 in all, are:
-= -- 2604
-> -- 1453
+            928 strings with 21563 characters,
+and the built_in function-call counts, 26988 in all, are:
+= -- 2591
+> -- 1474
 < -- 0
-+ -- 511
-- -- 436
-* -- 2148
-:= -- 3887
++ -- 518
+- -- 443
+* -- 2165
+:= -- 3905
 add.period$ -- 76
 call.type$ -- 75
 change.case$ -- 74
 chr.to.int$ -- 0
 cite$ -- 76
-duplicate$ -- 1271
-empty$ -- 2108
-format.name$ -- 436
-if$ -- 6433
+duplicate$ -- 1261
+empty$ -- 2105
+format.name$ -- 443
+if$ -- 6421
 int.to.chr$ -- 0
 int.to.str$ -- 75
 missing$ -- 76
@@ -74,10 +74,10 @@ pop$ -- 122
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1039
+skip$ -- 1023
 stack$ -- 0
-substring$ -- 1983
-swap$ -- 672
+substring$ -- 1979
+swap$ -- 662
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
