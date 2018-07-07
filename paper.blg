@@ -1,81 +1,86 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/lwang/Crop_Adaptation_Gene_Flow/paper.aux
-The style file: ieeetr.bst
+The top-level auxiliary file: /Users/mbhufford/Documents/Projects/Gene_Flow_Review/Crop_Adaptation_Gene_Flow/paper.aux
+The style file: NewPhyt.bst.bst
 Database file #1: bib_gj.bib.bib
-"{" immediately follows a field name---line 122 of file bib_gj.bib.bib
+Repeated entry---line 136 of file bib_gj.bib.bib
+ : @article{civavn2015three
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 147 of file bib_gj.bib.bib
+ : @article{choi2018multiple
+ :                          ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 164 of file bib_gj.bib.bib
  : @article
  :         {ren2013tibet,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1810 of file bib_gj.bib.bib
+I was expecting an "="---line 1852 of file bib_gj.bib.bib
  : [[Ramalho 
  :           MAP, Abreu AFB (2006) Cultivares. In: Vieira C et al (eds) Feijao, 2nd edn. UFV, Vicosa, pp415-436]]
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 2052 of file bib_gj.bib.bib
+I was expecting an "="---line 2094 of file bib_gj.bib.bib
  : National 
  :          Genetic Resources Program. Germplasm Resources Information Network (GRIN) [Online Database]
 I'm skipping whatever remains of this entry
-Repeated entry---line 3177 of file bib_gj.bib.bib
+Repeated entry---line 3219 of file bib_gj.bib.bib
  : @article{Racimo2015
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3372 of file bib_gj.bib.bib
+Repeated entry---line 3414 of file bib_gj.bib.bib
  : @article{price2009
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3468 of file bib_gj.bib.bib
+I was expecting a `,' or a `}'---line 3510 of file bib_gj.bib.bib
  :   
  :   institution={Nature Research}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3612 of file bib_gj.bib.bib
+Repeated entry---line 3654 of file bib_gj.bib.bib
  : @article{lawson2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3685 of file bib_gj.bib.bib
- : @article{lam2010resequencing
- :                             ,
-I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Dempewolf2017
-You've used 72 entries,
-            1876 wiz_defined-function locations,
-            912 strings with 20697 characters,
-and the built_in function-call counts, 25950 in all, are:
-= -- 2501
-> -- 1405
-< -- 0
-+ -- 494
-- -- 422
-* -- 2071
-:= -- 3743
-add.period$ -- 73
-call.type$ -- 72
-change.case$ -- 71
-chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 1220
-empty$ -- 2024
-format.name$ -- 422
-if$ -- 6183
-int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 73
-newline$ -- 220
-num.names$ -- 72
-pop$ -- 116
+You've used 75 entries,
+            3043 wiz_defined-function locations,
+            1084 strings with 22505 characters,
+and the built_in function-call counts, 59263 in all, are:
+= -- 4489
+> -- 3950
+< -- 20
++ -- 1742
+- -- 1301
+* -- 5257
+:= -- 9134
+add.period$ -- 225
+call.type$ -- 75
+change.case$ -- 806
+chr.to.int$ -- 75
+cite$ -- 76
+duplicate$ -- 3686
+empty$ -- 3515
+format.name$ -- 1537
+if$ -- 11252
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 850
+newline$ -- 379
+num.names$ -- 300
+pop$ -- 1605
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 732
 quote$ -- 0
-skip$ -- 997
+skip$ -- 1486
 stack$ -- 0
-substring$ -- 1905
-swap$ -- 645
-text.length$ -- 0
+substring$ -- 2488
+swap$ -- 2287
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 672
 warning$ -- 1
-while$ -- 236
-width$ -- 74
-write$ -- 764
-(There were 8 error messages)
+while$ -- 344
+width$ -- 0
+write$ -- 972
+(There were 9 error messages)
