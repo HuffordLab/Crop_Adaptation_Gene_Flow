@@ -44,7 +44,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Dempewolf2017
 You've used 75 entries,
             3043 wiz_defined-function locations,
-            1084 strings with 22505 characters,
+            1079 strings with 22424 characters,
 and the built_in function-call counts, 59263 in all, are:
 = -- 4489
 > -- 3950

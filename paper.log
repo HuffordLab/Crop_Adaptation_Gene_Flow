@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 JUL 2018 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUL 2018 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -286,18 +286,18 @@ LaTeX Info: Redefining \\ on input line 3056.
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
@@ -385,7 +385,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ] [3] [4] <temperature_plot_degC.pdf, id=25, 505.89pt x 505.89pt>
 File: temperature_plot_degC.pdf Graphic file (type pdf)
  <use temperature_plot_degC.pdf>
-Package pdftex.def Info: temperature_plot_degC.pdf used on input line 120.
+Package pdftex.def Info: temperature_plot_degC.pdf used on input line 121.
 (pdftex.def)             Requested size: 426.79134pt x 426.7973pt.
 
 
@@ -394,7 +394,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [5] <./FigsAndTables/Figure1new2.pdf, id=29, 462.52798pt x 231.26399pt>
 File: ./FigsAndTables/Figure1new2.pdf Graphic file (type pdf)
  <use ./FigsAndTables/Figure1new2.pdf>
-Package pdftex.def Info: ./FigsAndTables/Figure1new2.pdf used on input line 148.
+Package pdftex.def Info: ./FigsAndTables/Figure1new2.pdf used on input line 149.
 (pdftex.def)             Requested size: 341.43306pt x 170.72331pt.
 
 
@@ -408,29 +408,23 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [18] [19] [20])
-Overfull \hbox (228.55612pt too wide) in alignment at lines 338--338
-[][][][] 
- []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (278.78313pt too wide) in paragraph at lines 383--384
-[] 
- []
-
-[21] [22] [23 <./temperature_plot_degC.pdf>] [24 <./FigsAndTables/Figure1new2.pdf>] (./paper.aux) ) 
+[21] [22 <./temperature_plot_degC.pdf>] [23 <./FigsAndTables/Figure1new2.pdf>] [24] [25] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5735 strings out of 493089
- 81860 string characters out of 6134842
- 224038 words of memory out of 5000000
- 9096 multiletter control sequences out of 15000+600000
+ 5738 strings out of 493089
+ 81885 string characters out of 6134842
+ 215093 words of memory out of 5000000
+ 9099 multiletter control sequences out of 15000+600000
  11822 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,691b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (24 pages, 3470292 bytes).
+ 38i,16n,35p,866b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on paper.pdf (25 pages, 3457725 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 433 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
