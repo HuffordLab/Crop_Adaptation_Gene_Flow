@@ -98,10 +98,18 @@ Many such methods also require accurate phasing of haplotypes.
 
 Phylogenetic relationships are applied to introgression detection using the ABBA-BABA statistic (also known as the D-statistic) and related metrics \citep{durand2011}.
 These statistics make inferences regarding introgression based on genomic patterns of derived variants that are shared between populations or species.
-While the D-statistic is best suited to detection of introgression at the genome level, elaborations of the D-statistic including $\hat{f_{d}}$ \citep{martin2015} and $D_{\textrm{FOIL}}$ tests \citep{pease2015} are capable of localizing introgression to specific chromosomal regions. 
+While the D-statistic is best suited to detection of introgression at the genome level, elaborations of the D-statistic including $\hat{f_{d}}$ \citep{martin2015} and $D_{\textrm{FOIL}}$ tests \citep{pease2015} are capable of localizing introgression to specific chromosomal regions.
 The former is quite similar to the D-statistic but is based on allele frequencies, and the latter can identify donor and recipient lineages of introgression in a more complex, five-taxon phylogeny.
 Like differentiation methods, phylogeny-based detection of introgression can be employed using low-density data.
 However, because these methods require knowledge of whether an allele is ancestral or derived, data from a sufficiently diverged outgroup must be available.
+%Using such methods as the D-statistic or HAPMIX to identify introgressant haplotypes and measure their length, for a given rate of linkage disequilibrium breakdown due to outcrossing frequency, one can estimate the recency of an introgression event.
+
+The recency of an introgression event can be assessed by measuring patterns of linkage disequilibrium (LD) and identity by state (IBS) between the domesticated and wild populations.
+Recent introgression will result in high LD \cite{chakraborty1988recombination} and genomic regions of high IBS \cite{gusev2011architecture}, both of which break down over time.
+LD will break down faster in crops with high outcrossing frequencies due to greater recombination rates.
+LD breakdown can be assessed with D-statistics or HAPMIX, and decrease in IBS can be assessed with with several tools, including the PLINK toolset \cite{purcell2007plink}.
+Determining that a crop genome has low levels of LD or IBS with wild relatives can be cited as evidence that any introgressions are not recent (as in Poets et al. 2015 \cite{Poets2015).
+
 
 Collectively, introgression detection methods have been applied to several systems, frequently identifying instances of adaptive introgression (see applications in \textbf{Table 1}).
 For example, based on sequence divergence methods, introgression has been detected in \emph{Mimulus} (\emph{i.e.}, monkeyflower) species and appears to play a role in adaptation to pollinator preference and speciation \citep{Stankowski2015}.
