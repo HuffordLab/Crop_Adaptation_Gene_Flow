@@ -16,7 +16,7 @@ It contains the ms.sh (simulation details) and how we utilized ANGSD to convert 
 
 angsd2dsfs_to_FSC2dsfs.R
 
-##In fastsimcoal_1000, it contains scripts for 1000 repetition of the estimate.
+## In fastsimcoal_1000, it contains scripts for 1000 repetition of the estimate.
 
 NPlantsModel.est and NPlantsModel.tpl set up parameter and demography.
 ManyItersScript2.sh generates 1000 subfolders to restore the result.
